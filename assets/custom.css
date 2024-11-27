@@ -14,7 +14,7 @@ list-style: none;
 margin: 0;
 padding: 0;
 }
-
+/*Common-css*/
 a.button::after {
 display: none;
 }
@@ -62,6 +62,181 @@ background: transparent;
 border: 1px solid;
 border-radius: 40px;
 }
+.cst-home-bestSeller .product-slider .slick-prev::before {
+content: "";
+display: block;
+width: 145px;
+height: 145px;
+background-image: url(/cdn/shop/files/Group_2230.png?v=1732613634);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+position: absolute;
+top: 50%;
+left: 0;
+transform: translate(0, -50%); 
+z-index: 1;
+}
+.cst-home-bestSeller .product-slider .slick-next::before {
+content: "";
+display: block;
+width: 145px;
+height: 145px;
+background-image: url('https://cdn.shopify.com/s/files/1/0615/6481/3389/files/Group_2231.png?v=1732613635');
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+position: absolute; 
+top: 50%; 
+right:0; 
+transform: translate(0, -50%); 
+z-index: 1; 
+}
+
+.cst-home-bestSeller .product-slider .slick-prev{
+background-color: transparent;
+font-size: 0;
+}
+.cst-home-bestSeller .product-slider .slick-next{
+background-color: transparent;
+font-size: 0;
+}
+
+
+.common-slide-arrow .slick-prev:before {
+content: "";
+display: block;
+width: 123px;
+height: 16px;
+background-image: url(/cdn/shop/files/Arrow_7.png?v=1732613635);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1;
+}
+.common-slide-arrow .slick-next:before {
+content: "";
+display: block;
+width: 123px;
+height: 16px;
+background-image: url(https://cdn.shopify.com/s/files/1/0615/6481/3389/files/Arrow_6.png?v=1732613635);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1;
+}
+.common-slide-arrow .slick-prev {
+transform: translate(-67px);
+top: unset;
+bottom: -51px;
+left: unset;
+right: 298px !important;
+}
+.common-slide-arrow .slick-next {
+transform: translate(-67px);
+top: unset;
+bottom: -51px;
+left: unset;
+right: 152px !important
+}
+.common-slide-arrow button{
+background: transparent;
+}
+.common-slide-arrow button:hover{
+background: transparent;
+}
+.custom-product-slider button{
+background: transparent;
+}
+.custom-product-slider button:hover{
+background: transparent;
+}
+
+
+.custom-product-slider .slick-prev:before {
+content: "";
+display: block;
+width: 87px;
+height: 87px;
+background-image: url(https://cdn.shopify.com/s/files/1/0615/6481/3389/files/Group_2277.png?v=1732613635);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1;
+}
+.custom-product-slider .slick-next:before {
+content: "";
+display: block;
+width: 87px;
+height: 87px;
+background-image: url(https://cdn.shopify.com/s/files/1/0615/6481/3389/files/Group_2233.png?v=1732613635);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1;
+}
+.custom-product-slider .slick-prev {
+transform: translate(55px);
+top: unset;
+bottom: 50%;
+left: 0;
+right: 298px !important;
+}
+.custom-product-slider .slick-next {
+transform: translate(-90px);
+top: unset;
+bottom: 50%;
+left: unset;
+right: 0;
+}
+
+/*Common-css*/
+/*Before-After Images*/
+.cst-homr-richText .rich-text__blocks.left h2:after {
+content: "";
+display: block;
+width: 145px;
+height: 257px;
+background-image: url(https://cdn.shopify.com/s/files/1/0615/6481/3389/files/Vector_4.png?v=1732613635);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+position: absolute;
+top: -158px;
+left: -30%;
+z-index: 1;
+}
+.cst-homr-richText .rich-text__blocks.left h2:before {
+content: "";
+display: block;
+width: 224px;
+height: 229px;
+background-image: url(/cdn/shop/files/Group_2238.png?v=1732613635);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+position: absolute;
+top: -60%;
+left: 74%;
+right: 0;
+z-index: 2;
+transform: translateX(50px);
+}
+/*Before-After Images*/
+
+
 .header-wrapper {
 background: #DCC6A7;
 }
@@ -221,48 +396,7 @@ font-family: 'TT Drugs';
 }
 
 
-.cst-home-bestSeller .product-slider .slick-prev::before {
-content: "";
-display: block;
-width: 145px;
-height: 145px;
-background-image: url(/cdn/shop/files/Group_2230.png?v=1732613634);
-background-size: contain;
-background-position: center;
-background-repeat: no-repeat;
-position: absolute;
-top: 50%;
-left: 0;
-z-index: 1;
-}
-.cst-home-bestSeller .product-slider .slick-next::after {
-content: "";
-display: block;
-width: 145px;
-height: 145px;
-background-image: url('https://cdn.shopify.com/s/files/1/0615/6481/3389/files/Group_2231.png?v=1732613635');
-background-size: contain;
-background-position: center;
-background-repeat: no-repeat;
-position: absolute; 
-top: 50%; 
-right:0; 
-transform: translate(0, -50%); 
-z-index: 1; 
-}
-.cst-home-bestSeller .product-slider .slick-prev, .slick-next{
-background-color: transparent !important;
-}
-.cst-home-slider2 .slick-next {
-    font-size: 0 !important;
-    background-color: transparent !important;
-    right: 0;
-}
-.cst-home-slider2 .slick-prev {
-    font-size: 0 !important;
-    background-color: transparent !important;
-    left: 0;
-}
+
 .cst-home-slider2.custom-slider {
 background: #fff;
 padding: 77px 0 157px 0;
@@ -309,41 +443,9 @@ padding: 0;
 background: #0C4434;
 padding: 0;
 }
-/* .cst-home-slider2 .btn {
-background: transparent;
-border: 1px solid #0C4434;
-border-radius: 50px;
-height: 67px;
-width: 67px;
-font-size: 0;
-}
-.cst-home-slider2 .btn {
-background: transparent;
-border: 1px solid ;
-border-radius: 50px;
-height: 67px;
-width: 67px;
-}
-.cst-home-slider2 .cst-odd-sec .btn{
-border: 1px solid #0C4434;
-}
-.cst-home-slider2 .cst-odd-sec .btn:hover{
-background-color: transparent;
-}
-.cst-home-slider2 .cst-even-sec .btn{
-border: 1px solid #DCC6A7;
-}
-.cst-home-slider2 .cst-even-sec .btn:hover{
-background-color: transparent;
-} */
+
 .cst-homr-richText .rich-text {
 padding-top: 87px;
-}
-
-.cst-homr-richText h2 {
-font-size: 48px;
-line-height: 58px;
-color: #0C4434;
 }
 
 .cst-homr-richText .rich-text__blocks h2 {
@@ -361,36 +463,6 @@ line-height: 20px;
 font-family: 'TT Drugs';
 }
 
-
-.cst-homr-richText .rich-text__blocks.left h2:after {
-position: absolute;
-background-image: url(/cdn/shop/files/Group_2238.png?v=1732613635);
-content: "";
-height: 229px;
-width: 150px;
-background-repeat: no-repeat;
-background-size: contain;
-background-position: center;
-right: 0;
-top: -31px;
-z-index: -1;
-transform: translateX(25%);
-bottom: 0;
-}
-
-.cst-homr-richText .rich-text__blocks.left h2:before {
-position: absolute;
-background-image: url(/cdn/shop/files/Vector_4.png?v=1732613635);
-content: "";
-height: 229px; 
-width: 150px; 
-background-repeat: no-repeat;
-background-size: contain;
-background-position: center;
-left: -175px; 
-top: -160px; 
-z-index: -1;
-}
 .cst-homr-richText .rich-text__text {
 background: #ffff;
 }
@@ -433,6 +505,156 @@ width: 100%;
 max-width: 100%;
 display: block;
 }
+.cst-home-product-Image .custom-container {
+max-width: 100%;
+margin: 0 auto;
+background: #e2d0b6;
+padding: 0;
+}
+
+.cst-home-product-Image.custom-product-with-image {
+background-color: #e2d0b6;
+margin: 78px auto 96px;
+padding: 0;
+max-width: 1440px;
+}
+
+
+.cst-home-product-Image .custom-product-slide img {
+width: 100%;
+max-width: 262px;
+height: 483px;
+object-fit: contain;
+margin: 0 auto 30px;
+display: block;
+}
+.cst-home-product-Image .custom-product-slide p {
+font-size: 14px;
+line-height: 24px;
+font-weight: 400;
+font-family: 'TT Drugs';
+text-decoration: none;
+}
+.cst-home-product-Image .custom-product-slide a {
+text-decoration: none;
+}
+.cst-home-product-Image .custom-product-slide .cst-product-name, .cst-product-price {
+color: #1E1E1E;
+text-transform: uppercase;
+padding-top: 0;
+}
+.cst-home-product-Image p.cst-product-description {
+color: #0C4434;
+max-width: 301px;
+margin: 0 auto;
+}
+.cst-home-product-Image p.cst-product-description {
+color: #0c4434;
+max-width: 301px;
+margin: 8px auto 0;
+line-height: 18px;
+}
+.cst-home-product-Image .custom-image-container img {
+height: 680px;
+width: 100%;
+}
+body .cst-home-review h2 {
+font-size: 90px;
+line-height: 90px;
+color: #0C4434;
+font-family: 'Noto Serif Display', serif; 
+font-weight: normal;
+margin-bottom: 22px;
+}
+.cst-home-review p {
+font-size: 18px;
+line-height: 18px;
+color: #0C4434;
+font-family: 'TT Drugs';
+font-weight: 400;
+margin-bottom: 58px;
+}
+.cst-home-review.review-section {
+padding: 0;
+}
+.cst-home-review .client-image img {
+max-width: 128px;
+height: auto;
+object-fit: cover;
+width: 100%;
+margin: 0 auto;
+}
+.cst-home-review .review-card {
+background: #fcfaf8;
+box-shadow: none;
+border-radius: 0;
+padding-top: 28px;
+align-items: start;
+}
+.cst-home-review p.review-text {
+font-size: 21px;
+line-height: 32px;
+color: #0c4434;
+font-family: TT Drugs;
+}
+
+.cst-home-review  p.client-name {
+font-size: 16px;
+line-height: 32px;
+color: #1E1E1E;
+text-align: end;
+text-transform: uppercase;
+}
+.cst-home-review .review-slider {
+padding-bottom: 65px;
+}
+.cst-home-review  .slick-next {
+bottom: 0 !important;
+}
+.cst-home-review .slick-prev {
+bottom: 0 !important;
+}
+.cst-home-review .stars .star.filled {
+color: #0C4434;
+font-size: 38px;
+}
+.cst-home-review .review-content {
+padding-left: 0;
+}
+.cst-home-review  .client-image {
+max-width: 100%;
+width: 100%;
+margin-right: 0 !important;
+margin: 0 auto;
+display: block;
+}
+/* .cst-home-slider2 .btn {
+background: transparent;
+border: 1px solid #0C4434;
+border-radius: 50px;
+height: 67px;
+width: 67px;
+font-size: 0;
+}
+.cst-home-slider2 .btn {
+background: transparent;
+border: 1px solid ;
+border-radius: 50px;
+height: 67px;
+width: 67px;
+}
+.cst-home-slider2 .cst-odd-sec .btn{
+border: 1px solid #0C4434;
+}
+.cst-home-slider2 .cst-odd-sec .btn:hover{
+background-color: transparent;
+}
+.cst-home-slider2 .cst-even-sec .btn{
+border: 1px solid #DCC6A7;
+}
+.cst-home-slider2 .cst-even-sec .btn:hover{
+background-color: transparent;
+} */
 
 /*Responsive-start*/
 @media screen and (max-width: 768px) {
