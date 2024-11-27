@@ -1,0 +1,456 @@
+
+body {
+box-sizing: border-box;
+}
+p{
+margin: 0;
+padding: 0;
+}
+ul{
+padding: 0;
+}
+li{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+a.button::after {
+display: none;
+}
+a.button::before {
+display: none;
+}
+
+.cst-banner-btn {
+border: 1px solid #E2D0B6;
+display: inline-block;
+height: 161px;
+width: 161px;
+text-align: center;
+line-height: 148px;
+border-radius: 50%;
+margin-top: 78px;
+position: relative;
+}
+.cst-banner-btn a {
+font-size: 25px;
+line-height: 33px;
+font-style: italic;
+font-family: 'TT Drugs';
+color: #E2D0B6;
+text-decoration: none;
+}
+.cst-banner-btn a::after {
+position: absolute;
+content: '';
+height: 36px;
+width: 36px;
+background: #E2D0B6;
+border-radius: 50px;
+left: 50%;
+bottom: 16px;
+right: 0;
+}
+.cst-home-imgeText1 a.cst-button.button.button--primary {
+font-size: 25px;
+line-height: 33px;
+font-style: italic;
+font-family: 'Satoshi';
+color: #E2D0B6;
+background: transparent;
+border: 1px solid;
+border-radius: 40px;
+}
+.header-wrapper {
+background: #DCC6A7;
+}
+header-drawer {
+justify-self: center !important; 
+margin-left: 0 !important;
+order: 3;
+}
+header.page-width {
+max-width: 1440px;
+margin: 0 auto;
+padding: 20px 40px !important;
+}
+body .header--middle-left{
+display: flex;
+justify-content: space-between;
+}
+body header nav.header__inline-menu a {
+font-size: 12px;
+font-weight: 500;
+color: #0C4434 !important;
+font-family: 'Satoshi';
+text-transform: uppercase;
+margin: 0 32px;
+padding: 0;
+}
+.header__active-menu-item{
+color: #0C4434;
+}
+.header__inline-menu{
+text-align: end;
+}
+.header__icon span{
+justify-content: end;
+}
+.header__icon--menu .icon {
+color: #0C4434;
+}
+body .cst-home-main-banner {
+background: #0C4434;
+padding: 140px 0 59px 0;
+}
+.cst-home-main-banner  .custom-banner-right img {
+max-width: 100%;
+}
+.cst-home-main-banner .custom-banner-caption p {
+font-size: 34px;
+font-style: italic;
+line-height: 46px;
+color: #E2D0B6;
+font-weight: 300;
+font-family: 'TT Drugs';
+}
+.cst-home-main-banner .custom-banner-caption{
+margin: 0;
+}
+.cst-home-main-banner .custom-banner-content h2 {
+font-size: 126px;
+line-height: 165px;
+color: #e2d0b6;
+letter-spacing: 5px;
+margin: 0;
+font-weight: 400;
+font-family: 'Noto Serif Display';
+}
+.cst-home-main-banner .custom-banner-left p {
+font-size: 16px;
+line-height: 20px;
+font-weight: 400;
+color: #E2D0B6;
+font-family: 'TT Drugs';
+max-width: 510px;
+}
+.cst-home-main-banner .custom-banner-content {
+max-width: 1500px;
+margin: 0 auto;
+padding: 0 50px;
+}
+.cst-home-bestSeller .slick-list.draggable {
+max-width: 1242px!important;
+margin: 0 auto;
+}
+
+.cst-home-bestSeller h2.cst--heading.slider-heading {
+margin: 0 0 -60px;
+position: relative;
+font-size: 115px;
+text-transform: uppercase;
+color: #0c4434;
+font-family: "Noto Serif Display";
+line-height: 165px;
+z-index:1;
+max-width: 1339px;
+margin: 0 auto -57px;
+}
+
+.cst-home-bestSeller h2.cst-bottom-heading.slider-heading {
+margin: 0;
+font-size: 115px;
+text-transform: uppercase;
+color: #0c4434;
+font-family: "Noto Serif Display";
+line-height: 165px;
+padding-right: 214px;
+margin-bottom: 0;
+z-index:1;
+position: relative;
+margin-top: -65px;
+}
+.cst-home-bestSeller.product-slider-with-price {
+background: #fcfaf8;
+padding: 79px 0 47px;
+max-width: 100%;
+position: relative;
+overflow: hidden;
+}
+.cst-home-bestSeller .product-slider {
+padding: 0 134px;
+}
+.cst-home-bestSeller .product-slider .slide {
+padding: 0 20px;
+}
+.cst-home-bestSeller .image-wrapper img {
+width: auto;
+height: 100%;
+object-fit: cover;
+max-width: 100%;
+margin: 0 auto;
+}
+.cst-home-bestSeller  .image-wrapper {
+background: #F9F6F1;
+padding: 28px 0;
+}
+.cst-product-detail {
+background: #f9f6f1;
+}
+.cst-product-detail {
+background: #f9f6f1;
+display: flex;
+justify-content: space-around;
+padding-bottom: 28px;
+}
+.cst-product-detail h3 {
+font-size: 14px;
+font-weight: 400;
+color: #1E1E1E;
+text-transform: uppercase;
+font-family: 'TT Drugs';
+margin: 0;
+}
+.cst-product-detail p.cst--price {
+font-size: 14px;
+line-height: 18px;
+font-weight: 400;
+color: #1E1E1E;
+font-family: 'TT Drugs';
+}
+
+
+.cst-home-bestSeller .product-slider .slick-prev::before {
+content: "";
+display: block;
+width: 145px;
+height: 145px;
+background-image: url(/cdn/shop/files/Group_2230.png?v=1732613634);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+position: absolute;
+top: 50%;
+left: 0;
+z-index: 1;
+}
+.cst-home-bestSeller .product-slider .slick-next::after {
+content: "";
+display: block;
+width: 145px;
+height: 145px;
+background-image: url('https://cdn.shopify.com/s/files/1/0615/6481/3389/files/Group_2231.png?v=1732613635');
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+position: absolute; 
+top: 50%; 
+right:0; 
+transform: translate(0, -50%); 
+z-index: 1; 
+}
+.cst-home-bestSeller .product-slider .slick-prev, .slick-next{
+background-color: transparent !important;
+}
+.cst-home-slider2.custom-slider {
+background: #fff;
+padding: 77px 0 157px 0;
+}
+.cst-home-slider2 a.cst-button {
+display: flex;
+justify-content: end;
+padding-top: 50px;
+}
+.cst-home-slider2 .slider-left {
+padding: 8px;
+}
+.cst-home-slider2 .slider-right h2 {
+font-size: 48px;
+line-height: 90px;
+
+font-family: 'Noto Serif Display';
+text-transform: uppercase;
+margin-bottom: 0;
+}
+.cst-home-slider2 .slider-right p{
+font-size: 16px;
+line-height: 20px;
+font-family: 'TT Drugs';
+}
+.cst-home-slider2 .slider-right h2{
+color: #DCC6A7;
+}
+.cst-home-slider2 .slider-right p{
+color: #DCC6A7;
+}
+.cst-home-slider2 .cst-odd-sec h2{
+color: #0C4434;
+}
+.cst-home-slider2 .cst-odd-sec p{
+color: #0C4434;
+}
+.cst-home-slider2 .cst-odd-sec {
+background: #DCC6A7;
+padding: 0;
+}
+
+.cst-home-slider2 .cst-even-sec  {
+background: #0C4434;
+padding: 0;
+}
+/* .cst-home-slider2 .btn {
+background: transparent;
+border: 1px solid #0C4434;
+border-radius: 50px;
+height: 67px;
+width: 67px;
+font-size: 0;
+}
+.cst-home-slider2 .btn {
+background: transparent;
+border: 1px solid ;
+border-radius: 50px;
+height: 67px;
+width: 67px;
+}
+.cst-home-slider2 .cst-odd-sec .btn{
+border: 1px solid #0C4434;
+}
+.cst-home-slider2 .cst-odd-sec .btn:hover{
+background-color: transparent;
+}
+.cst-home-slider2 .cst-even-sec .btn{
+border: 1px solid #DCC6A7;
+}
+.cst-home-slider2 .cst-even-sec .btn:hover{
+background-color: transparent;
+} */
+.cst-homr-richText .rich-text {
+padding-top: 87px;
+}
+
+.cst-homr-richText h2 {
+font-size: 48px;
+line-height: 58px;
+color: #0C4434;
+}
+
+.cst-homr-richText .rich-text__blocks h2 {
+font-size: 48px;
+line-height: 58px;
+color: #0C4434;
+font-family: "Noto Serif Display";
+position: relative;
+}
+.cst-homr-richText  .rich-text__text p {
+margin-top: 0;
+font-size: 16px;
+color: #0C4434;
+line-height: 20px;
+font-family: 'TT Drugs';
+}
+
+
+.cst-homr-richText .rich-text__blocks.left h2:after {
+position: absolute;
+background-image: url(/cdn/shop/files/Group_2238.png?v=1732613635);
+content: "";
+height: 229px;
+width: 150px;
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+right: 0;
+top: -31px;
+z-index: -1;
+transform: translateX(25%);
+bottom: 0;
+}
+
+.cst-homr-richText .rich-text__blocks.left h2:before {
+position: absolute;
+background-image: url(/cdn/shop/files/Vector_4.png?v=1732613635);
+content: "";
+height: 229px; 
+width: 150px; 
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+left: -175px; 
+top: -160px; 
+z-index: -1;
+}
+.cst-homr-richText .rich-text__text {
+background: #ffff;
+}
+.cst-homr-richText .rich-text__text{
+margin-top: 0;
+}
+
+.cst-home-imgeText1 .page-width{
+max-width: 100%;
+padding: 0;
+}
+.cst-home-imgeText1 .image-with-text__text-item {
+background: #0C4434;
+}
+.cst-home-imgeText1 .image-with-text__content h2 {
+font-size: 75px;
+line-height: 70px;
+color: #e2d0b6;
+font-family: 'Noto Serif Display';
+margin-top: 0;
+}
+.cst-home-imgeText1 .image-with-text__text p {
+font-size: 21px;
+line-height: 26px;
+font-weight: 400;
+color: #e2d0b6;
+font-family: 'TT Drugs';
+max-width: 581px;
+}
+.cst-home-imgeText1 .image-with-text__text {
+margin-top: 0;
+}
+.cst-imgText-bottom {
+background: #0c4434;
+border-top: 2px solid #E2D0B6;
+padding: 11px 0;
+}
+.cst-imgText-bottom img {
+width: 100%;
+max-width: 100%;
+display: block;
+}
+/*Responsive-start*/
+@media screen and (max-width: 768px) {
+.cst-homr-richText .rich-text__blocks.left h2:before {
+height: 150px; 
+width: 100px;
+left: -100px; 
+top: -100px;
+}
+.cst-homr-richText .rich-text__blocks.left h2:after {
+height: 150px; 
+width: 100px;
+left: 200px; 
+top: -30px; 
+}
+}
+
+@media screen and (max-width: 480px) {
+.cst-homr-richText .rich-text__blocks.left h2:before {
+height: 100px;
+width: 75px;
+left: -75px; 
+top: -75px;
+}
+.cst-homr-richText .rich-text__blocks.left h2:after {
+height: 100px;
+width: 75px;
+left: 100px; 
+top: -20px; 
+}
+}
+/*Responsive-end*/
