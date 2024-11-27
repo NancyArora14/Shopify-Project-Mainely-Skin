@@ -253,6 +253,16 @@ z-index: 1;
 .cst-home-bestSeller .product-slider .slick-prev, .slick-next{
 background-color: transparent !important;
 }
+.cst-home-slider2 .slick-next {
+    font-size: 0 !important;
+    background-color: transparent !important;
+    right: 0;
+}
+.cst-home-slider2 .slick-prev {
+    font-size: 0 !important;
+    background-color: transparent !important;
+    left: 0;
+}
 .cst-home-slider2.custom-slider {
 background: #fff;
 padding: 77px 0 157px 0;
@@ -423,6 +433,7 @@ width: 100%;
 max-width: 100%;
 display: block;
 }
+
 /*Responsive-start*/
 @media screen and (max-width: 768px) {
 .cst-homr-richText .rich-text__blocks.left h2:before {
