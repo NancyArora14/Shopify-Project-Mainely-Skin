@@ -438,7 +438,7 @@ left: 200px;
 top: -30px; 
 }
 }
-
+/* 
 @media screen and (max-width: 480px) {
 .cst-homr-richText .rich-text__blocks.left h2:before {
 height: 100px;
@@ -452,5 +452,5 @@ width: 75px;
 left: 100px; 
 top: -20px; 
 }
-}
+} */
 /*Responsive-end*/
