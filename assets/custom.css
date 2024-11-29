@@ -441,6 +441,7 @@ font-family: 'TT Drugs';
 }
 .cst-home-slider2 .slider-left img {
 height: 100%;
+object-fit: cover;
 }
 
 .cst-home-slider2.custom-slider {
@@ -456,9 +457,8 @@ padding-top: 50px;
 padding: 8px;
 }
 .cst-home-slider2 .slider-right h2 {
-font-size: 48px;
+font-size: 45px;
 line-height: 90px;
-
 font-family: 'Noto Serif Display';
 text-transform: uppercase;
 margin-bottom: 0;
@@ -946,6 +946,7 @@ max-width: 100%;
 width: 100%;
 max-width: 100%;
 height:100%;
+object-fit: cover;
 }
 .cst-home-about .cst-banner-btn {
 border: 1px solid #0C4434;
@@ -1148,35 +1149,106 @@ text-transform: uppercase;
 justify-content: center;
 }
 
-/* .cst-home-slider2 .btn {
-background: transparent;
-border: 1px solid #0C4434;
-border-radius: 50px;
-height: 67px;
-width: 67px;
-font-size: 0;
-}
-.cst-home-slider2 .btn {
-background: transparent;
-border: 1px solid ;
-border-radius: 50px;
-height: 67px;
-width: 67px;
-}
-.cst-home-slider2 .cst-odd-sec .btn{
-border: 1px solid #0C4434;
-}
-.cst-home-slider2 .cst-odd-sec .btn:hover{
-background-color: transparent;
-}
-.cst-home-slider2 .cst-even-sec .btn{
-border: 1px solid #DCC6A7;
-}
-.cst-home-slider2 .cst-even-sec .btn:hover{
-background-color: transparent;
-} */
+
 
 /*Responsive-start*/
+@media screen and (max-width:1530px) {
+.cst-home-slider2 .slider-right h2 {
+font-size: 40px;
+line-height: 80px;
+}
+.cst-home-main-banner .custom-banner-content h2 {
+font-size: 100px;
+}
+.cst-home-bestSeller h2.cst--heading.slider-heading ,.cst-home-bestSeller h2.cst-bottom-heading.slider-heading {
+font-size: 90px;
+line-height: 156px;
+}
+}
+@media screen and (max-width:1400px) {
+.cst-home-imgeText1 .image-with-text__content h2 {
+font-size: 60px;
+}
+.cst-home-slider2 .slider-right h2 {
+font-size: 32px;
+line-height: 76px;
+}
+.cst-home-review p.review-text {
+font-size: 17px;
+line-height: 25px;
+}
+.cst-home-category h2.image-with-text__heading.inline-richtext.h0 {
+font-size: 75px;
+line-height: 87px;
+}
+.cst-home-about h2.custom-banner-heading {
+font-size: 75px;
+line-height: 67px;
+}
+.cst-custom-newslatter h2.custom-banner-heading {
+font-size: 75px;
+line-height: 90px;
+max-width: 400px;
+}
+.cst-home-services .cst-odd-sec h3{
+font-size: 32px;
+}
+.cst-home-services .cst-even-sec h3{
+font-size: 32px;
+}
+.cst-product-detail h3 {
+font-size: 10px;
+}
+}
+@media screen and (max-width: 1220px) {
+.cst-home-main-banner .custom-banner-content h2 {
+font-size: 85px;
+}
+body .cst-head h2 {
+font-size: 75px;
+}
+.cst-home-imgeText1 .image-with-text__content h2 {
+font-size: 50px;
+}
+.cst-home-services .cst-odd-sec h3, .cst-home-services .cst-even-sec h3 {
+font-size: 28px;
+}
+.cst-home-imgeText1 .image-with-text__text p {
+font-size: 16px;
+}
+.cst-homr-richText .rich-text__blocks.left h2:after{
+left: -20%;
+}
+.header__heading-logo {
+max-width: 160px;
+}
+}
+@media screen and (max-width: 1150px) {
+.cst-home-slider2 .slider-right h2 {
+font-size: 27px;
+line-height: 64px;
+}
+.cst-homr-richText .rich-text__blocks.left h2:before{
+width: 175px;
+}
+.cst-custom-home-image-banner h2 {
+font-size: 50px;
+}
+.cst-home-category h2.image-with-text__heading.inline-richtext.h0 {
+    font-size: 60px;
+    line-height: 75px;
+}
+body .cst-head h2 {
+    font-size: 60px;
+    line-height: 40px;
+}
+.cst-home-main-banner .custom-banner-content h2 {
+    font-size: 75px;
+}
+body header nav.header__inline-menu a{
+    margin: 0 25px;
+}
+}
 @media screen and (max-width: 768px) {
 .cst-homr-richText .rich-text__blocks.left h2:before {
 height: 150px; 
