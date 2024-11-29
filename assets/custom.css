@@ -277,6 +277,7 @@ background: #DCC6A7;
 header .cst-header-contetn-wrap {
 display: flex;
 align-items: center;
+gap:20px;
 }
 header-drawer {
 justify-self: center !important; 
@@ -312,6 +313,7 @@ justify-content: end;
 }
 .header__icon--menu .icon {
 color: #0C4434;
+width:44px;
 }
 body .cst-home-main-banner {
 background: #0C4434;
@@ -437,8 +439,9 @@ font-weight: 400;
 color: #1E1E1E;
 font-family: 'TT Drugs';
 }
-
-
+.cst-home-slider2 .slider-left img {
+height: 100%;
+}
 
 .cst-home-slider2.custom-slider {
 background: #fff;
@@ -579,7 +582,7 @@ font-family: 'TT Drugs';
 text-decoration: none;
 }
 .cst-home-product-Image .custom-product-slide a {
-text-decoration: none;
+text-decoration: none !important;
 }
 .cst-home-product-Image .custom-product-slide .cst-product-name, .cst-product-price {
 color: #1E1E1E;
@@ -942,6 +945,7 @@ max-width: 100%;
 .cst-home-about .custom-banner-right img {
 width: 100%;
 max-width: 100%;
+height:100%;
 }
 .cst-home-about .cst-banner-btn {
 border: 1px solid #0C4434;
@@ -1143,6 +1147,7 @@ text-transform: uppercase;
 .footer__content-bottom-wrapper{
 justify-content: center;
 }
+
 /* .cst-home-slider2 .btn {
 background: transparent;
 border: 1px solid #0C4434;
