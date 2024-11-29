@@ -1574,6 +1574,9 @@ width: 100px;
 }
 }
 @media screen and (max-width: 595px) {
+body .cst-home-services {
+padding: 40px 0 120px;
+}
 .cst-home-bestSeller .image-wrapper{
 background: transparent;
 }
@@ -1590,10 +1593,18 @@ padding-top: 20px;
 flex-direction: column;
 }
 .cst-custom-home-image-banner h2 {
-font-size: 23px;
+font-size: 18px;
+}
+.cst-custom-home-image-banner p {
+font-size: 16px;
+}
+.cst-custom-home-image-banner .banner__text p{
+font-size: 14px;
 }
 .cst-custom-newslatter h2.custom-banner-heading{
-font-size: 50px;
+max-width: 100%;
+font-size: 45px;
+line-height: normal;
 }
 
 .custom-product-slider .slick-prev {
@@ -1623,6 +1634,14 @@ max-width: 100%;
 }
 }
 @media screen and (max-width: 480px) {
+.cst-home-category .cst-colletions-list {
+margin-top: 0;
+}
+.cst-custom-class-for-image:after{
+top: 0;
+width: 57px;
+height: 158px;
+}
 .cst-home-slider2 .slider-right h2 {
 font-size: 21px;
 line-height: 58px;
@@ -1663,6 +1682,7 @@ padding: 0 15px;
 .cst-home-about .cst-multi-buttons a {
 padding: 16px 20px;
 }
+
 .cst-home-imgeText1 a.cst-button.button.button--primary{
 font-size: 15px;
 }
