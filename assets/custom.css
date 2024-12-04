@@ -1115,14 +1115,17 @@ body .cst-home-about {
 
 .cst-home-retail .retailer-slider__logo {
     border: 0;
-    height: 100%;
     object-fit: cover;
 }
 
 .cst-home-retail.retailer-slider {
-    padding: 160px 0;
+    padding: 50px 0;
 }
 
+.cst-home-retail .retailer-slider__logo img {
+    max-width: 240px;
+    object-fit: contain;
+}
 
 
 .cst-custom-home-image-banner .banner__buttons a {
@@ -1909,9 +1912,6 @@ body .cst-about-two-imageText .custom-image-text-row {
         line-height: 90px;
     }
 
-    .cst-home-retail.retailer-slider {
-        padding: 80px 0;
-    }
 
     .cst-home-about .custom-banner-content {
         padding: 100px 60px 64px;
