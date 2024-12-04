@@ -1234,7 +1234,7 @@ body .cst-home-about {
 
 body .cst-custom-home-newsletter {
     background: #F9F6F0;
-    padding: 0 0 50px;
+    padding: 0;
 }
 
 .newsletter__wrapper {
@@ -1265,7 +1265,7 @@ body .cst-custom-home-newsletter {
     font-family: 'Satoshi';
     color: #0C4434;
     font-style: italic;
-    margin-top: 42px;
+    padding-top: 30px;
     cursor: pointer;
 }
 
@@ -1437,6 +1437,7 @@ body .cst-about-imgText1 {
     line-height: 20px;
     font-weight: 400;
     color: #0C4434;
+    font-family: TT Drugs;
 }
 
 body .cst-about-two-imageText {
@@ -1811,6 +1812,7 @@ body .cst-about-two-imageText .custom-image-text-row {
     .cst-about-two-imageText .custom-image-text-text {
         max-width: 100%;
         padding-left: 0;
+        padding-right: 0;
     }
 
     body .cst-about-two-imageText .custom-image-text-row {
@@ -1838,7 +1840,7 @@ body .cst-about-two-imageText .custom-image-text-row {
     .cst-about-imgText .cst-button-content-wrap {
         font-size: 18px;
         line-height: 22px;
-        padding: 10px 35px;
+        padding: 10px 31px;
     }
 
     .cst-home-bestSeller h2.cst--heading.slider-heading,
@@ -1941,6 +1943,49 @@ body .cst-about-two-imageText .custom-image-text-row {
 }
 
 @media screen and (max-width: 789px) {
+    body .cst-about-two-imageText .custom-image-text-row {
+        flex-direction: column;
+        display: flex !important;
+        gap: 10px;
+    }
+
+    .cst-about-imageslider2 p.cst-caption {
+        padding-left: 30px;
+    }
+
+    body .cst-about-two-imageText {
+        padding: 70px 0;
+    }
+
+    .cst-about-imageslider2 .image-slider-heading h2 {
+        font-size: 40px;
+        padding: 0 30px;
+        line-height: 70px;
+    }
+
+    .cst-about-imageslider2 {
+        padding: 30px 0 0;
+    }
+
+    body .cst-about-two-imageText .custom-image-text-left img {
+        height: 420px;
+        max-width: 100%;
+        object-fit: cover;
+        object-position: 40% 4%;
+    }
+
+    body .cst-about-two-imageText .custom-image-text-left {
+        width: 100%;
+    }
+
+    .cst-about-imageSlider {
+        padding: 50px 30px 90px;
+    }
+
+    .cst-about-imageSlider .image-slider-content p {
+        padding: 19px 0;
+    }
+
     body .cst-custom-home-newsletter {
         padding-top: 50px;
         padding-bottom: 0;
@@ -2160,6 +2205,51 @@ body .cst-about-two-imageText .custom-image-text-row {
     .cst-home-bestSeller .product-slider {
         padding: 0 70px;
     }
+
+    body .cst-about-imgText1 {
+        padding: 50px 0;
+    }
+
+    .cst-about-imgText1 .page-width {
+        padding: 0 30px;
+    }
+
+    body .cst-about-product {
+        padding-bottom: 50px !important;
+    }
+
+    .cst-about-imgText1 .image-with-text__content h2 {
+        margin: 0;
+        font-size: 50px;
+        letter-spacing: 0;
+    }
+
+    body .cst-about-imgText1 .image-with-text .grid {
+        flex-direction: column;
+    }
+
+    body .cst-about-imgText1 .image-with-text .grid__item {
+        width: 100%;
+    }
+
+    .cst-about-imgText1 .image-with-text__content {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    .cst-about-imageSlider .image-slider-heading h2 {
+        font-size: 35px;
+        letter-spacing: 0;
+    }
+
+    .cst-about-two-imageText .cst-heading h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .cst-about-imgText1 .image-with-text .grid__item p {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 649px) {
@@ -2249,6 +2339,10 @@ body .cst-about-two-imageText .custom-image-text-row {
     .cst-home-slider2 .slider-right {
         max-width: 100%;
     }
+
+    .cst-about-imageSlider .slide img {
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -2267,10 +2361,11 @@ body .cst-about-two-imageText .custom-image-text-row {
         line-height: 58px;
     }
 
-    .cst-home-slider2 .cst-odd-sec h2,
-    .cst-home-slider2 .cst-odd-sec p {
-        font-size: 13px;
+    .cst-home-slider2 .cst-odd-sec h2 {
+        font-size: 21px;
+        line-height: 58px;
     }
+
 
     .cst-home-about h2.custom-banner-heading {
         font-size: 30px;
@@ -2334,6 +2429,10 @@ body .cst-about-two-imageText .custom-image-text-row {
         grid-template-columns: 1fr;
     }
 
+    .cst-about-imgText1 .image-with-text__content h2 {
+        margin: 0;
+        font-size: 37px;
+    }
 }
 
 /*Responsive-end*/
