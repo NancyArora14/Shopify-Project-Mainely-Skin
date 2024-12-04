@@ -1542,6 +1542,12 @@ body .cst-about-imgText {
     padding: 12px 47px;
 }
 
+body .cst-about-two-imageText .custom-image-text-row {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
 /*About-page-css-end*/
 
 /*Responsive-start*/
@@ -1609,6 +1615,19 @@ body .cst-about-imgText {
 }
 
 @media screen and (max-width: 1220px) {
+    .cst-about-imgText1 .image-with-text__content h2 {
+        font-size: 85px;
+    }
+
+    .cst-about-imageSlider .image-slider-heading h2 {
+        font-size: 65px;
+    }
+
+    .cst-about-imgText h2.image-with-text__heading {
+        font-size: 65px;
+        line-height: 75px;
+    }
+
     .cst-home-main-banner .custom-banner-content h2 {
         font-size: 85px;
     }
