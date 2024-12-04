@@ -1123,7 +1123,6 @@ body .cst-home-about {
 }
 
 .cst-home-retail .retailer-slider__logo img {
-    max-width: 240px;
     object-fit: contain;
 }
 
@@ -1806,6 +1805,11 @@ body .cst-about-two-imageText .custom-image-text-row {
 }
 
 @media screen and (max-width: 989px) {
+
+    body .cst-about-two-imageText {
+        padding: 60px 0;
+    }
+
     .cst-about-imgText1 .image-with-text__content h2 {
         font-size: 55px;
     }
@@ -1823,7 +1827,7 @@ body .cst-about-two-imageText .custom-image-text-row {
     body .cst-about-two-imageText .custom-image-text-row {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 50px;
+        gap: 40px;
     }
 
     .cst-about-imgText1 .image-with-text__content {
@@ -1963,10 +1967,6 @@ body .cst-about-two-imageText .custom-image-text-row {
 
     .cst-about-imageslider2 p.cst-caption {
         padding-left: 30px;
-    }
-
-    body .cst-about-two-imageText {
-        padding: 70px 0;
     }
 
     .cst-about-imageslider2 .image-slider-heading h2 {
@@ -2364,6 +2364,10 @@ body .cst-about-two-imageText .custom-image-text-row {
 @media screen and (max-width: 480px) {
     .cst-home-category .cst-colletions-list {
         margin-top: 0;
+    }
+
+    .cst-home-retail.retailer-slider {
+        padding: 0;
     }
 
     .cst-custom-class-for-image:after {
