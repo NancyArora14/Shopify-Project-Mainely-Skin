@@ -1931,6 +1931,7 @@ body .cst-about-two-imageText .custom-image-text-row {
     .footer ul.footer-block__details-content li a {
         font-size: 12px;
         line-height: 22px;
+        padding: 5px 0;
     }
 
     .cst-home-about .custom-banner-left {
@@ -1947,6 +1948,15 @@ body .cst-about-two-imageText .custom-image-text-row {
         flex-direction: column;
         display: flex !important;
         gap: 10px;
+    }
+
+    .cst-about-imgText h2.image-with-text__heading {
+        font-size: 35px;
+        line-height: 49px;
+    }
+
+    .cst-about-imgText .image-with-text__text {
+        margin-top: 0;
     }
 
     .cst-about-imageslider2 p.cst-caption {
@@ -2120,7 +2130,7 @@ body .cst-about-two-imageText .custom-image-text-row {
 
     .footer .list-social {
         justify-content: start !important;
-
+        margin: 30px 0;
     }
 
     .footer .footer__content-bottom-wrapper {
