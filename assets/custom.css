@@ -1678,7 +1678,16 @@ body#calming-facial-toner media-gallery#MediaGallery-template--16388949704781__m
 }
 
 #calming-facial-toner .product__media.media.media--transparent {
-    background: #fff;
+    background: #fcfaf8;
+    border: 0;
+}
+
+#calming-facial-toner .product__media.media.media--transparent img {
+    object-fit: contain;
+    padding: 31px 0;
+}
+
+#calming-facial-toner .product-media-container.media-type-image {
     border: 0;
 }
 
@@ -2590,6 +2599,11 @@ body .cst-product-feature .product-slider {
 @media screen and (max-width: 749px) {
     #calming-facial-toner .product__media-wrapper slider-component:not(.thumbnail-slider--no-slide) {
         margin: 0;
+    }
+
+    #calming-facial-toner .product__media.media.media--transparent img {
+        object-fit: cover;
+        padding: 0;
     }
 
     body#calming-facial-toner .product.product--large.product--left {
