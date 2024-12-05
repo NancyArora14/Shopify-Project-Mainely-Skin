@@ -1682,10 +1682,6 @@ body#calming-facial-toner media-gallery#MediaGallery-template--16388949704781__m
     border: 0;
 }
 
-#calming-facial-toner .product__media.media.media--transparent img {
-    object-fit: contain;
-    padding: 31px 0;
-}
 
 #calming-facial-toner .product-media-container.media-type-image {
     border: 0;
