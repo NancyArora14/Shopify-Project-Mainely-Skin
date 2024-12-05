@@ -1665,14 +1665,20 @@ body#calming-facial-toner .grid__item.product__media-wrapper {
 
 body#calming-facial-toner .product--stacked .product__media-item {
     max-width: 100%;
+    background-color: #E2D0B61A;
 }
 
 body#calming-facial-toner media-gallery#MediaGallery-template--16388949704781__main {
     background: #E2D0B61A;
 }
 
+#calming-facial-toner .accordion svg.icon.icon-caret {
+    height: 11px;
+    width: 10px;
+}
+
 #calming-facial-toner .product__media.media.media--transparent {
-    background: #fcfaf8;
+    background: #fff;
     border: 0;
 }
 
@@ -2238,6 +2244,9 @@ body .cst-product-feature .product-slider {
 }
 
 @media screen and (max-width: 789px) {
+    body#calming-facial-toner .product__info-wrapper.grid__item {
+        margin-top: 0;
+    }
 
     #calming-facial-toner .product__description p {
         font-size: 14px;
@@ -2579,6 +2588,10 @@ body .cst-product-feature .product-slider {
 }
 
 @media screen and (max-width: 749px) {
+    #calming-facial-toner .product__media-wrapper slider-component:not(.thumbnail-slider--no-slide) {
+        margin: 0;
+    }
+
     body#calming-facial-toner .product.product--large.product--left {
         grid-template-columns: 1fr;
     }
