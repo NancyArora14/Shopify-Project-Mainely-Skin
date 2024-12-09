@@ -1,3372 +1,3372 @@
 body {
-box-sizing: border-box;
-}
-
-p {
-margin: 0;
-padding: 0;
-}
-
-ul {
-padding: 0;
-}
-
-li {
-list-style: none;
-margin: 0;
-padding: 0;
-}
-
-/*Common-css*/
-a.button::after {
-display: none;
-}
-
-a.button::before {
-display: none;
-}
-
-.cst-banner-btn {
-border: 1px solid #E2D0B6;
-display: inline-block;
-height: 161px;
-width: 161px;
-text-align: center;
-line-height: 148px;
-border-radius: 50%;
-margin-top: 78px;
-position: relative;
-cursor: pointer;
-}
-
-.cst-banner-btn a {
-font-size: 25px;
-line-height: 33px;
-font-style: italic;
-font-family: 'TT Drugs';
-color: #E2D0B6;
-text-decoration: none;
-}
-
-.cst-banner-btn a::after {
-position: absolute;
-content: '';
-height: 36px;
-width: 36px;
-background: #E2D0B6;
-border-radius: 50px;
-left: 50%;
-bottom: 16px;
-right: 0;
-}
-
-.cst-home-imgeText1 a.cst-button.button.button--primary {
-font-size: 25px;
-line-height: 33px;
-font-style: italic;
-font-family: 'Satoshi';
-color: #E2D0B6;
-background: transparent;
-border: 1px solid;
-border-radius: 40px;
-}
-
-body .cst-about-product a.cst-button {
-font-size: 25px;
-line-height: 33px;
-font-weight: 400;
-font-style: italic;
-font-family: 'Satoshi';
-color: #0C4434;
-text-decoration: none;
-border: 1px solid;
-padding: 8px 45px;
-border-radius: 40px;
-display: inline-block;
-margin-top: 68px;
-}
-
-body .cst-about-product a.cst-button:hover {
-background: #0C4434;
-color: #e2d0b6;
-}
-.cst-home-bestSeller a.cst-button {
-font-size: 25px;
-line-height: 33px;
-font-weight: 400;
-font-style: italic;
-font-family: 'Satoshi';
-color: #0C4434;
-text-decoration: none;
-border: 1px solid;
-padding: 8px 45px;
-border-radius: 40px;
-display: inline-block;
-margin-top: 68px;
-}
-.cst-home-bestSeller a.cst-button:hover {
-background: #0C4434;
-color: #e2d0b6;
-}
-.cst-home-bestSeller .product-slider .slick-next{
-font-size: 0 !important;
-right: 0;
-}
-.cst-home-bestSeller .product-slider .slick-prev::before {
-content: "";
-display: block;
-width: 145px;
-height: 145px;
-background-image: url(/cdn/shop/files/Group_2230.png?v=1732613634);
-background-size: contain;
-background-position: center;
-background-repeat: no-repeat;
-position: absolute;
-top: 50%;
-left: 0;
-transform: translate(0, -50%);
-z-index: 1;
-}
-
-.cst-home-bestSeller .product-slider .slick-next::before {
-content: "";
-display: block;
-width: 102px;
-height: 145px;
-background-image: url('https://cdn.shopify.com/s/files/1/0615/6481/3389/files/Group_2231.png?v=1732613635');
-background-size: contain;
-background-position: center;
-background-repeat: no-repeat;
-position: absolute;
-top: 50%;
-right: 0;
-transform: translate(0, -50%);
-z-index: 1;
-}
-
-.cst-home-bestSeller .product-slider .slick-prev {
-background-color: transparent;
-font-size: 0;
-}
-
-.cst-home-bestSeller .product-slider .slick-next {
-background-color: transparent;
-font-size: 0;
-}
-
-
-.common-slide-arrow .slick-prev:before {
-content: "";
-display: block;
-width: 123px;
-height: 16px;
-background-image: url(/cdn/shop/files/Arrow_7.png?v=1732613635);
-background-size: contain;
-background-position: center;
-background-repeat: no-repeat;
-position: absolute;
-top: 0;
-left: 0;
-z-index: 1;
-}
-
-.common-slide-arrow .slick-next:before {
-content: "";
-display: block;
-width: 123px;
-height: 16px;
-background-image: url(https://cdn.shopify.com/s/files/1/0615/6481/3389/files/Arrow_6.png?v=1732613635);
-background-size: contain;
-background-position: center;
-background-repeat: no-repeat;
-position: absolute;
-top: 0;
-left: 0;
-z-index: 1;
-}
-
-.common-slide-arrow .slick-prev {
-transform: translate(-67px);
-top: unset;
-bottom: -51px;
-left: unset;
-right: 298px !important;
-font-size: 0;
-}
-
-.common-slide-arrow .slick-next {
-transform: translate(-67px);
-top: unset;
-bottom: -51px;
-left: unset;
-right: 152px !important;
-font-size: 0;
-}
-
-.common-slide-arrow button {
-background: transparent;
-}
-
-.common-slide-arrow button:hover {
-background: transparent;
-}
-
-.custom-product-slider button {
-background: transparent;
-}
-
-.custom-product-slider button:hover {
-background: transparent;
-}
-
-
-.custom-product-slider .slick-prev:before {
-content: "";
-display: block;
-width: 87px;
-height: 87px;
-background-image: url(https://cdn.shopify.com/s/files/1/0615/6481/3389/files/Group_2277.png?v=1732613635);
-background-size: contain;
-background-position: center;
-background-repeat: no-repeat;
-position: absolute;
-top: 0;
-left: 0;
-z-index: 1;
-}
-
-.custom-product-slider .slick-next:before {
-content: "";
-display: block;
-width: 87px;
-height: 87px;
-background-image: url(https://cdn.shopify.com/s/files/1/0615/6481/3389/files/Group_2233.png?v=1732613635);
-background-size: contain;
-background-position: center;
-background-repeat: no-repeat;
-position: absolute;
-top: 0;
-left: 0;
-z-index: 1;
-}
-
-.custom-product-slider .slick-prev {
-transform: translate(55px);
-top: unset;
-bottom: 50%;
-left: 0;
-right: 298px !important;
-}
-
-.custom-product-slider .slick-next {
-transform: translate(-90px);
-top: unset;
-bottom: 50%;
-left: unset;
-right: 0;
-}
-
-body .cst-head h2 {
-font-size: 90px;
-line-height: 90px;
-color: #0c4434;
-font-family: "Noto Serif Display", serif;
-font-weight: 400;
-margin-bottom: 22px;
-text-transform: uppercase;
-}
-
-body .cst-head p {
-font-size: 18px;
-line-height: 18px;
-color: #0C4434;
-font-family: 'TT Drugs';
-font-weight: 400;
-margin-bottom: 58px;
-}
-.page-services .cst-custom-slider-wrapper2 {
-text-align: left;
-max-width: 1200px;
-margin: 0 auto;
-z-index: 3;
-position: relative;
-}
-.page-services .cst-custom-slider-wrapper2 a {
-margin-top: 0;
-}
-/*Common-css*/
-
-/*Before-After Images*/
-.cst-custom-class-for-image:after {
-content: "";
-display: block;
-width: 80px;
-height: 160px;
-background-image: url(/cdn/shop/files/Group_2280.png?v=1732788508);
-background-size: contain;
-background-position: center;
-background-repeat: no-repeat;
-position: absolute;
-top: -9px;
-left: 0;
-z-index: 1;
-transform: translateY(-50%);
-}
-
-.cst-homr-richText .rich-text__blocks.left h2:after {
-content: "";
-display: block;
-width: 145px;
-height: 257px;
-background-image: url(https://cdn.shopify.com/s/files/1/0615/6481/3389/files/Vector_4.png?v=1732613635);
-background-size: contain;
-background-position: center;
-background-repeat: no-repeat;
-position: absolute;
-top: -158px;
-left: -30%;
-z-index: 1;
-}
-
-.cst-homr-richText .rich-text__blocks.left h2:before {
-content: "";
-display: block;
-width: 224px;
-height: 229px;
-background-image: url(/cdn/shop/files/Group_2238.png?v=1732613635);
-background-size: contain;
-background-position: center;
-background-repeat: no-repeat;
-position: absolute;
-top: -60%;
-left: 74%;
-right: 0;
-z-index: 2;
-transform: translateX(50px);
-}
-
-/*Before-After Images*/
-
-
-.header-wrapper {
-background: #DCC6A7;
-}
-
-header .cst-header-contetn-wrap {
-display: flex;
-align-items: center;
-gap: 20px;
-}
-
-header-drawer {
-justify-self: center !important;
-margin-left: 0 !important;
-order: 3;
-}
-
-header.page-width {
-max-width: 1550px;
-margin: 0 auto;
-padding: 20px 40px !important;
-}
-
-body .header--middle-left {
-display: flex;
-justify-content: space-between;
-}
-
-body header nav.header__inline-menu a {
-font-size: 12px;
-font-weight: 500;
-color: #0C4434 !important;
-font-family: 'Satoshi';
-text-transform: uppercase;
-margin: 0 32px;
-padding: 0;
-}
-
-.header__active-menu-item {
-color: #0C4434;
-}
-
-.header__inline-menu {
-text-align: end;
-}
-
-.header__icon span {
-justify-content: end;
-}
-
-.header__icon--menu .icon {
-color: #0C4434;
-width: 44px;
-}
-
-body .cst-home-main-banner {
-background: #0C4434;
-padding: 140px 0 59px 0;
-}
-
-.cst-home-main-banner .custom-banner-right img {
-max-width: 100%;
-}
-
-.cst-home-main-banner .custom-banner-caption p {
-font-size: 34px;
-font-style: italic;
-line-height: 46px;
-color: #E2D0B6;
-font-weight: 300;
-font-family: 'TT Drugs';
-}
-
-.cst-home-main-banner .custom-banner-caption {
-margin: 0;
-}
-
-.cst-home-main-banner .custom-banner-content h2 {
-font-size: 126px;
-line-height: 165px;
-color: #e2d0b6;
-letter-spacing: 5px;
-margin: 0;
-font-weight: 400;
-font-family: 'Noto Serif Display';
-}
-
-.cst-home-main-banner .custom-banner-left p {
-font-size: 16px;
-line-height: 20px;
-font-weight: 400;
-color: #E2D0B6;
-font-family: 'TT Drugs';
-max-width: 527px;
-}
-
-.cst-home-main-banner .cst-custom-banner-wrapper {
-display: flex;
-justify-content: center;
-}
-
-.cst-home-main-banner .custom-banner-content {
-max-width: 1500px;
-margin: 0 auto;
-padding: 0 50px;
-}
-
-.cst-home-bestSeller .slick-list.draggable {
-max-width: 1242px !important;
-margin: 0 auto;
-}
-
-.cst-home-bestSeller h2.cst--heading.slider-heading {
-margin: 0 0 -60px;
-position: relative;
-font-size: 115px;
-text-transform: uppercase;
-color: #0c4434;
-font-family: "Noto Serif Display";
-line-height: 165px;
-z-index: 1;
-max-width: 1339px;
-margin: 0 auto -57px;
-}
-
-.cst-home-bestSeller h2.cst-bottom-heading.slider-heading {
-margin: 0;
-font-size: 115px;
-text-transform: uppercase;
-color: #0c4434;
-font-family: "Noto Serif Display";
-line-height: 165px;
-padding-right: 214px;
-margin-bottom: 0;
-z-index: 1;
-position: relative;
-margin-top: -65px;
-}
-
-.cst-home-bestSeller.product-slider-with-price {
-background: #fcfaf8;
-padding: 79px 0 47px;
-max-width: 100%;
-position: relative;
-overflow: hidden;
-}
-
-.cst-home-bestSeller .product-slider {
-padding: 0 134px;
-}
-
-.cst-home-bestSeller .product-slider .slide {
-padding: 0 20px;
-}
-
-.cst-home-bestSeller .image-wrapper img {
-width: auto;
-height: 100%;
-object-fit: cover;
-max-width: 100%;
-margin: 0 auto;
-}
-
-.cst-home-bestSeller .image-wrapper {
-background: #F9F6F1;
-padding: 28px 0;
-}
-
-.cst-product-detail {
-background: #f9f6f1;
-}
-
-.cst-product-detail {
-background: #f9f6f1;
-display: flex;
-justify-content: space-around;
-padding-bottom: 28px;
-}
-
-.cst-product-detail h3 {
-font-size: 14px;
-font-weight: 400;
-color: #1E1E1E;
-text-transform: uppercase;
-font-family: 'TT Drugs';
-margin: 0;
-}
-
-.cst-product-detail p.cst--price {
-font-size: 14px;
-line-height: 18px;
-font-weight: 400;
-color: #1E1E1E;
-font-family: 'TT Drugs';
-}
-
-.cst-home-slider2 .slider-left img {
-height: 100%;
-object-fit: cover;
-}
-
-.cst-home-slider2.custom-slider {
-background: #fff;
-padding: 77px 0 106px 0;
-}
-
-.cst-home-slider2 a.cst-button {
-display: flex;
-justify-content: end;
-padding-top: 50px;
-}
-
-.cst-home-slider2 .slider-left {
-padding: 8px;
-}
-
-.cst-home-slider2 .slider-right h2 {
-font-size: 45px;
-line-height: 90px;
-font-family: 'Noto Serif Display';
-text-transform: uppercase;
-margin-bottom: 0;
-}
-
-.cst-home-slider2 .slider-right p {
-font-size: 16px;
-line-height: 20px;
-font-family: 'TT Drugs';
-}
-
-.cst-home-slider2 .slider-right h2 {
-color: #DCC6A7;
-}
-
-.cst-home-slider2 .slider-right p {
-color: #DCC6A7;
-}
-
-.cst-home-slider2 .cst-odd-sec h2 {
-color: #0C4434;
-}
-
-.cst-home-slider2 .cst-odd-sec p {
-color: #0C4434;
-}
-
-.cst-home-slider2 .cst-odd-sec {
-background: #DCC6A7;
-padding: 0;
-}
-
-.cst-home-slider2 .cst-even-sec {
-background: #0C4434;
-padding: 0;
-}
-
-.cst-homr-richText .rich-text {
-padding-top: 87px;
-}
-
-.cst-homr-richText .rich-text__blocks h2 {
-font-size: 48px;
-line-height: 58px;
-color: #0C4434;
-font-family: "Noto Serif Display";
-position: relative;
-}
-
-.cst-homr-richText .rich-text__text p {
-margin-top: 0;
-font-size: 16px;
-color: #0C4434;
-line-height: 20px;
-font-family: 'TT Drugs';
-}
-
-.cst-homr-richText .rich-text__text {
-background: #fff;
-z-index: 3;
-position: relative;
-}
-
-.cst-homr-richText .rich-text__text {
-margin-top: 0;
-}
-
-.cst-home-imgeText1 .page-width {
-max-width: 100%;
-padding: 0;
-}
-
-.cst-home-imgeText1 img.cst-custom-image {
-max-width: 100%;
-}
-
-.cst-home-imgeText1 .image-with-text__text-item {
-background: #0C4434;
-}
-
-.cst-home-imgeText1 .image-with-text__content h2 {
-font-size: 75px;
-line-height: 70px;
-color: #e2d0b6;
-font-family: 'Noto Serif Display';
-margin-top: 0;
-}
-
-.cst-home-imgeText1 .image-with-text__text p {
-font-size: 21px;
-line-height: 26px;
-font-weight: 400;
-color: #e2d0b6;
-font-family: 'TT Drugs';
-max-width: 581px;
-}
-
-.cst-home-imgeText1 .image-with-text__text {
-margin-top: 0;
-}
-
-.cst-imgText-bottom {
-background: #0c4434;
-border-top: 2px solid #E2D0B6;
-padding: 11px 0;
-}
-
-.cst-imgText-bottom img {
-width: 100%;
-max-width: 100%;
-display: block;
-}
-
-.cst-home-product-Image .custom-container {
-max-width: 100%;
-margin: 0 auto;
-background: #e2d0b6;
-padding: 0;
-}
-
-.cst-home-product-Image.custom-product-with-image {
-background-color: #e2d0b6;
-margin: 78px auto 96px;
-padding: 0;
-max-width: 1440px;
-}
-
-
-.cst-home-product-Image .custom-product-slide img {
-width: 100%;
-max-width: 262px;
-height: 483px;
-object-fit: contain;
-margin: 0 auto 30px;
-display: block;
-}
-
-.cst-home-product-Image .custom-product-slide p {
-font-size: 14px;
-line-height: 24px;
-font-weight: 400;
-font-family: 'TT Drugs';
-text-decoration: none;
-}
-
-.cst-home-product-Image .custom-product-slide a {
-text-decoration: none !important;
-}
-
-.cst-home-product-Image .custom-product-slide .cst-product-name,
-.cst-product-price {
-color: #1E1E1E;
-text-transform: uppercase;
-padding-top: 0;
-}
-
-.cst-home-product-Image p.cst-product-description {
-color: #0C4434;
-max-width: 301px;
-margin: 0 auto;
-}
-
-.cst-home-product-Image p.cst-product-description {
-color: #0c4434;
-max-width: 301px;
-margin: 8px auto 0;
-line-height: 18px;
-}
-
-.cst-home-product-Image .custom-image-container img {
-height: 680px;
-width: 100%;
-}
-
-.cst-home-review.review-section {
-padding: 0;
-}
-
-.cst-home-review .client-image {
-max-width: 100%;
-margin: 0 auto;
-display: block;
-width: 30%;
-}
-
-.cst-home-review .client-image img {
-max-width: 128px;
-height: auto;
-object-fit: cover;
-width: 100%;
-margin: auto;
-}
-
-.cst-home-review .review-card {
-background: #fcfaf8;
-box-shadow: none;
-border-radius: 0;
-padding-top: 28px;
-align-items: start;
-}
-
-.cst-home-review p.review-text {
-font-size: 21px;
-line-height: 32px;
-color: #0c4434;
-font-family: TT Drugs;
-}
-
-.cst-home-review p.client-name {
-font-size: 16px;
-line-height: 32px;
-color: #1E1E1E;
-text-align: end;
-text-transform: uppercase;
-}
-
-.cst-home-review .review-slider {
-padding-bottom: 65px;
-}
-
-.cst-home-review .slick-next {
-bottom: -12px !important;
-font-size: 0;
-}
-
-.cst-home-review .slick-prev {
-bottom: -12px !important;
-font-size: 0;
-}
-
-.cst-home-review .stars .star.filled {
-color: #0C4434;
-font-size: 38px;
-}
-
-.cst-home-review .review-content {
-padding-left: 0;
-}
-
-.cst-home-services .services-custom-slider {
-overflow: inherit;
-padding-bottom: 50px;
-}
-
-.cst-home-services .slick-next {
-bottom: -60px !important;
-}
-
-.cst-home-services .slick-prev {
-bottom: -60px !important;
-}
-
-body .cst-home-services {
-background: #FCFAF8;
-padding: 80px 0 120px 0;
-margin-top: 80px;
-}
-
-.cst-home-services .services-card-image img {
-height: 100%;
-max-width: 100%;
-margin: 0 auto;
-width: 100%;
-object-fit: cover;
-border-radius: 0;
-}
-
-.cst-home-services .cst-odd-sec {
-background: #DCC6A7;
-border-radius: 0;
-padding: 0;
-}
-
-.cst-home-services .cst-even-sec {
-background: #0C4434;
-border-radius: 0;
-padding: 0;
-}
-
-.cst-home-services .cst-odd-sec h3 {
-font-size: 40px;
-line-height: 40px;
-font-weight: 400;
-font-family: 'Noto Serif Display';
-color: #0C4434;
-text-align: left;
-padding: 10px 24px;
-}
-
-.cst-home-services .cst-odd-sec p.services-card-text {
-font-size: 14px;
-line-height: 22px;
-font-weight: 400;
-color: #0C4434;
-font-family: 'TT Drugs';
-text-align: left;
-padding: 0 24px;
-margin-bottom: 15px;
-}
-
-.cst-home-services .cst-even-sec h3 {
-font-size: 40px;
-line-height: 40px;
-font-weight: 400;
-color: #DCC6A7;
-font-family: 'Noto Serif Display';
-text-align: left;
-padding: 10px 24px;
-}
-
-.cst-home-services .cst-even-sec p.services-card-text {
-color: #DCC6A7;
-font-size: 14px;
-line-height: 22px;
-font-weight: 400;
-font-family: 'TT Drugs';
-text-align: left;
-padding: 0 24px;
-margin-bottom: 20px;
-}
-
-body .cst-home-services .slick-slide {
-margin: 0 !important;
-}
-
-body .cst-home-services .services-card-info {
-margin: 0;
-}
-
-.cst-home-services .cst-button-content-wrap {
-display: flex;
-justify-content: space-between;
-font-size: 25px;
-line-height: 33px;
-font-style: italic;
-font-family: Satoshi;
-background: transparent;
-border-radius: 40px;
-max-width: 164px;
-padding: 10px;
-margin-left: 20px;
-align-items: center;
-}
-
-.cst-home-services .cst-odd-sec span {
-font-size: 16px;
-font-style: italic;
-font-family: 'Satoshi';
-color: #0C4434;
-line-height: 21px;
-}
-
-.cst-home-services .cst-even-sec span {
-font-size: 16px;
-font-style: italic;
-font-family: 'Satoshi';
-color: #E2D0B6;
-line-height: 21px;
-}
-
-.cst-service-content-wrp.active-slided {
-padding-bottom: 40px;
-}
-
-.cst-service-content-wrp.active-slided a {
-text-decoration: none;
-}
-
-.cst-service-content-wrp a {
-text-decoration: none;
-}
-
-.cst-service-content-wrp:hover {
-transition: .3s;
-}
-
-.cst-home-services a.cst-button.services-card-buttons {
-text-decoration: none;
-}
-
-.cst-home-services .cst-odd-sec .cst-button-content-wrap {
-border: 1px solid #0C4434;
-}
-
-.cst-home-services .cst-even-sec .cst-button-content-wrap {
-border: 1px solid #E2D0B6;
-}
-
-.cst-button-content-wrap img {
-max-width: 64px;
-height: 17px;
-}
-
-.cst-home-category .cst-colletions-list li {
-border-radius: 40px;
-border: 1px solid #E2D0B6;
-text-align: center;
-padding: 16px 12px;
-line-height: normal;
-}
-
-.cst-home-category .cst-colletions-list li a {
-font-size: 20px;
-line-height: 18px;
-font-weight: 400;
-font-family: 'TT Drugs';
-color: #E2D0B6;
-text-transform: uppercase;
-}
-
-.cst-home-category .cst-colletions-list li:hover {
-background: #E2D0B6;
-}
-
-.cst-home-category .cst-colletions-list li:hover a {
-color: #0C4434;
-}
-
-.cst-home-category .cst-colletions-list a {
-text-decoration: none;
-}
-
-.cst-home-category {
-background: #0C4434;
-}
-
-.cst-home-category .page-width {
-max-width: 100%;
-padding: 0;
-}
-
-.cst-home-category .image-with-text__content {
-padding: 125px 88px;
-}
-
-.cst-home-category p.image-with-text__text {
-font-size: 20px;
-line-height: 22px;
-font-weight: 400;
-color: #E2D0B6;
-font-family: 'TT Drugs';
-}
-
-.cst-home-category h2.image-with-text__heading.inline-richtext.h0 {
-font-size: 90px;
-line-height: 90px;
-color: #E2D0B6;
-font-family: 'Noto Serif Display';
-}
-
-.cst-home-category ul {
-display: grid;
-grid-template-columns: 1fr 1fr;
-grid-gap: 19px;
-margin-top: 73px;
-}
-
-body .cst-home-category {
-padding: 0;
-}
-
-.cst-home-category a.custom-button.button.button--secondary {
-background: transparent;
-color: #E2D0B6;
-font-size: 32px;
-line-height: 18px;
-font-family: 'Noto Serif Display';
-padding: 0;
-}
-
-.cst-main span {
-font-size: 32px;
-font-weight: 400;
-line-height: 18px;
-font-family: 'Noto Serif Display';
-color: #1E1E1E;
-}
-
-body .cst-home-marquee {
-height: auto;
-padding: 39px 0;
-}
-
-body .cst-home-marquee .track {
-position: inherit;
-}
-
-body .cst-home-marquee .track span {
-font-size: 32px;
-line-height: 18px;
-font-family: 'Noto Serif Display';
-color: #1E1E1E;
-}
-
-body .cst-home-marquee .content {
-display: flex;
-align-items: center;
-gap: 20px;
-}
-
-.cst-main {
-display: flex;
-align-items: center;
-gap: 10px;
-}
-
-body .cst-home-about {
-background: #E2D0B6;
-padding: 0;
-}
-
-.cst-home-about .custom-banner-caption p {
-font-style: italic;
-color: #0C4434;
-line-height: 46px;
-font-size: 34px;
-font-family: 'TT Drugs';
-letter-spacing: 0;
-}
-
-.cst-home-about h2.custom-banner-heading {
-font-size: 99px;
-line-height: 72px;
-font-family: "Noto Serif Display";
-color: #0c4434;
-font-weight: 300;
-letter-spacing: 0;
-text-transform: uppercase;
-margin-top: 0;
-margin-bottom: 79px;
-padding: 0;
-}
-
-.cst-home-about .custom-banner-left {
-padding-left: 78px;
-position: relative;
-}
-
-.cst-home-about .custom-banner-left p {
-font-family: TT Drugs;
-font-size: 16px;
-font-weight: 400;
-line-height: 20px;
-color: #0c4434;
-margin: 110px 0 75px 0;
-max-width: 436px;
-}
-
-.cst-home-about .cst-multi-buttons a {
-font-size: 18px;
-font-weight: 400;
-line-height: 20px;
-color: #E2D0B6;
-font-family: 'TT Drugs';
-background: #0C4434;
-text-decoration: none;
-padding: 12px 66px;
-border-radius: 40px;
-}
-
-.cst-home-about .cst-custom-banner-wrapper {
-display: flex;
-justify-content: end;
-}
-
-.cst-home-about .cst-multi-buttons {
-padding: 13px 0;
-position: relative;
-}
-
-.cst-home-about .custom-banner-content {
-max-width: 100%;
-margin: 0 auto;
-padding: 100px 75px 64px;
-}
-
-.cst-home-about .custom-banner-right {
-width: 100%;
-max-width: 100%;
-}
-
-.cst-home-about .custom-banner-right img {
-width: 100%;
-max-width: 100%;
-height: 100%;
-object-fit: cover;
-}
-
-.cst-home-about .cst-banner-btn {
-border: 1px solid #0C4434;
-}
-
-.cst-home-about .cst-banner-btn a {
-color: #0c4434;
-font-size: 16px;
-}
-
-.cst-home-about .cst-banner-btn a:after {
-background: #DCC6A7;
-}
-
-.cst-home-retail .retailer-slider__logo {
-border: 0;
-object-fit: cover;
-}
-
-.cst-home-retail.retailer-slider {
-padding: 50px 0;
-}
-
-.cst-home-retail .retailer-slider__logo img {
-object-fit: contain;
-}
-
-
-.cst-custom-home-image-banner .banner__buttons a {
-font-size: 17px;
-line-height: 32px;
-border: 1px solid;
-border-radius: 40px;
-font-family: 'TT Drugs';
-}
-
-.cst-custom-home-image-banner a.button.button--secondary {
-color: #DCC6A7;
-background: transparent;
-}
-
-.cst-custom-home-image-banner a.button.button--secondary:hover {
-background: #dcc6a7;
-color: #0c4434;
-}
-
-.cst-custom-home-image-banner a.button.button--primary {
-color: #0c4434;
-background: #E2D0B6;
-border: 1px solid #E2D0B6;
-}
-
-.cst-custom-home-image-banner a.button.button--primary:hover {
-background: transparent;
-color: #DCC6A7;
-}
-
-.cst-custom-home-image-banner p {
-font-size: 28px;
-line-height: 36px;
-font-weight: 400;
-color: #FCFAF8;
-text-transform: uppercase;
-font-family: 'TT Drugs';
-}
-
-.cst-custom-home-image-banner h2 {
-font-size: 54px;
-line-height: 64px;
-color: #fcfaf8;
-text-transform: uppercase;
-font-family: "Noto Serif Display";
-margin: 17px 0 23px;
-}
-
-
-.cst-custom-home-image-banner .banner__text p {
-font-size: 16px;
-line-height: 20px;
-font-weight: 400;
-font-family: TT Drugs;
-text-transform: capitalize;
-max-width: 800px;
-margin: 0 auto;
-}
-
-.cst-custom-home-image-banner .banner__content.page-width {
-max-width: 100%;
-}
-
-.cst-custom-home-image-banner .banner__box {
-max-width: 998px !important;
-margin: 0 auto;
-}
-
-.cst-custom-home-image-banner .banner__buttons {
-padding-top: 50px;
-}
-
-.cst-custom-newslatter h2.custom-banner-heading {
-font-size: 75px;
-line-height: 90px;
-color: #1E1E1E;
-font-family: 'Noto Serif Display';
-text-transform: uppercase;
-font-weight: 400;
-letter-spacing: 1px;
-text-align: left;
-margin: 0;
-}
-
-.cst-custom-newslatter p {
-font-size: 18px;
-line-height: 20px;
-font-family: TT Drugs;
-color: #1E1E1E;
-max-width: 448px;
-text-align: left;
-margin-top: 17px;
-}
-
-.cst-custom-home-newsletter .newsletter__wrapper {
-padding-right: 0;
-padding-left: 0;
-}
-
-.cst-custom-home-newsletter .container {
-max-width: 100%;
-margin: 0 auto;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 0 128px;
-}
-
-body .cst-custom-home-newsletter {
-background: #F9F6F0;
-padding: 0;
-}
-
-.newsletter__wrapper {
-background: transparent !important;
-}
-
-
-.newsletter-form__field-wrapper .field::before {
-display: none;
-}
-
-.newsletter-form__field-wrapper .field::after {
-display: none;
-}
-
-.cst-cusomt-nesletter-weraper .newsletter-form__button:not(:focus-visible):not(.focused) {
-box-shadow: none;
-background-color: transparent !important;
-border: 0;
-}
-
-.cst-cusomt-nesletter-weraper .newsletter-form__button {
-width: 100%;
-}
-
-.newsletter__wrapper .cst-cusomt-nesletter-weraper button#Subscribe {
-font-size: 31px;
-font-family: 'Satoshi';
-color: #0C4434;
-font-style: italic;
-padding-top: 30px;
-cursor: pointer;
-font-weight: 400;
-}
-
-.newsletter__wrapper .field input {
-border: 1px solid #1E1E1E;
-border-radius: 40px;
-line-height: normal;
-margin: 7px 0;
-background: transparent !important;
-font-family: 'TT Drugs';
-padding-top: 0;
-}
-
-.newsletter__wrapper .newsletter-form__field-wrapper .field__input {
-padding-right: 10rem;
-}
-
-.newsletter__wrapper .field__input:focus-visible {
-box-shadow: none;
-}
-
-.newsletter-form__field-wrapper .field label {
-color: #1e1e1e;
-line-height: normal;
-top: 19px;
-}
-
-.newsletter-form__field-wrapper .field__input:not(:placeholder-shown)~.field__label {
-color: #1e1e1e;
-line-height: normal;
-top: 19px;
-font-size: 19px;
-}
-
-.footer__content-top.page-width {
-max-width: 100%;
-padding: 0 128px;
-}
-
-.footer__localization:empty+.footer__column--info {
-display: none;
-}
-
-footer .footer__content-bottom {
-border-color: #dcc6a78a;
-}
-
-.footer ul.footer-block__details-content li a {
-font-size: 14px;
-line-height: 28px;
-font-family: 'TT Drugs';
-color: #E2D0B6 !important;
-}
-
-.footer {
-background: #0C4434;
-}
-
-.footer .list-social {
-justify-content: center;
-margin: 61px 0;
-gap: 20px;
-}
-
-.footer .list-social a.link.list-social__link {
-color: #E2D0B6;
-}
-
-.footer__copyright.caption {
-text-align: center !important;
-font-size: 17px;
-color: #E2D0B6;
-font-family: 'TT Drugs';
-text-transform: uppercase;
-}
-
-.footer__content-bottom-wrapper {
-justify-content: center;
-}
-
-/*About-page-css-start*/
-.cst-about-imgText1 .page-width {
-max-width: 1500px;
-margin: 0 auto;
-padding: 0 50px;
-}
-
-body .cst-about-imgText1 {
-padding: 68px 0 59px;
-}
-
-.cst-about-imgText1 .image-with-text__content h2 {
-font-size: 100px;
-line-height: 120px;
-color: #0C4434;
-font-weight: 400;
-font-family: "Noto Serif Display";
-letter-spacing: 2px;
-text-transform: uppercase;
-margin-bottom: 0;
-}
-
-.cst-about-imgText1 .image-with-text__content {
-padding: 65px 50px 65px 0;
-}
-
-.cst-about-imgText1 .image-with-text .grid__item p {
-font-size: 16px;
-line-height: 20px;
-color: #0C4434;
-font-family: TT Drugs;
-}
-
-.cst-about-imageSlider {
-background: #e2d0b633;
-max-width: 100%;
-margin: 0 auto;
-padding: 110px 0 110px 50px;
-}
-
-.cst-about-imageSlider .image-slider-heading h2 {
-font-size: 88px;
-line-height: 94px;
-letter-spacing: 2px;
-color: #0C4434;
-font-family: "Noto Serif Display";
-max-width: 1100px;
-margin: 0;
-}
-
-.cst-about-imageSlider button.slick-arrow {
-background: transparent;
-font-size: 0;
-display: none;
-}
-
-.cst-about-imageslider2 button.slick-arrow {
-background: transparent;
-font-size: 0;
-display: none !important;
-}
-
-.cst-about-imageSlider .image-slider-content p {
-font-size: 16px;
-line-height: 20px;
-color: #0c4434;
-font-family: TT Drugs;
-padding: 30px 0;
-max-width: 998px;
-}
-
-.cst-about-imageSlider .slide-text a {
-font-size: 20px;
-line-height: 20px;
-font-weight: 400;
-color: #0C4434;
-text-decoration: none;
-font-family: TT Drugs;
-}
-
-.cst-about-imageSlider .slide img {
-max-width: 404px;
-height: 305px !important;
-margin: 0 auto;
-display: block;
-object-fit: cover;
-}
-
-.cst-about-two-imageText .cst-heading h2 {
-color: #0C4434;
-font-size: 90PX;
-line-height: 99px;
-font-family: 'Noto Serif Display';
-letter-spacing: 2px;
-margin-top: 0;
-}
-
-.cst-about-two-imageText .cst-content p {
-font-size: 16px;
-line-height: 20px;
-font-weight: 400;
-color: #0C4434;
-font-family: TT Drugs;
-}
-
-body .cst-about-two-imageText {
-padding: 110px 0;
-}
-
-body .cst-about-two-imageText .custom-image-text-left img {
-height: 100%;
-max-width: 100%;
-object-fit: cover;
-}
-
-body .cst-about-two-imageText .custom-image-text-right img {
-height: 100%;
-max-width: 100%;
-object-fit: cover;
-}
-
-.cst-about-two-imageText .custom-image-text-text {
-max-width: 680px;
-margin: 0 auto;
-padding-top: 0 !important;
-}
-
-.cst-about-imageslider2 {
-background: #0C4434;
-max-width: 100%;
-margin: 0 auto;
-padding: 68px 0;
-}
-
-.cst-about-imageslider2 p.cst-caption {
-font-size: 34px;
-line-height: 46px;
-font-weight: 400;
-font-style: italic;
-color: #E2D0B6;
-padding-left: 50px;
-font-family: 'TT Drugs';
-}
-
-.cst-about-imageslider2 .image-slider-heading h2 {
-font-size: 90px;
-font-weight: 400;
-color: #E2D0B6;
-margin: 0;
-line-height: 110px;
-letter-spacing: 2px;
-padding: 0 50px 30px;
-font-family: 'Noto Serif Display';
-}
-
-body .cst-about-product {
-background: transparent !important;
-padding-bottom: 110px !important;
-padding-top: 50px !important;
-}
-
-body .cst-about-product h2.cst--heading.slider-heading {
-max-width: 100%;
-color: #000;
-}
-
-.cst-about-product .cst-content p {
-padding: 0 0 50px 0;
-font-size: 16px;
-font-family: 'TT Drugs';
-line-height: 95px;
-}
-
-body .cst-about-news {
-background: #E2D0B6;
-}
-
-.cst-about-news.cst-custom-home-newsletter .newsletter__wrapper h2 {
-display: none;
-}
-
-.cst-about-news.cst-custom-home-newsletter .newsletter__wrapper p {
-display: none;
-}
-
-body .cst-about-imgText {
-background: #F9F6F0;
-}
-
-.cst-about-imgText p.image-with-text__text {
-color: #0C4434;
-}
-
-.cst-about-imgText h2.image-with-text__heading {
-font-size: 90px;
-line-height: 90px;
-color: #0C4434;
-font-family: "Noto Serif Display";
-}
-
-.cst-about-imgText .image-with-text__text P {
-font-size: 21px;
-font-weight: 400;
-line-height: 26px;
-color: #0C4434;
-font-family: 'TT Drugs';
-}
-
-.cst-about-imgText .cst-button-content-wrap {
-font-size: 25px;
-line-height: 33px;
-font-style: italic;
-font-family: Satoshi;
-color: #0C4434;
-background: transparent;
-border: 1px solid #0C4434;
-border-radius: 40px;
-padding: 12px 47px;
-}
-
-body .cst-about-two-imageText .custom-image-text-row {
-padding-top: 0;
-padding-bottom: 0;
-}
-
-/*About-page-css-end*/
-
-/*Collection-page-css-start*/
-.collection .facets__summary span:first-of-type {
-font-size: 18px;
-font-weight: 400;
-line-height: 17px;
-color: #1B1B1B;
-font-family: 'TT Drugs';
-text-transform: uppercase;
-}
-
-.collection .facets__summary .icon-caret {
-color: #DCC6A7;
-}
-
-.collection .facets__heading {
-display: none !important;
-}
-
-.collection .facets__form .product-count {
-display: none !important;
-}
-
-.collection div#FacetsWrapperDesktop {
-display: flex;
-justify-content: space-between;
-}
-
-.collection form#FacetFiltersForm {
-gap: 0;
-}
-
-.collection .page-width {
-padding: 0 5rem;
-max-width: 100%;
-}
-
-.collection aside#main-collection-filters {
-border-bottom: 1px solid #0C4434;
-}
-
-/*Collection-page-css-end*/
-
-/*calming-facial-toner-page-css-start*/
-.cst-main-products .page-width {
-max-width: 100%;
-padding: 0;
-}
-
-.cst-main-products .product.product--large.product--left {
-display: grid;
-grid-template-columns: 1fr 1fr;
-}
-
-.cst-main-products .product__info-wrapper.grid__item {
-width: 100% !important;
-max-width: 96% !important;
-border: 1px solid #0C4434;
-padding: 0 !important;
-margin-top: 38px;
-height: fit-content;
-}
-
-.cst-main-products .product__info-container {
-max-width: 100%;
-margin: 0;
-}
-
-.cst-main-products .grid__item.product__media-wrapper {
-max-width: 96% !important;
-width: 100% !important;
-}
-
-.cst-main-products .product--stacked .product__media-item {
-max-width: 100%;
-background-color: #E2D0B61A;
-}
-
-.cst-main-products media-gallery#MediaGallery-template--16388949704781__main {
-background: #E2D0B61A;
-}
-
-.cst-main-products .accordion svg.icon.icon-caret {
-height: 11px;
-width: 10px;
-}
-
-.cst-main-products .product__media.media.media--transparent {
-background: #fcfaf8;
-border: 0;
-height: 470px !important;
-}
-.cst-main-product-image img {
-object-fit: contain;
-padding: 75px 0;
-}
-
-.cst-main-products .product-media-container.media-type-image {
-border: 0;
-}
-
-.cst-main-products .product__text {
-font-size: 10px;
-font-weight: 400;
-line-height: 22px;
-font-family: 'TT Drugs';
-}
-
-.cst-main-products .product__info-wrapper h1 {
-font-size: 28px;
-line-height: 48px;
-font-weight: 400;
-font-family: 'Noto Serif Display';
-color: #1E1E1E;
-text-transform: uppercase;
-}
-
-.cst-main-products .price__regular {
-font-size: 18px;
-font-weight: 400;
-line-height: 24px;
-font-family: 'TT Drugs';
-}
-
-.cst-main-products .product__media-list {
-gap: 0;
-}
-
-.cst-main-products .product__description p {
-font-size: 16px;
-line-height: 22px;
-font-weight: 400;
-color: #1E1E1E;
-font-family: 'TT Drugs';
-}
-
-.cst-main-products quantity-input.quantity {
-border: 1px solid #1B1B1B;
-border-radius: 30px;
-}
-
-.cst-main-products quantity-input.quantity::before {
-display: none;
-}
-
-.cst-main-products quantity-input.quantity::after {
-display: none;
-}
-
-.cst-main-products button.shopify-payment-button__button {
-background: #DCC6A7;
-border: 1px solid #DCC6A7;
-color: #fff;
-font-size: 16px;
-font-weight: 400;
-line-height: 1;
-font-family: 'TT Drugs';
-text-transform: uppercase;
-border-radius: 30px;
-}
-
-.cst-main-products button.shopify-payment-button__button:hover {
-color: #dcc6a7;
-background: transparent;
-}
-
-.cst-main-products .shopify-payment-button__button--unbranded:before {
-display: none;
-}
-
-.cst-main-products .shopify-payment-button__button--unbranded::after {
-display: none;
-}
-
-.cst-main-products  button#ProductSubmitButton-template--16388949704781__main {
-opacity: 1;
-border: 1px solid #000;
-font-family: 'TT Drugs';
-font-size: 16px;
-font-weight: 400;
-line-height: 1;
-font-family: 'TT Drugs';
-text-transform: uppercase;
-border-radius: 30px;
-}
-
-.cst-main-products button#ProductSubmitButton-template--16388949704781__main::before {
-display: none;
-}
-
-.cst-main-products button#ProductSubmitButton-template--16388949704781__main::after {
-display: none;
-}
-
-.cst-main-products .button--secondary:after {
---border-opacity: 0 !important;
-}
-
-.cst-main-products .summary__title h2 {
-font-size: 32px;
-line-height: 31px;
-font-weight: 400;
-color: #1B1B1B;
-font-family: 'Noto Serif Display';
-letter-spacing: 0;
-padding: 0 20px;
-}
-
-.cst-main-products .accordion {
-border-color: #1B1B1B;
-}
-
-.cst-main-products .custom-collapision-wrapper {
-max-width: 500px;
-margin: 0 auto;
-padding: 58px 0 15px 0;
-;
-}
-
-.cst-main-products .product__accordion .accordion__content p {
-font-size: 16px;
-font-weight: 400;
-color: #1E1E1E;
-line-height: 22px;
-font-family: 'TT Drugs';
-padding: 0 20px;
-}
-
-.cst-product-feature a.cst-button {
-font-size: 25px;
-line-height: 33px;
-font-weight: 400;
-font-style: italic;
-font-family: Satoshi;
-color: #0c4434;
-text-decoration: none;
-border: 1px solid;
-padding: 8px 45px;
-border-radius: 40px;
-display: inline-block;
-margin-top: 68px;
-}
-
-.cst-product-feature a.cst-button:hover {
-background: #0c4434;
-color: #fff;
-}
-body .cst-product-feature h2.cst--heading.slider-heading {
-color: #000 !important;
-font-size: 98px;
-}
-.cst-product-feature .cst-content p {
-padding: 0 0 30px;
-font-size: 16px;
-font-family: TT Drugs;
-line-height: 90px;
-}
-
-body .cst-product-feature {
-background: #fff0 !important;
-padding: 35px 0 65px !important;
-}
-
-body .cst-product-feature .product-slider {
-padding: 0 !important;
-}
-
-.cst-related-slider h2 {
-color: #0c4434!important;
-position: relative;
-font-size: 98px;
-text-transform: uppercase;
-font-family: "Noto Serif Display";
-line-height: 165px;
-z-index: 1;
-max-width: 1339px;
-margin: 0 auto;
-text-align: center;
-}
-
-.cst-related-slider {
-background: #FCFAF8;
-padding: 70px 0 109px;
-}
-.cst-related-slider .card .media {
-background: #F9F6F1;
-}
-.cst-related-slider h3#title--7387527872589 {
-font-size: 14px;
-font-weight: 400;
-color: #1e1e1e;
-text-transform: uppercase;
-font-family: TT Drugs;
-margin: 0;
-}
-.cst-related-slider .card__information a {
-font-size: 14px;
-font-weight: 400;
-color: #1e1e1e;
-text-transform: uppercase;
-font-family: TT Drugs;
-margin: 0;
-text-decoration: none !important;
-}
-.cst-related-slider .cst-main-products .price__regular {
-font-size: 14px;
-}
-.cst-related-slider .card__information {
-display: flex;
-justify-content: space-between;
-width: 100%;
-max-width: 100%;
-background: #F9F6F1;
-align-items: baseline;
-padding: 20px !important;
-}
-.cst-product-feature .slick-list.draggable {
-max-width: 100% !important;
-margin: 0 auto;
-}
-.cst-related-slider .slick-list.draggable{
-max-width: 100% !important;
-margin: 0 auto;
-}
-.cst-related-slider .card-information {
-text-align: end;
-}
-.cst-related-slider  .card__heading{
-width: 100%;
-}
-.cst-main-products .accordion:last-child {
-border-bottom: 0;
-}
-/*calming-facial-toner-page-css-end*/
-
-
-/*service page start */
-.page-services .cst-home-review .slick-prev {
-bottom: 0 !important;
-}
-.page-services .cst-home-review .slick-next{
-bottom: 0 !important;
-}
-.page-services .collapsible-content {
-background: #e2d0b61a;
-padding-bottom: 80px;
-}
-
-.page-services .collapsible-content .collapsible-content__heading {
-color: #0C4434;
-font-family: "Noto Serif Display";
-font-size: 90px;
-font-weight: 400;
-line-height: 165.161px;
-letter-spacing: 5.285px;
-text-transform: uppercase;
-}
-
-.page-services .collapsible-content .collapsible-content-wrapper-narrow {
-max-width: 100%;
-padding: 0;
-}
-body.page-services .collapsible-content .accordion {
-border-top: 2px solid #0C4434;
-padding-left: 100px;
-padding-right: 100px;
-}
-
-.page-services .collapsible-content .accordion:last-child {
-border-bottom: 2px solid #0C4434;
-}
-.page-services .collapsible-content .accordion .accordion__title {
-color: #0C4434;
-font-family: "Noto Serif Display";
-font-size: 48px;
-font-weight: 400;
-line-height: 54px;
-letter-spacing: 1.92px;
-text-transform: uppercase;
-}
-.page-services .collapsible-content .accordion .accordion__content p {
-color: #0C4434;
-font-family: TT Drugs;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px;
-}
-.page-services .collapsible-content .accordion .accordion__content {
-overflow: clip;
-margin: -10px 0 40px;
-}
-.page-services .collapsible-content .accordion .icon {
-width: 49px;
-height: auto;
-color: #0c4434;
-top: 50%;
-transform: translateY(-50%);
-}
-
-body.page-services .collapsible-content .accordion:hover {
-background: transparent;
-}
-
-body.page-services .collapsible-content .accordion:hover .accordion__title {
-text-decoration: none;
-}
-body.page-services .accordion summary:hover {
-background: transparent;
-}
-.page-services .collapsible-content .accordion summary {
-padding: 20px 0 ;
-}
-
-
-.cst-service-consultation {
-background: #0C4434;
-}
-
-.cst-service-consultation .page-width {
-max-width: 100%;
-padding-right: 0;
-}
-
-.cst-service-consultation .image-with-text__content h2{
-font-size: 90px;
-line-height: 90px;
-color: #E2D0B6;
-font-family: "Noto Serif Display";
-}
-
-.cst-service-consultation .image-with-text__text p {
-font-size: 21px;
-line-height: 26px;
-font-weight: 400;
-color: #E2D0B6;
-font-family: TT Drugs;
-}
-.cst-service-consultation img {
-padding: 50px 0;
-}
-
-.cst-service-consultation .image-with-text__media {
-max-width: 100%;
-height: 690px;
-margin-right: 0;
-margin-left: auto;
-}
-.cst-service-consultation .image-with-text__content {
-display: flex
-;
-flex-direction: column;
-justify-content: center;
-height: 100%;
-}
-.cst-button-div a.custom-button.button.button--primary {
-border: 1px solid #E2D0B6;
-border-radius: 30px;
-font-size: 17px;
-line-height: 32px;
-border: 1px solid;
-border-radius: 40px;
-font-family: TT Drugs;
-}
-.cst-button-div .cst-third-btn {
-background: #dcc6a7  !important;
-color: #0C4434 !important;
-}
-.cst-button-div .cst-third-btn:hover {
-background: transparent !important;
-color: #dcc6a7 !important;
-}
-.cst-button-div a.custom-button.button--primary {
-background: transparent;
-color: #dcc6a7;
-}
-.cst-button-div a.custom-button.button--primary:hover{
-background: #dcc6a7;
-color: #0c4434;
-}
-.cst-services-banner2 h2.custom-banner-heading {
-font-size: 90px;
-color: #0c4434;
-line-height: 100px;
-font-family: 'Noto Serif Display';
-letter-spacing: 0;
-font-weight: 400;
-max-width: 880px;
-}
-.cst-services-banner2 .cst-multi-buttons a.cst-button {
-color: #0c4434;
-background: #e2d0b6;
-border: 1px solid #E2D0B6;
-font-size: 17px;
-line-height: 32px;
-border-radius: 40px;
-font-family: TT Drugs;
-text-decoration: none;
-padding: 9px 25px;
-display: inline-block;
-margin-top: 40px;
-}
-.cst-services-banner2 .cst-multi-buttons a.cst-button:hover{
-background-color: transparent;
-border: 1px solid #0C4434;
-}
-.cst-services-banner2 .custom-banner-right {
-margin-top: -100px;
-}
-body .cst-services-banner2 {
-background: #FCFAF8;
-padding: 1px 0 80px !important;
-}
-.cst-services-banner2 .custom-banner-content {
-max-width: 100%;
-padding: 0 100px;
-}
-.cst-services-banner2 .custom-banner-right img{
-max-width: 100%;
-}
-.cst-services-banner2 .cst-custom-banner-wrapper {
-display: none;
-}
-.cst-services-banner2  .custom-banner-left p {
-font-size: 20px;
-line-height: 20px;
-color: #0C4434;
-font-family: TT Drugs;
-}
-.cst-service-richText h2::after {
-display: none !important;
-}
-.cst-service-richText .rich-text__wrapper.page-width {
-padding: 0 100px;
-max-width: 100%;
-margin: 0 auto;
-}
-
-
-.page-services .custom-banner2 {
-background: #0c4434;
-margin: 0!important;
-padding: 76px 52px 0;
-}
-
-.page-services .custom-banner2 .main-heading {
-font-size: 132px;
-line-height: 123px;
-color: #E2D0B6;
-margin: 0;
-font-family: 'Noto Serif Display';
-max-width: 1400px;
-font-weight: 400;
-margin-bottom: 70px;
-}
-.page-services .custom-banner2 .three-divs-container .custom-div:nth-child(2) {
-background: #DCC6A7;
-padding: 60px 30px;
-}
-.page-services .custom-banner2 .three-divs-container .custom-div:nth-child(3) {
-background: #F9F6F0;
-padding: 60px 30px;
-}
-.page-services .custom-banner2 h3 {
-font-size: 55px !important;
-color: #000;
-font-family: 'Noto Serif Display';
-}
-.page-services .custom-banner2 h4 {
-font-size: 36px !important;
-font-family: 'TT Drugs';
-color: #0C4434;
-}
-.page-services .custom-banner2 .three-divs-container {
-gap: 0;
-}
-.page-services .custom-banner2 .custom-div {
-width: 50%;
-padding: 0;
-height: 580px;
-
-}
-.page-services .custom-banner2 .custom-div img {
-height: 100%;
-object-fit: cover;
-}
-.page-services .cst-services-grid {
-padding: 79px 0px;
-}
-.page-services .cst-services-grid .section-caption {
-font-family: 'TT Drugs';
-font-size: 28px;
-line-height: 36px;
-color: #0C4434;
-text-align: center;
-font-weight: 400;
-}
-.page-services .cst-services-grid .section-heading {
-font-size: 64px;
-text-align: center;
-color: #000;
-font-family: 'Noto Serif Display';
-text-transform: uppercase;
-margin: 17px 0 23px;
-}
-.page-services .cst-services-grid .section-content p {
-text-align: center;
-color: #0C4434;
-font-size: 16px;
-font-family: 'TT Drugs';
-font-weight: 400;
-max-width: 800px;
-margin: 0 auto;
-}
-.page-services .cst-services-grid .section-content p {
-text-align: center;
-color: #0c4434;
-font-size: 16px;
-font-family: TT Drugs;
-font-weight: 400;
-max-width: 800px;
-margin: 0 auto;
-padding-bottom: 40px;
-}
-.page-services .cst-services-grid .card-wrapper {
-display: flex;
-flex-wrap: wrap;
-gap: 20px;
-width: 100%;
-margin: 0 auto;
-padding: 0 52px;
-}
-.page-services .cst-services-grid .card-wrapper .card {
-background: #f9f6f0;
-border-radius: 0;
-gap: 20px;
-}
-.page-services .cst-services-grid .card-info .card-heading {
-font-size: 48px;
-font-family: 'Noto Serif Display';
-line-height: normal;
-font-weight: 400;
-margin: 0;
-text-transform: uppercase;
-}
-.page-services .cst-services-grid .card-info .card-content {
-font-size: 16px;
-font-family: 'TT Drugs';
-font-weight: 400;
-color: #0C4434;
-}
-.page-services .cst-services-grid .card img {
-width: 100%;
-height: 213px;
-border-radius: 0;
-max-width: 187px;
-margin-right: 20px;
-}
-.page-services .cst-home-bestSeller .cst--heading.slider-heading {
-text-align: left !important
-}
-.page-services h2.cst-bottom-heading.slider-heading {
-text-align: right !important;
-}
-section.cst-about-services2 {
-background: #0C4434;
-padding: 100px 0;
-margin-top: 100px;
-}
-.page-services  .custom-image-text-rows .accordion-icon {
-font-size: 32px;
-}
-.page-services  .custom-image-text-text{
-padding: 0 20px;
-}
-section.cst-about-services2 .cst-main-heading {
-font-size: 90px;
-line-height: 90px;
-color: #E2D0B6;
-font-family: 'Noto Serif Display';
-text-align: center;
-}
-.cst-main-content p {
-font-size: 18px;
-line-height: 18px;
-text-align: center;
-color: #E2D0B6;
-margin: 20px 0;
-font-family: 'TT Drugs';
-}
-.page-services .custom-image-text-rows .accordion {
-background: transparent;
-font-size: 24px;
-color: #e2d0b6;
-font-family: "Noto Serif Display";
-border-top: 1.24px solid;
-margin-top: 0;
-padding: 20px 6px 15px;
-}
-.page-services .custom-image-text-rows .panel {
-background: transparent;
-padding: 0 6px;
-}
-.page-services .custom-image-text-row{
-padding: 77px 0 0;
-}
-.page-services .custom-image-text-rows .panel p{
-background: transparent;
-font-size: 17px;
-font-weight: 400;
-font-family: 'TT Drugs';
-color: #E2D0B6;
-font-family: 'TT Drugs';
-color: #E2D0B6;
-margin-bottom:22px;
-}
-/*service page end */
-
-/* sahil sir css-start*/
-.index .cst-about-news{
-display:none;
-}
-#passcodeform h3 {
-visibility: hidden; 
-}
-
-#passcodeform h3::before {
-content: "Please Enter the Passcode to Continue:"; 
-visibility: visible; 
-display: block;
-color: black; 
-font-size: 20px;
-}
-#passcodeform button {
-visibility: hidden; 
-}
-
-#passcodeform button::before {
-content: "Continue"; 
-visibility: visible;
-display: block;
-color: white; 
-background:black;
-}
-/* sahil sir css-end*/
-
-/*Responsive-start*/
-@media screen and (max-width:1530px) {
-body .cst-product-feature h2.cst--heading.slider-heading , .cst-related-slider h2{
-font-size: 70px;
-}
-.cst-home-slider2 .slider-right h2 {
-font-size: 40px;
-line-height: 80px;
-}
-
-.cst-home-main-banner .custom-banner-content h2 {
-font-size: 100px;
-}
-
-.cst-home-bestSeller h2.cst--heading.slider-heading,
-.cst-home-bestSeller h2.cst-bottom-heading.slider-heading {
-font-size: 90px;
-line-height: 156px;
-padding-right: 0;
-}
-
-
-}
-
-@media screen and (max-width:1400px) {
-.cst-home-imgeText1 .image-with-text__content h2 {
-font-size: 60px;
-}
-.cst-related-slider h3#title--7387527872589 ,.cst-related-slider .card__information a{
-font-size: 11px;
-}
-.cst-main-products .price__regular {
-font-size: 12px;
-}
-.cst-home-slider2 .slider-right h2 {
-font-size: 32px;
-line-height: 76px;
-}
-
-.cst-home-review p.review-text {
-font-size: 17px;
-line-height: 25px;
-}
-
-.cst-home-category h2.image-with-text__heading.inline-richtext.h0 {
-font-size: 75px;
-line-height: 87px;
-}
-
-.cst-home-about h2.custom-banner-heading {
-font-size: 75px;
-line-height: 67px;
-}
-
-.cst-custom-newslatter h2.custom-banner-heading {
-line-height: 90px;
-}
-
-.cst-home-services .cst-odd-sec h3 {
-font-size: 32px;
-}
-
-.cst-home-services .cst-even-sec h3 {
-font-size: 32px;
-}
-
-.cst-product-detail h3 {
-font-size: 11px;
-}
-}
-
-@media screen and (max-width: 1330px) {
-body header nav.header__inline-menu a{
-margin: 0 26px;
-}
-}
-@media screen and (max-width: 1220px) {
-.cst-about-two-imageText .cst-heading h2 {
-font-size: 60px;
-line-height: 73px;
-}
-
-.cst-about-imgText1 .image-with-text__content h2 {
-font-size: 60px;
-line-height: normal;
-}
-
-.cst-about-imageslider2 .image-slider-heading h2 {
-font-size: 75px;
-}
-
-.cst-about-imageSlider .image-slider-heading h2 {
-font-size: 75px;
-}
-
-.cst-about-imgText h2.image-with-text__heading {
-font-size: 65px;
-line-height: 75px;
-}
-
-.cst-home-main-banner .custom-banner-content h2 {
-font-size: 85px;
-}
-
-body .cst-head h2 {
-font-size: 75px;
-}
-
-.cst-home-imgeText1 .image-with-text__content h2 {
-font-size: 50px;
-}
-
-.cst-home-services .cst-odd-sec h3,
-.cst-home-services .cst-even-sec h3 {
-font-size: 28px;
-}
-
-.cst-home-imgeText1 .image-with-text__text p {
-font-size: 16px;
-}
-
-.cst-homr-richText .rich-text__blocks.left h2:after {
-left: -20%;
-}
-
-.header__heading-logo {
-max-width: 160px;
-}
-
-body header nav.header__inline-menu a {
-margin: 0 20px;
-}
-}
-
-@media screen and (max-width: 1150px) {
-.cst-homr-richText .rich-text__blocks.left h2:after {
-width: 130px;
-height: 171px;
-left: -18%;
-top: -130px;
-}
-
-.cst-home-category .image-with-text__content {
-padding: 125px 60px;
-}
-
-.cst-about-imageSlider .image-slider-heading h2 {
-font-size: 60px;
-}
-
-.cst-custom-home-newsletter .container {
-padding: 0 60px;
-}
-
-.footer__content-top.page-width {
-padding: 0 60px;
-}
-
-.cst-custom-newslatter h2.custom-banner-heading {
-font-size: 60px;
-line-height: 70px;
-}
-
-.cst-home-about h2.custom-banner-heading {
-font-size: 60px;
-}
-
-.cst-home-category .cst-colletions-list li {
-padding: 13px 22px;
-}
-
-.cst-home-category .cst-colletions-list li a {
-font-size: 15px;
-}
-
-.cst-home-about .custom-banner-left {
-padding-left: 40px;
-}
-
-.cst-home-slider2 .slider-right h2 {
-font-size: 27px;
-line-height: 64px;
-}
-
-.cst-homr-richText .rich-text__blocks.left h2:before {
-width: 175px;
-}
-
-.cst-custom-home-image-banner h2 {
-font-size: 50px;
-}
-
-.cst-home-category h2.image-with-text__heading.inline-richtext.h0 {
-font-size: 60px;
-line-height: 75px;
-}
-
-body .cst-head h2 {
-font-size: 60px;
-line-height: 40px;
-}
-
-.cst-home-main-banner .custom-banner-content h2 {
-font-size: 75px;
-}
-
-.cst-home-about .cst-multi-buttons a {
-font-size: 14px;
-}
-}
-
-@media screen and (max-width: 1075px) {
-.cst-main-products .custom-collapision-wrapper {
-padding: 58px 20px;
-}
-
-.cst-about-imageSlider .image-slider-heading h2 {
-font-size: 45px;
-line-height: normal;
-}
-
-.cst-about-two-imageText .cst-heading h2 {
-font-size: 45px;
-line-height: 56px;
-}
-
-.cst-about-imgText h2.image-with-text__heading {
-font-size: 40px;
-line-height: 59px;
-}
-
-.cst-about-imgText .image-with-text__text P {
-font-size: 17px;
-}
-
-.cst-homr-richText .rich-text__blocks.left h2:after {
-left: -16%;
-}
-
-.cst-home-imgeText1 .image-with-text__content h2 {
-font-size: 40px;
-}
-
-.cst-custom-home-image-banner h2 {
-font-size: 40px;
-}
-
-body header nav.header__inline-menu a {
-margin: 0 12px;
-}
-
-.cst-home-main-banner .cst-custom-banner-wrapper .cst-banner-btn {
-margin-top: 40px;
-}
-}
-
-@media screen and (max-width: 989px) {
-.cst-main-products .product__media.media.media--transparent{
-height: 100% !important;
-}
-.cst-related-slider .card__information {
-flex-direction: column;
-}
-.cst-related-slider .card__heading {
-width: 100%;
-text-align: center;
-}
-.cst-related-slider .card-information {
-text-align: center;
-}
-.cst-home-bestSeller h2.cst--heading.slider-heading , .cst-related-slider h2{
-font-size: 40px !important;
-line-height: 50px !important;
-}
-.cst-product-feature .cst-content p {
-line-height: normal;
-}
-
-.cst-main-products .summary__title h2 {
-font-size: 25px;
-line-height: 20px;
-}
-
-body .cst-about-two-imageText {
-padding: 60px 0 20px;
-}
-
-.cst-about-imgText1 .image-with-text__content h2 {
-font-size: 55px;
-}
-
-.cst-about-imageslider2 .image-slider-heading h2 {
-font-size: 55px;
-}
-
-.cst-about-two-imageText .custom-image-text-text {
-max-width: 100%;
-padding-left: 0;
-padding-right: 0;
-}
-
-body .cst-about-two-imageText .custom-image-text-row {
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 40px;
-}
-
-.cst-about-imgText1 .image-with-text__content {
-padding: 65px 34px 50px 0;
-}
-
-.cst-home-category .image-with-text__content {
-padding: 125px 50px;
-}
-
-body .cst-about-two-imageText .custom-image-text-right img {
-display: none;
-}
-
-.cst-about-product .cst-content p {
-line-height: normal;
-}
-
-.cst-about-imgText .cst-button-content-wrap {
-font-size: 18px;
-line-height: 22px;
-padding: 10px 31px;
-}
-
-.cst-home-bestSeller h2.cst--heading.slider-heading,
-.cst-home-bestSeller h2.cst-bottom-heading.slider-heading {
-font-size: 40px;
-text-align: center !important;
-line-height: 50px;
-margin: 20px;
-}
-
-.cst-home-category h2.image-with-text__heading.inline-richtext.h0 {
-font-size: 40px;
-line-height: 60px;
-}
-
-.cst-product-detail {
-flex-direction: column;
-}
-
-.cst-home-category ul {
-margin-top: 40px;
-}
-
-.custom-product-slider .slick-prev {
-transform: translate(25px);
-}
-
-.cst-homr-richText .page-width .rich-text__blocks {
-max-width: 100%;
-}
-
-.cst-homr-richText .rich-text__blocks.left h2:after {
-width: 119px;
-height: 130px;
-left: 0%;
-top: -115px;
-}
-
-.cst-home-category .cst-colletions-list li {
-padding: 9px 9px;
-}
-
-.cst-home-main-banner .custom-banner-content h2 {
-font-size: 55px;
-line-height: 90px;
-}
-
-.cst-home-imgeText1 .image-with-text__content {
-padding: 50px;
-}
-
-.cst-custom-home-image-banner h2 {
-font-size: 35px;
-}
-
-.cst-banner-btn a {
-font-size: 20px;
-line-height: 89px;
-}
-
-.cst-banner-btn {
-height: 130px;
-width: 130px;
-line-height: 90px;
-}
-
-
-.cst-home-about .custom-banner-content {
-padding: 100px 60px 64px;
-}
-
-.cst-home-about h2.custom-banner-heading {
-margin-bottom: 30px;
-font-size: 40px;
-}
-
-.cst-home-about .cst-multi-buttons a {
-padding: 13px 24px;
-}
-
-body .cst-home-main-banner {
-padding: 80px 0 59px;
-}
-
-.footer ul.footer-block__details-content li a {
-font-size: 12px;
-line-height: 22px;
-padding: 5px 0;
-}
-
-.cst-home-about .custom-banner-left {
-padding-left: 0;
-}
-
-.cst-home-services .services-card-image img {
-height: 420px;
-}
-}
-
-@media screen and (max-width: 789px) {
-.cst-main-products  .product__info-wrapper.grid__item {
-margin-top: 0;
-}
-.cst-main-products .product.product--large.product--left {
-padding-bottom: 40px;
-}
-.cst-main-products .product__description p {
-font-size: 14px;
-line-height: 17px;
-}
-
-.cst-main-products .product__info-wrapper h1 {
-font-size: 22px;
-}
-
-.cst-home-bestSeller.product-slider-with-price {
-padding: 50px 0;
-}
-
-.cst-main-products .grid__item.product__media-wrapper {
-max-width: 100% !important;
-}
-
-.cst-main-products .product__info-wrapper.grid__item {
-max-width: 100% !important;
-}
-
-body .cst-about-two-imageText .custom-image-text-row {
-flex-direction: column;
-display: flex !important;
-gap: 10px;
-}
-
-.cst-about-imgText h2.image-with-text__heading {
-font-size: 35px;
-line-height: 49px;
-}
-
-.cst-about-imgText .image-with-text__text {
-margin-top: 0;
-}
-
-.cst-custom-home-newsletter .newsletter__wrapper {
-padding-top: 0;
-}
-
-.cst-about-imageslider2 p.cst-caption {
-padding-left: 30px;
-}
-
-.cst-about-imageslider2 .image-slider-heading h2 {
-font-size: 40px;
-padding: 0 30px;
-line-height: 70px;
-}
-
-.cst-about-imageslider2 {
-padding: 30px 0 0;
-}
-
-body .cst-about-two-imageText .custom-image-text-left img {
-height: 420px;
-max-width: 100%;
-object-fit: cover;
-object-position: 40% 4%;
-}
-
-body .cst-about-two-imageText .custom-image-text-left {
-width: 100%;
-}
-
-.cst-about-imageSlider {
-padding: 50px 30px 90px;
-}
-
-.cst-about-imageSlider .image-slider-content p {
-padding: 19px 0;
-}
-
-body .cst-custom-home-newsletter {
-padding-top: 50px;
-padding-bottom: 0;
-}
-
-body .cst-home-bestSeller h2.cst-bottom-heading.slider-heading {
-margin: 0;
-}
-
-.cst-home-product-Image .custom-product-slider {
-width: 100%;
-max-width: 100%;
-}
-
-body .cst-home-main-banner .custom-banner-main {
-flex-direction: column-reverse;
-}
-
-.cst-home-main-banner .cst-custom-banner-wrapper {
-justify-content: center;
-}
-
-.cst-home-main-banner .custom-banner-left p {
-max-width: 100%;
-}
-
-.cst-home-imgeText1 .image-with-text__media-item.image-with-text__media-item--medium {
-width: 100%;
-}
-
-.cst-home-category .image-with-text__media-item.image-with-text__media-item--medium {
-width: 100%;
-}
-
-.cst-home-imgeText1 .image-with-text__text p {
-max-width: 100%;
-}
-
-.cst-home-product-Image .custom-slider-container {
-flex-direction: column-reverse;
-max-width: 100%;
-margin-bottom: 50px;
-}
-
-.cst-home-product-Image .custom-image-container {
-max-width: 100%;
-width: 100%;
-}
-
-.cst-home-product-Image .custom-image-container img {
-border-radius: 0;
-height: 420px;
-width: 100%;
-}
-
-.custom-product-slider .slick-next {
-transform: translate(-180px);
-}
-
-.custom-product-slider .slick-prev {
-transform: translate(90px);
-}
-
-.cst-home-category .image-with-text__content {
-padding: 30px;
-}
-
-.cst-home-about .custom-banner-content {
-padding: 50px;
-}
-
-.cst-home-about .custom-banner-main.reverse-order {
-display: flex;
-flex-direction: column-reverse;
-}
-
-.cst-home-category .image-with-text__media {
-height: 420px;
-}
-
-.cst-home-about .custom-banner-right img {
-height: 420px;
-object-position: 52% 10%;
-}
-
-.cst-home-about .custom-banner-left p {
-margin: 0 0 50px;
-max-width: 100%;
-}
-
-.cst-home-about .cst-multi-buttons a {
-padding: 16px 48px;
-}
-
-.cst-home-about .cst-custom-banner-wrapper {
-justify-content: start;
-}
-
-.cst-home-about .cst-banner-btn {
-margin-top: 40px;
-}
-
-.cst-custom-home-newsletter .container {
-flex-direction: column;
-align-items: start;
-padding: 0 30px;
-}
-
-.footer__content-top.page-width {
-padding: 0 30px;
-}
-
-.cst-home-main-banner .custom-banner-content {
-padding: 0 30px;
-}
-
-.cst-homr-richText .rich-text__blocks.left h2:before {
-display: none;
-}
-
-.cst-homr-richText .rich-text__blocks.left h2:after {
-height: 150px;
-width: 100px;
-left: auto;
-top: -141px;
-}
-
-.footer .footer__blocks-wrapper {
-display: grid;
-row-gap: 20px !important;
-}
-
-.footer .list-social {
-justify-content: start !important;
-margin: 30px 0;
-}
-
-.footer .footer__content-bottom-wrapper {
-justify-content: start !important;
-}
-
-.footer .footer__content-bottom {
-padding-top: 0;
-}
-
-.footer .footer-block.grid__item.footer-block--menu {
-width: 100%;
-margin: 0;
-}
-
-.footer .footer-block__details-content {
-margin: 0;
-}
-
-.cst-custom-newslatter h2.custom-banner-heading {
-max-width: 100%;
-}
-
-.cst-custom-newslatter p {
-margin-top: 17px !important;
-}
-
-.cst-home-main-banner .custom-banner-content h2 {
-font-size: 50px;
-line-height: 60px;
-margin-bottom: 30px;
-}
-
-.cst-homr-richText .rich-text__blocks.left h2:before {
-transform: translate(8px);
-}
-
-body .cst-head p {
-font-size: 15px;
-}
-
-body .cst-head h2 {
-font-size: 45px;
-line-height: 40px;
-}
-
-.cst-custom-home-image-banner h2 {
-max-width: 501px;
-margin: 0 auto;
-line-height: normal;
-}
-
-.cst-custom-home-image-banner p {
-font-size: 22px;
-}
-
-.cst-home-review .client-image {
-width: 100%;
-}
-
-.cst-home-review .review-card {
-flex-direction: column;
-padding: 10px;
-}
-
-.cst-home-review .client-image img {
-margin: 0;
-}
-
-.cst-home-about .custom-banner-content {
-padding: 30px;
-}
-
-.cst-home-imgeText1 .image-with-text__content {
-padding: 30px;
-}
-
-header.page-width {
-padding: 20px 25px !important;
-}
-
-.cst-home-bestSeller .product-slider {
-padding: 0 70px;
-}
-
-body .cst-about-imgText1 {
-padding: 50px 0 20px;
-}
-
-.cst-about-imgText1 .page-width {
-padding: 0 30px;
-}
-
-body .cst-about-product {
-padding-bottom: 50px !important;
-}
-
-.cst-about-imgText1 .image-with-text__content h2 {
-margin: 0;
-font-size: 50px;
-letter-spacing: 0;
-}
-
-body .cst-about-imgText1 .image-with-text .grid {
-flex-direction: column;
-}
-
-body .cst-about-imgText1 .image-with-text .grid__item {
-width: 100%;
-}
-
-.cst-about-imgText1 .image-with-text__content {
-padding: 30px 0;
-margin: 0;
-}
-
-.cst-about-imageSlider .image-slider-heading h2 {
-font-size: 35px;
-letter-spacing: 0;
-}
-
-.cst-about-two-imageText .cst-heading h2 {
-font-size: 40px;
-line-height: 45px;
-}
-
-.cst-about-imgText1 .image-with-text .grid__item p {
-font-size: 16px;
-}
-}
-
-@media screen and (max-width: 749px) {
-.cst-main-products .product__media-wrapper slider-component:not(.thumbnail-slider--no-slide) {
-margin: 0;
-}
-
-.cst-main-products  .product__media.media.media--transparent img {
-object-fit: cover;
-padding: 0;
-height: auto !important;
-}
-
-.cst-main-products .product.product--large.product--left {
-grid-template-columns: 1fr;
-}
-
-.cst-main-products .custom-collapision-wrapper {
-max-width: 100%;
-padding: 58px 20px 0;
-}
-
-.cst-product-feature .cst-content p {
-padding-bottom: 10px;
-}
-}
-
-@media screen and (max-width: 649px) {
-.cst-home-services .services-custom-slider {
-padding-bottom: 0;
-}
-
-.cst-home-bestSeller .product-slider .slick-prev:before {
-width: 100px;
-}
-
-.cst-home-bestSeller .product-slider .slick-next:before {
-width: 100px;
-}
-}
-
-@media screen and (max-width: 595px) {
-body .cst-home-services {
-padding: 40px 0 120px;
-}
-
-.cst-home-bestSeller .image-wrapper {
-background: transparent;
-}
-
-.cst-about-product .cst-content p {
-padding-bottom: 10px;
-}
-
-.cst-product-detail {
-background: transparent;
-}
-
-.cst-home-bestSeller h2.cst-bottom-heading.slider-heading {
-font-size: 40px;
-line-height: 69px;
-}
-
-.cst-custom-home-image-banner .banner__buttons {
-padding-top: 20px;
-flex-direction: column;
-}
-
-.cst-custom-home-image-banner h2 {
-font-size: 18px;
-}
-
-.cst-custom-home-image-banner p {
-font-size: 16px;
-}
-
-.cst-custom-home-image-banner .banner__text p {
-font-size: 14px;
-}
-
-.cst-custom-newslatter h2.custom-banner-heading {
-max-width: 100%;
-font-size: 45px;
-line-height: normal;
-}
-
-.custom-product-slider .slick-prev {
-left: -58px;
-}
-
-.custom-product-slider .slick-next {
-right: -93px;
-}
-
-.cst-home-about h2.custom-banner-heading {
-margin-bottom: 20px;
-font-size: 32px;
-}
-
-.footer .list-social {
-max-width: 20px 0 !important;
-}
-
-.cst-homr-richText .rich-text__wrapper {
-padding: 0;
-}
-
-.cst-home-slider2 .slider-content {
-flex-direction: column;
-}
-
-.cst-home-slider2 .slider-left {
-max-width: 100%;
-}
-
-.cst-home-slider2 .slider-right {
-max-width: 100%;
-}
-
-.cst-about-imageSlider .slide img {
-max-width: 100%;
-}
-}
-
-@media screen and (max-width: 480px) {
-.cst-home-category .cst-colletions-list {
-margin-top: 0;
-}
-
-.cst-home-retail.retailer-slider {
-padding: 0;
-}
-
-.cst-custom-class-for-image:after {
-top: 0;
-width: 57px;
-height: 158px;
-}
-
-.cst-home-slider2 .slider-right h2 {
-font-size: 21px;
-line-height: 58px;
-}
-
-.cst-home-slider2 .cst-odd-sec h2 {
-font-size: 21px;
-line-height: 58px;
-}
-
-
-.cst-home-about h2.custom-banner-heading {
-font-size: 30px;
-line-height: normal;
-}
-
-.custom-product-slider .slick-next:before {
-width: 70px;
-height: 70px;
-}
-
-.custom-product-slider .slick-prev:before {
-width: 70px;
-height: 70px;
-}
-
-.cst-home-product-Image .custom-product-slide img {
-height: 295px;
-}
-
-.cst-home-main-banner .custom-banner-content h2 {
-font-size: 37px;
-line-height: 51px;
-}
-
-.cst-home-imgeText1 .image-with-text__content h2 {
-font-size: 35px;
-}
-
-body .cst-head h2 {
-font-size: 35px;
-padding: 0 15px;
-}
-
-body .cst-head p {
-padding: 0 15px;
-}
-
-.cst-home-about .cst-multi-buttons a {
-padding: 16px 20px;
-}
-
-.cst-home-imgeText1 a.cst-button.button.button--primary {
-font-size: 15px;
-}
-
-.cst-home-imgeText1 .cst-button-content-wrap svg {
-width: 80px;
-height: 11px;
-}
-
-.common-slide-arrow .slick-next {
-transform: translate(-5px);
-right: 115px !important;
-}
-
-.common-slide-arrow .slick-prev {
-transform: translate(-5px);
-left: 19px !important;
-}
-
-.cst-home-category ul {
-grid-template-columns: 1fr;
-}
-
-.cst-about-imgText1 .image-with-text__content h2 {
-margin: 0;
-font-size: 37px;
-}
-
-.cst-about-imgText .cst-button-content-wrap {
-padding: 10px 22px;
-}
-}
-
-/*Responsive-end*/
+    box-sizing: border-box;
+    }
+    
+    p {
+    margin: 0;
+    padding: 0;
+    }
+    
+    ul {
+    padding: 0;
+    }
+    
+    li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    /*Common-css*/
+    a.button::after {
+    display: none;
+    }
+    
+    a.button::before {
+    display: none;
+    }
+    
+    .cst-banner-btn {
+    border: 1px solid #E2D0B6;
+    display: inline-block;
+    height: 161px;
+    width: 161px;
+    text-align: center;
+    line-height: 148px;
+    border-radius: 50%;
+    margin-top: 78px;
+    position: relative;
+    cursor: pointer;
+    }
+    
+    .cst-banner-btn a {
+    font-size: 25px;
+    line-height: 33px;
+    font-style: italic;
+    font-family: 'TT Drugs';
+    color: #E2D0B6;
+    text-decoration: none;
+    }
+    
+    .cst-banner-btn a::after {
+    position: absolute;
+    content: '';
+    height: 36px;
+    width: 36px;
+    background: #E2D0B6;
+    border-radius: 50px;
+    left: 50%;
+    bottom: 16px;
+    right: 0;
+    }
+    
+    .cst-home-imgeText1 a.cst-button.button.button--primary {
+    font-size: 25px;
+    line-height: 33px;
+    font-style: italic;
+    font-family: 'Satoshi';
+    color: #E2D0B6;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 40px;
+    }
+    
+    body .cst-about-product a.cst-button {
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Satoshi';
+    color: #0C4434;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 8px 45px;
+    border-radius: 40px;
+    display: inline-block;
+    margin-top: 68px;
+    }
+    
+    body .cst-about-product a.cst-button:hover {
+    background: #0C4434;
+    color: #e2d0b6;
+    }
+    .cst-home-bestSeller a.cst-button {
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Satoshi';
+    color: #0C4434;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 8px 45px;
+    border-radius: 40px;
+    display: inline-block;
+    margin-top: 68px;
+    }
+    .cst-home-bestSeller a.cst-button:hover {
+    background: #0C4434;
+    color: #e2d0b6;
+    }
+    .cst-home-bestSeller .product-slider .slick-next{
+    font-size: 0 !important;
+    right: 0;
+    }
+    .cst-home-bestSeller .product-slider .slick-prev::before {
+    content: "";
+    display: block;
+    width: 145px;
+    height: 145px;
+    background-image: url(/cdn/shop/files/Group_2230.png?v=1732613634);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    z-index: 1;
+    }
+    
+    .cst-home-bestSeller .product-slider .slick-next::before {
+    content: "";
+    display: block;
+    width: 102px;
+    height: 145px;
+    background-image: url('https://cdn.shopify.com/s/files/1/0615/6481/3389/files/Group_2231.png?v=1732613635');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    z-index: 1;
+    }
+    
+    .cst-home-bestSeller .product-slider .slick-prev {
+    background-color: transparent;
+    font-size: 0;
+    }
+    
+    .cst-home-bestSeller .product-slider .slick-next {
+    background-color: transparent;
+    font-size: 0;
+    }
+    
+    
+    .common-slide-arrow .slick-prev:before {
+    content: "";
+    display: block;
+    width: 123px;
+    height: 16px;
+    background-image: url(/cdn/shop/files/Arrow_7.png?v=1732613635);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    }
+    
+    .common-slide-arrow .slick-next:before {
+    content: "";
+    display: block;
+    width: 123px;
+    height: 16px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0615/6481/3389/files/Arrow_6.png?v=1732613635);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    }
+    
+    .common-slide-arrow .slick-prev {
+    transform: translate(-67px);
+    top: unset;
+    bottom: -51px;
+    left: unset;
+    right: 298px !important;
+    font-size: 0;
+    }
+    
+    .common-slide-arrow .slick-next {
+    transform: translate(-67px);
+    top: unset;
+    bottom: -51px;
+    left: unset;
+    right: 152px !important;
+    font-size: 0;
+    }
+    
+    .common-slide-arrow button {
+    background: transparent;
+    }
+    
+    .common-slide-arrow button:hover {
+    background: transparent;
+    }
+    
+    .custom-product-slider button {
+    background: transparent;
+    }
+    
+    .custom-product-slider button:hover {
+    background: transparent;
+    }
+    
+    
+    .custom-product-slider .slick-prev:before {
+    content: "";
+    display: block;
+    width: 87px;
+    height: 87px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0615/6481/3389/files/Group_2277.png?v=1732613635);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    }
+    
+    .custom-product-slider .slick-next:before {
+    content: "";
+    display: block;
+    width: 87px;
+    height: 87px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0615/6481/3389/files/Group_2233.png?v=1732613635);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    }
+    
+    .custom-product-slider .slick-prev {
+    transform: translate(55px);
+    top: unset;
+    bottom: 50%;
+    left: 0;
+    right: 298px !important;
+    }
+    
+    .custom-product-slider .slick-next {
+    transform: translate(-90px);
+    top: unset;
+    bottom: 50%;
+    left: unset;
+    right: 0;
+    }
+    
+    body .cst-head h2 {
+    font-size: 90px;
+    line-height: 90px;
+    color: #0c4434;
+    font-family: "Noto Serif Display", serif;
+    font-weight: 400;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+    }
+    
+    body .cst-head p {
+    font-size: 18px;
+    line-height: 18px;
+    color: #0C4434;
+    font-family: 'TT Drugs';
+    font-weight: 400;
+    margin-bottom: 58px;
+    }
+    .page-services .cst-custom-slider-wrapper2 {
+    text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
+    z-index: 3;
+    position: relative;
+    }
+    .page-services .cst-custom-slider-wrapper2 a {
+    margin-top: 0;
+    }
+    /*Common-css*/
+    
+    /*Before-After Images*/
+    .cst-custom-class-for-image:after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 160px;
+    background-image: url(/cdn/shop/files/Group_2280.png?v=1732788508);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -9px;
+    left: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+    }
+    
+    .cst-homr-richText .rich-text__blocks.left h2:after {
+    content: "";
+    display: block;
+    width: 145px;
+    height: 257px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0615/6481/3389/files/Vector_4.png?v=1732613635);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -158px;
+    left: -30%;
+    z-index: 1;
+    }
+    
+    .cst-homr-richText .rich-text__blocks.left h2:before {
+    content: "";
+    display: block;
+    width: 224px;
+    height: 229px;
+    background-image: url(/cdn/shop/files/Group_2238.png?v=1732613635);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -60%;
+    left: 74%;
+    right: 0;
+    z-index: 2;
+    transform: translateX(50px);
+    }
+    
+    /*Before-After Images*/
+    
+    
+    .header-wrapper {
+    background: #DCC6A7;
+    }
+    
+    header .cst-header-contetn-wrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    }
+    
+    header-drawer {
+    justify-self: center !important;
+    margin-left: 0 !important;
+    order: 3;
+    }
+    
+    header.page-width {
+    max-width: 1550px;
+    margin: 0 auto;
+    padding: 20px 40px !important;
+    }
+    
+    body .header--middle-left {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    body header nav.header__inline-menu a {
+    font-size: 12px;
+    font-weight: 500;
+    color: #0C4434 !important;
+    font-family: 'Satoshi';
+    text-transform: uppercase;
+    margin: 0 32px;
+    padding: 0;
+    }
+    
+    .header__active-menu-item {
+    color: #0C4434;
+    }
+    
+    .header__inline-menu {
+    text-align: end;
+    }
+    
+    .header__icon span {
+    justify-content: end;
+    }
+    
+    .header__icon--menu .icon {
+    color: #0C4434;
+    width: 44px;
+    }
+    
+    body .cst-home-main-banner {
+    background: #0C4434;
+    padding: 140px 0 59px 0;
+    }
+    
+    .cst-home-main-banner .custom-banner-right img {
+    max-width: 100%;
+    }
+    
+    .cst-home-main-banner .custom-banner-caption p {
+    font-size: 34px;
+    font-style: italic;
+    line-height: 46px;
+    color: #E2D0B6;
+    font-weight: 300;
+    font-family: 'TT Drugs';
+    }
+    
+    .cst-home-main-banner .custom-banner-caption {
+    margin: 0;
+    }
+    
+    .cst-home-main-banner .custom-banner-content h2 {
+    font-size: 126px;
+    line-height: 165px;
+    color: #e2d0b6;
+    letter-spacing: 5px;
+    margin: 0;
+    font-weight: 400;
+    font-family: 'Noto Serif Display';
+    }
+    
+    .cst-home-main-banner .custom-banner-left p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #E2D0B6;
+    font-family: 'TT Drugs';
+    max-width: 527px;
+    }
+    
+    .cst-home-main-banner .cst-custom-banner-wrapper {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .cst-home-main-banner .custom-banner-content {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 50px;
+    }
+    
+    .cst-home-bestSeller .slick-list.draggable {
+    max-width: 1242px !important;
+    margin: 0 auto;
+    }
+    
+    .cst-home-bestSeller h2.cst--heading.slider-heading {
+    margin: 0 0 -60px;
+    position: relative;
+    font-size: 115px;
+    text-transform: uppercase;
+    color: #0c4434;
+    font-family: "Noto Serif Display";
+    line-height: 165px;
+    z-index: 1;
+    max-width: 1339px;
+    margin: 0 auto -57px;
+    }
+    
+    .cst-home-bestSeller h2.cst-bottom-heading.slider-heading {
+    margin: 0;
+    font-size: 115px;
+    text-transform: uppercase;
+    color: #0c4434;
+    font-family: "Noto Serif Display";
+    line-height: 165px;
+    padding-right: 214px;
+    margin-bottom: 0;
+    z-index: 1;
+    position: relative;
+    margin-top: -65px;
+    }
+    
+    .cst-home-bestSeller.product-slider-with-price {
+    background: #fcfaf8;
+    padding: 79px 0 47px;
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+    }
+    
+    .cst-home-bestSeller .product-slider {
+    padding: 0 134px;
+    }
+    
+    .cst-home-bestSeller .product-slider .slide {
+    padding: 0 20px;
+    }
+    
+    .cst-home-bestSeller .image-wrapper img {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    margin: 0 auto;
+    }
+    
+    .cst-home-bestSeller .image-wrapper {
+    background: #F9F6F1;
+    padding: 28px 0;
+    }
+    
+    .cst-product-detail {
+    background: #f9f6f1;
+    }
+    
+    .cst-product-detail {
+    background: #f9f6f1;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 28px;
+    }
+    
+    .cst-product-detail h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1E1E1E;
+    text-transform: uppercase;
+    font-family: 'TT Drugs';
+    margin: 0;
+    }
+    
+    .cst-product-detail p.cst--price {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #1E1E1E;
+    font-family: 'TT Drugs';
+    }
+    
+    .cst-home-slider2 .slider-left img {
+    height: 100%;
+    object-fit: cover;
+    }
+    
+    .cst-home-slider2.custom-slider {
+    background: #fff;
+    padding: 77px 0 106px 0;
+    }
+    
+    .cst-home-slider2 a.cst-button {
+    display: flex;
+    justify-content: end;
+    padding-top: 50px;
+    }
+    
+    .cst-home-slider2 .slider-left {
+    padding: 8px;
+    }
+    
+    .cst-home-slider2 .slider-right h2 {
+    font-size: 45px;
+    line-height: 90px;
+    font-family: 'Noto Serif Display';
+    text-transform: uppercase;
+    margin-bottom: 0;
+    }
+    
+    .cst-home-slider2 .slider-right p {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'TT Drugs';
+    }
+    
+    .cst-home-slider2 .slider-right h2 {
+    color: #DCC6A7;
+    }
+    
+    .cst-home-slider2 .slider-right p {
+    color: #DCC6A7;
+    }
+    
+    .cst-home-slider2 .cst-odd-sec h2 {
+    color: #0C4434;
+    }
+    
+    .cst-home-slider2 .cst-odd-sec p {
+    color: #0C4434;
+    }
+    
+    .cst-home-slider2 .cst-odd-sec {
+    background: #DCC6A7;
+    padding: 0;
+    }
+    
+    .cst-home-slider2 .cst-even-sec {
+    background: #0C4434;
+    padding: 0;
+    }
+    
+    .cst-homr-richText .rich-text {
+    padding-top: 87px;
+    }
+    
+    .cst-homr-richText .rich-text__blocks h2 {
+    font-size: 48px;
+    line-height: 58px;
+    color: #0C4434;
+    font-family: "Noto Serif Display";
+    position: relative;
+    }
+    
+    .cst-homr-richText .rich-text__text p {
+    margin-top: 0;
+    font-size: 16px;
+    color: #0C4434;
+    line-height: 20px;
+    font-family: 'TT Drugs';
+    }
+    
+    .cst-homr-richText .rich-text__text {
+    background: #fff;
+    z-index: 3;
+    position: relative;
+    }
+    
+    .cst-homr-richText .rich-text__text {
+    margin-top: 0;
+    }
+    
+    .cst-home-imgeText1 .page-width {
+    max-width: 100%;
+    padding: 0;
+    }
+    
+    .cst-home-imgeText1 img.cst-custom-image {
+    max-width: 100%;
+    }
+    
+    .cst-home-imgeText1 .image-with-text__text-item {
+    background: #0C4434;
+    }
+    
+    .cst-home-imgeText1 .image-with-text__content h2 {
+    font-size: 75px;
+    line-height: 70px;
+    color: #e2d0b6;
+    font-family: 'Noto Serif Display';
+    margin-top: 0;
+    }
+    
+    .cst-home-imgeText1 .image-with-text__text p {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #e2d0b6;
+    font-family: 'TT Drugs';
+    max-width: 581px;
+    }
+    
+    .cst-home-imgeText1 .image-with-text__text {
+    margin-top: 0;
+    }
+    
+    .cst-imgText-bottom {
+    background: #0c4434;
+    border-top: 2px solid #E2D0B6;
+    padding: 11px 0;
+    }
+    
+    .cst-imgText-bottom img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    }
+    
+    .cst-home-product-Image .custom-container {
+    max-width: 100%;
+    margin: 0 auto;
+    background: #e2d0b6;
+    padding: 0;
+    }
+    
+    .cst-home-product-Image.custom-product-with-image {
+    background-color: #e2d0b6;
+    margin: 78px auto 96px;
+    padding: 0;
+    max-width: 1440px;
+    }
+    
+    
+    .cst-home-product-Image .custom-product-slide img {
+    width: 100%;
+    max-width: 262px;
+    height: 483px;
+    object-fit: contain;
+    margin: 0 auto 30px;
+    display: block;
+    }
+    
+    .cst-home-product-Image .custom-product-slide p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'TT Drugs';
+    text-decoration: none;
+    }
+    
+    .cst-home-product-Image .custom-product-slide a {
+    text-decoration: none !important;
+    }
+    
+    .cst-home-product-Image .custom-product-slide .cst-product-name,
+    .cst-product-price {
+    color: #1E1E1E;
+    text-transform: uppercase;
+    padding-top: 0;
+    }
+    
+    .cst-home-product-Image p.cst-product-description {
+    color: #0C4434;
+    max-width: 301px;
+    margin: 0 auto;
+    }
+    
+    .cst-home-product-Image p.cst-product-description {
+    color: #0c4434;
+    max-width: 301px;
+    margin: 8px auto 0;
+    line-height: 18px;
+    }
+    
+    .cst-home-product-Image .custom-image-container img {
+    height: 680px;
+    width: 100%;
+    }
+    
+    .cst-home-review.review-section {
+    padding: 0;
+    }
+    
+    .cst-home-review .client-image {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    width: 30%;
+    }
+    
+    .cst-home-review .client-image img {
+    max-width: 128px;
+    height: auto;
+    object-fit: cover;
+    width: 100%;
+    margin: auto;
+    }
+    
+    .cst-home-review .review-card {
+    background: #fcfaf8;
+    box-shadow: none;
+    border-radius: 0;
+    padding-top: 28px;
+    align-items: start;
+    }
+    
+    .cst-home-review p.review-text {
+    font-size: 21px;
+    line-height: 32px;
+    color: #0c4434;
+    font-family: TT Drugs;
+    }
+    
+    .cst-home-review p.client-name {
+    font-size: 16px;
+    line-height: 32px;
+    color: #1E1E1E;
+    text-align: end;
+    text-transform: uppercase;
+    }
+    
+    .cst-home-review .review-slider {
+    padding-bottom: 65px;
+    }
+    
+    .cst-home-review .slick-next {
+    bottom: -12px !important;
+    font-size: 0;
+    }
+    
+    .cst-home-review .slick-prev {
+    bottom: -12px !important;
+    font-size: 0;
+    }
+    
+    .cst-home-review .stars .star.filled {
+    color: #0C4434;
+    font-size: 38px;
+    }
+    
+    .cst-home-review .review-content {
+    padding-left: 0;
+    }
+    
+    .cst-home-services .services-custom-slider {
+    overflow: inherit;
+    padding-bottom: 50px;
+    }
+    
+    .cst-home-services .slick-next {
+    bottom: -60px !important;
+    }
+    
+    .cst-home-services .slick-prev {
+    bottom: -60px !important;
+    }
+    
+    body .cst-home-services {
+    background: #FCFAF8;
+    padding: 80px 0 120px 0;
+    margin-top: 80px;
+    }
+    
+    .cst-home-services .services-card-image img {
+    height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0;
+    }
+    
+    .cst-home-services .cst-odd-sec {
+    background: #DCC6A7;
+    border-radius: 0;
+    padding: 0;
+    }
+    
+    .cst-home-services .cst-even-sec {
+    background: #0C4434;
+    border-radius: 0;
+    padding: 0;
+    }
+    
+    .cst-home-services .cst-odd-sec h3 {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    font-family: 'Noto Serif Display';
+    color: #0C4434;
+    text-align: left;
+    padding: 10px 24px;
+    }
+    
+    .cst-home-services .cst-odd-sec p.services-card-text {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #0C4434;
+    font-family: 'TT Drugs';
+    text-align: left;
+    padding: 0 24px;
+    margin-bottom: 15px;
+    }
+    
+    .cst-home-services .cst-even-sec h3 {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #DCC6A7;
+    font-family: 'Noto Serif Display';
+    text-align: left;
+    padding: 10px 24px;
+    }
+    
+    .cst-home-services .cst-even-sec p.services-card-text {
+    color: #DCC6A7;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: 'TT Drugs';
+    text-align: left;
+    padding: 0 24px;
+    margin-bottom: 20px;
+    }
+    
+    body .cst-home-services .slick-slide {
+    margin: 0 !important;
+    }
+    
+    body .cst-home-services .services-card-info {
+    margin: 0;
+    }
+    
+    .cst-home-services .cst-button-content-wrap {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    line-height: 33px;
+    font-style: italic;
+    font-family: Satoshi;
+    background: transparent;
+    border-radius: 40px;
+    max-width: 164px;
+    padding: 10px;
+    margin-left: 20px;
+    align-items: center;
+    }
+    
+    .cst-home-services .cst-odd-sec span {
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Satoshi';
+    color: #0C4434;
+    line-height: 21px;
+    }
+    
+    .cst-home-services .cst-even-sec span {
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Satoshi';
+    color: #E2D0B6;
+    line-height: 21px;
+    }
+    
+    .cst-service-content-wrp.active-slided {
+    padding-bottom: 40px;
+    }
+    
+    .cst-service-content-wrp.active-slided a {
+    text-decoration: none;
+    }
+    
+    .cst-service-content-wrp a {
+    text-decoration: none;
+    }
+    
+    .cst-service-content-wrp:hover {
+    transition: .3s;
+    }
+    
+    .cst-home-services a.cst-button.services-card-buttons {
+    text-decoration: none;
+    }
+    
+    .cst-home-services .cst-odd-sec .cst-button-content-wrap {
+    border: 1px solid #0C4434;
+    }
+    
+    .cst-home-services .cst-even-sec .cst-button-content-wrap {
+    border: 1px solid #E2D0B6;
+    }
+    
+    .cst-button-content-wrap img {
+    max-width: 64px;
+    height: 17px;
+    }
+    
+    .cst-home-category .cst-colletions-list li {
+    border-radius: 40px;
+    border: 1px solid #E2D0B6;
+    text-align: center;
+    padding: 16px 12px;
+    line-height: normal;
+    }
+    
+    .cst-home-category .cst-colletions-list li a {
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: 400;
+    font-family: 'TT Drugs';
+    color: #E2D0B6;
+    text-transform: uppercase;
+    }
+    
+    .cst-home-category .cst-colletions-list li:hover {
+    background: #E2D0B6;
+    }
+    
+    .cst-home-category .cst-colletions-list li:hover a {
+    color: #0C4434;
+    }
+    
+    .cst-home-category .cst-colletions-list a {
+    text-decoration: none;
+    }
+    
+    .cst-home-category {
+    background: #0C4434;
+    }
+    
+    .cst-home-category .page-width {
+    max-width: 100%;
+    padding: 0;
+    }
+    
+    .cst-home-category .image-with-text__content {
+    padding: 125px 88px;
+    }
+    
+    .cst-home-category p.image-with-text__text {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #E2D0B6;
+    font-family: 'TT Drugs';
+    }
+    
+    .cst-home-category h2.image-with-text__heading.inline-richtext.h0 {
+    font-size: 90px;
+    line-height: 90px;
+    color: #E2D0B6;
+    font-family: 'Noto Serif Display';
+    }
+    
+    .cst-home-category ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 19px;
+    margin-top: 73px;
+    }
+    
+    body .cst-home-category {
+    padding: 0;
+    }
+    
+    .cst-home-category a.custom-button.button.button--secondary {
+    background: transparent;
+    color: #E2D0B6;
+    font-size: 32px;
+    line-height: 18px;
+    font-family: 'Noto Serif Display';
+    padding: 0;
+    }
+    
+    .cst-main span {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 18px;
+    font-family: 'Noto Serif Display';
+    color: #1E1E1E;
+    }
+    
+    body .cst-home-marquee {
+    height: auto;
+    padding: 39px 0;
+    }
+    
+    body .cst-home-marquee .track {
+    position: inherit;
+    }
+    
+    body .cst-home-marquee .track span {
+    font-size: 32px;
+    line-height: 18px;
+    font-family: 'Noto Serif Display';
+    color: #1E1E1E;
+    }
+    
+    body .cst-home-marquee .content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    }
+    
+    .cst-main {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    }
+    
+    body .cst-home-about {
+    background: #E2D0B6;
+    padding: 0;
+    }
+    
+    .cst-home-about .custom-banner-caption p {
+    font-style: italic;
+    color: #0C4434;
+    line-height: 46px;
+    font-size: 34px;
+    font-family: 'TT Drugs';
+    letter-spacing: 0;
+    }
+    
+    .cst-home-about h2.custom-banner-heading {
+    font-size: 99px;
+    line-height: 72px;
+    font-family: "Noto Serif Display";
+    color: #0c4434;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 79px;
+    padding: 0;
+    }
+    
+    .cst-home-about .custom-banner-left {
+    padding-left: 78px;
+    position: relative;
+    }
+    
+    .cst-home-about .custom-banner-left p {
+    font-family: TT Drugs;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #0c4434;
+    margin: 110px 0 75px 0;
+    max-width: 436px;
+    }
+    
+    .cst-home-about .cst-multi-buttons a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #E2D0B6;
+    font-family: 'TT Drugs';
+    background: #0C4434;
+    text-decoration: none;
+    padding: 12px 66px;
+    border-radius: 40px;
+    }
+    
+    .cst-home-about .cst-custom-banner-wrapper {
+    display: flex;
+    justify-content: end;
+    }
+    
+    .cst-home-about .cst-multi-buttons {
+    padding: 13px 0;
+    position: relative;
+    }
+    
+    .cst-home-about .custom-banner-content {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 100px 75px 64px;
+    }
+    
+    .cst-home-about .custom-banner-right {
+    width: 100%;
+    max-width: 100%;
+    }
+    
+    .cst-home-about .custom-banner-right img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+    
+    .cst-home-about .cst-banner-btn {
+    border: 1px solid #0C4434;
+    }
+    
+    .cst-home-about .cst-banner-btn a {
+    color: #0c4434;
+    font-size: 16px;
+    }
+    
+    .cst-home-about .cst-banner-btn a:after {
+    background: #DCC6A7;
+    }
+    
+    .cst-home-retail .retailer-slider__logo {
+    border: 0;
+    object-fit: cover;
+    }
+    
+    .cst-home-retail.retailer-slider {
+    padding: 50px 0;
+    }
+    
+    .cst-home-retail .retailer-slider__logo img {
+    object-fit: contain;
+    }
+    
+    
+    .cst-custom-home-image-banner .banner__buttons a {
+    font-size: 17px;
+    line-height: 32px;
+    border: 1px solid;
+    border-radius: 40px;
+    font-family: 'TT Drugs';
+    }
+    
+    .cst-custom-home-image-banner a.button.button--secondary {
+    color: #DCC6A7;
+    background: transparent;
+    }
+    
+    .cst-custom-home-image-banner a.button.button--secondary:hover {
+    background: #dcc6a7;
+    color: #0c4434;
+    }
+    
+    .cst-custom-home-image-banner a.button.button--primary {
+    color: #0c4434;
+    background: #E2D0B6;
+    border: 1px solid #E2D0B6;
+    }
+    
+    .cst-custom-home-image-banner a.button.button--primary:hover {
+    background: transparent;
+    color: #DCC6A7;
+    }
+    
+    .cst-custom-home-image-banner p {
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #FCFAF8;
+    text-transform: uppercase;
+    font-family: 'TT Drugs';
+    }
+    
+    .cst-custom-home-image-banner h2 {
+    font-size: 54px;
+    line-height: 64px;
+    color: #fcfaf8;
+    text-transform: uppercase;
+    font-family: "Noto Serif Display";
+    margin: 17px 0 23px;
+    }
+    
+    
+    .cst-custom-home-image-banner .banner__text p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: TT Drugs;
+    text-transform: capitalize;
+    max-width: 800px;
+    margin: 0 auto;
+    }
+    
+    .cst-custom-home-image-banner .banner__content.page-width {
+    max-width: 100%;
+    }
+    
+    .cst-custom-home-image-banner .banner__box {
+    max-width: 998px !important;
+    margin: 0 auto;
+    }
+    
+    .cst-custom-home-image-banner .banner__buttons {
+    padding-top: 50px;
+    }
+    
+    .cst-custom-newslatter h2.custom-banner-heading {
+    font-size: 75px;
+    line-height: 90px;
+    color: #1E1E1E;
+    font-family: 'Noto Serif Display';
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: left;
+    margin: 0;
+    }
+    
+    .cst-custom-newslatter p {
+    font-size: 18px;
+    line-height: 20px;
+    font-family: TT Drugs;
+    color: #1E1E1E;
+    max-width: 448px;
+    text-align: left;
+    margin-top: 17px;
+    }
+    
+    .cst-custom-home-newsletter .newsletter__wrapper {
+    padding-right: 0;
+    padding-left: 0;
+    }
+    
+    .cst-custom-home-newsletter .container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 128px;
+    }
+    
+    body .cst-custom-home-newsletter {
+    background: #F9F6F0;
+    padding: 0;
+    }
+    
+    .newsletter__wrapper {
+    background: transparent !important;
+    }
+    
+    
+    .newsletter-form__field-wrapper .field::before {
+    display: none;
+    }
+    
+    .newsletter-form__field-wrapper .field::after {
+    display: none;
+    }
+    
+    .cst-cusomt-nesletter-weraper .newsletter-form__button:not(:focus-visible):not(.focused) {
+    box-shadow: none;
+    background-color: transparent !important;
+    border: 0;
+    }
+    
+    .cst-cusomt-nesletter-weraper .newsletter-form__button {
+    width: 100%;
+    }
+    
+    .newsletter__wrapper .cst-cusomt-nesletter-weraper button#Subscribe {
+    font-size: 31px;
+    font-family: 'Satoshi';
+    color: #0C4434;
+    font-style: italic;
+    padding-top: 30px;
+    cursor: pointer;
+    font-weight: 400;
+    }
+    
+    .newsletter__wrapper .field input {
+    border: 1px solid #1E1E1E;
+    border-radius: 40px;
+    line-height: normal;
+    margin: 7px 0;
+    background: transparent !important;
+    font-family: 'TT Drugs';
+    padding-top: 0;
+    }
+    
+    .newsletter__wrapper .newsletter-form__field-wrapper .field__input {
+    padding-right: 10rem;
+    }
+    
+    .newsletter__wrapper .field__input:focus-visible {
+    box-shadow: none;
+    }
+    
+    .newsletter-form__field-wrapper .field label {
+    color: #1e1e1e;
+    line-height: normal;
+    top: 19px;
+    }
+    
+    .newsletter-form__field-wrapper .field__input:not(:placeholder-shown)~.field__label {
+    color: #1e1e1e;
+    line-height: normal;
+    top: 19px;
+    font-size: 19px;
+    }
+    
+    .footer__content-top.page-width {
+    max-width: 100%;
+    padding: 0 128px;
+    }
+    
+    .footer__localization:empty+.footer__column--info {
+    display: none;
+    }
+    
+    footer .footer__content-bottom {
+    border-color: #dcc6a78a;
+    }
+    
+    .footer ul.footer-block__details-content li a {
+    font-size: 14px;
+    line-height: 28px;
+    font-family: 'TT Drugs';
+    color: #E2D0B6 !important;
+    }
+    
+    .footer {
+    background: #0C4434;
+    }
+    
+    .footer .list-social {
+    justify-content: center;
+    margin: 61px 0;
+    gap: 20px;
+    }
+    
+    .footer .list-social a.link.list-social__link {
+    color: #E2D0B6;
+    }
+    
+    .footer__copyright.caption {
+    text-align: center !important;
+    font-size: 17px;
+    color: #E2D0B6;
+    font-family: 'TT Drugs';
+    text-transform: uppercase;
+    }
+    
+    .footer__content-bottom-wrapper {
+    justify-content: center;
+    }
+    
+    /*About-page-css-start*/
+    .cst-about-imgText1 .page-width {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 50px;
+    }
+    
+    body .cst-about-imgText1 {
+    padding: 68px 0 59px;
+    }
+    
+    .cst-about-imgText1 .image-with-text__content h2 {
+    font-size: 100px;
+    line-height: 120px;
+    color: #0C4434;
+    font-weight: 400;
+    font-family: "Noto Serif Display";
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    }
+    
+    .cst-about-imgText1 .image-with-text__content {
+    padding: 65px 50px 65px 0;
+    }
+    
+    .cst-about-imgText1 .image-with-text .grid__item p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #0C4434;
+    font-family: TT Drugs;
+    }
+    
+    .cst-about-imageSlider {
+    background: #e2d0b633;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 110px 0 110px 50px;
+    }
+    
+    .cst-about-imageSlider .image-slider-heading h2 {
+    font-size: 88px;
+    line-height: 94px;
+    letter-spacing: 2px;
+    color: #0C4434;
+    font-family: "Noto Serif Display";
+    max-width: 1100px;
+    margin: 0;
+    }
+    
+    .cst-about-imageSlider button.slick-arrow {
+    background: transparent;
+    font-size: 0;
+    display: none;
+    }
+    
+    .cst-about-imageslider2 button.slick-arrow {
+    background: transparent;
+    font-size: 0;
+    display: none !important;
+    }
+    
+    .cst-about-imageSlider .image-slider-content p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #0c4434;
+    font-family: TT Drugs;
+    padding: 30px 0;
+    max-width: 998px;
+    }
+    
+    .cst-about-imageSlider .slide-text a {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #0C4434;
+    text-decoration: none;
+    font-family: TT Drugs;
+    }
+    
+    .cst-about-imageSlider .slide img {
+    max-width: 404px;
+    height: 305px !important;
+    margin: 0 auto;
+    display: block;
+    object-fit: cover;
+    }
+    
+    .cst-about-two-imageText .cst-heading h2 {
+    color: #0C4434;
+    font-size: 90PX;
+    line-height: 99px;
+    font-family: 'Noto Serif Display';
+    letter-spacing: 2px;
+    margin-top: 0;
+    }
+    
+    .cst-about-two-imageText .cst-content p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #0C4434;
+    font-family: TT Drugs;
+    }
+    
+    body .cst-about-two-imageText {
+    padding: 110px 0;
+    }
+    
+    body .cst-about-two-imageText .custom-image-text-left img {
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    }
+    
+    body .cst-about-two-imageText .custom-image-text-right img {
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    }
+    
+    .cst-about-two-imageText .custom-image-text-text {
+    max-width: 680px;
+    margin: 0 auto;
+    padding-top: 0 !important;
+    }
+    
+    .cst-about-imageslider2 {
+    background: #0C4434;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 68px 0;
+    }
+    
+    .cst-about-imageslider2 p.cst-caption {
+    font-size: 34px;
+    line-height: 46px;
+    font-weight: 400;
+    font-style: italic;
+    color: #E2D0B6;
+    padding-left: 50px;
+    font-family: 'TT Drugs';
+    }
+    
+    .cst-about-imageslider2 .image-slider-heading h2 {
+    font-size: 90px;
+    font-weight: 400;
+    color: #E2D0B6;
+    margin: 0;
+    line-height: 110px;
+    letter-spacing: 2px;
+    padding: 0 50px 30px;
+    font-family: 'Noto Serif Display';
+    }
+    
+    body .cst-about-product {
+    background: transparent !important;
+    padding-bottom: 110px !important;
+    padding-top: 50px !important;
+    }
+    
+    body .cst-about-product h2.cst--heading.slider-heading {
+    max-width: 100%;
+    color: #000;
+    }
+    
+    .cst-about-product .cst-content p {
+    padding: 0 0 50px 0;
+    font-size: 16px;
+    font-family: 'TT Drugs';
+    line-height: 95px;
+    }
+    
+    body .cst-about-news {
+    background: #E2D0B6;
+    }
+    
+    .cst-about-news.cst-custom-home-newsletter .newsletter__wrapper h2 {
+    display: none;
+    }
+    
+    .cst-about-news.cst-custom-home-newsletter .newsletter__wrapper p {
+    display: none;
+    }
+    
+    body .cst-about-imgText {
+    background: #F9F6F0;
+    }
+    
+    .cst-about-imgText p.image-with-text__text {
+    color: #0C4434;
+    }
+    
+    .cst-about-imgText h2.image-with-text__heading {
+    font-size: 90px;
+    line-height: 90px;
+    color: #0C4434;
+    font-family: "Noto Serif Display";
+    }
+    
+    .cst-about-imgText .image-with-text__text P {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #0C4434;
+    font-family: 'TT Drugs';
+    }
+    
+    .cst-about-imgText .cst-button-content-wrap {
+    font-size: 25px;
+    line-height: 33px;
+    font-style: italic;
+    font-family: Satoshi;
+    color: #0C4434;
+    background: transparent;
+    border: 1px solid #0C4434;
+    border-radius: 40px;
+    padding: 12px 47px;
+    }
+    
+    body .cst-about-two-imageText .custom-image-text-row {
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+    
+    /*About-page-css-end*/
+    
+    /*Collection-page-css-start*/
+    .collection .facets__summary span:first-of-type {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #1B1B1B;
+    font-family: 'TT Drugs';
+    text-transform: uppercase;
+    }
+    
+    .collection .facets__summary .icon-caret {
+    color: #DCC6A7;
+    }
+    
+    .collection .facets__heading {
+    display: none !important;
+    }
+    
+    .collection .facets__form .product-count {
+    display: none !important;
+    }
+    
+    .collection div#FacetsWrapperDesktop {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .collection form#FacetFiltersForm {
+    gap: 0;
+    }
+    
+    .collection .page-width {
+    padding: 0 5rem;
+    max-width: 100%;
+    }
+    
+    .collection aside#main-collection-filters {
+    border-bottom: 1px solid #0C4434;
+    }
+    
+    /*Collection-page-css-end*/
+    
+    /*calming-facial-toner-page-css-start*/
+    .cst-main-products .page-width {
+    max-width: 100%;
+    padding: 0;
+    }
+    
+    .cst-main-products .product.product--large.product--left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    
+    .cst-main-products .product__info-wrapper.grid__item {
+    width: 100% !important;
+    max-width: 96% !important;
+    border: 1px solid #0C4434;
+    padding: 0 !important;
+    margin-top: 38px;
+    height: fit-content;
+    }
+    
+    .cst-main-products .product__info-container {
+    max-width: 100%;
+    margin: 0;
+    }
+    
+    .cst-main-products .grid__item.product__media-wrapper {
+    max-width: 96% !important;
+    width: 100% !important;
+    }
+    
+    .cst-main-products .product--stacked .product__media-item {
+    max-width: 100%;
+    background-color: #E2D0B61A;
+    }
+    
+    .cst-main-products media-gallery#MediaGallery-template--16388949704781__main {
+    background: #E2D0B61A;
+    }
+    
+    .cst-main-products .accordion svg.icon.icon-caret {
+    height: 11px;
+    width: 10px;
+    }
+    
+    .cst-main-products .product__media.media.media--transparent {
+    background: #fcfaf8;
+    border: 0;
+    height: 470px !important;
+    }
+    .cst-main-product-image img {
+    object-fit: contain;
+    padding: 75px 0;
+    }
+    
+    .cst-main-products .product-media-container.media-type-image {
+    border: 0;
+    }
+    
+    .cst-main-products .product__text {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: 'TT Drugs';
+    }
+    
+    .cst-main-products .product__info-wrapper h1 {
+    font-size: 28px;
+    line-height: 48px;
+    font-weight: 400;
+    font-family: 'Noto Serif Display';
+    color: #1E1E1E;
+    text-transform: uppercase;
+    }
+    
+    .cst-main-products .price__regular {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'TT Drugs';
+    }
+    
+    .cst-main-products .product__media-list {
+    gap: 0;
+    }
+    
+    .cst-main-products .product__description p {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #1E1E1E;
+    font-family: 'TT Drugs';
+    }
+    
+    .cst-main-products quantity-input.quantity {
+    border: 1px solid #1B1B1B;
+    border-radius: 30px;
+    }
+    
+    .cst-main-products quantity-input.quantity::before {
+    display: none;
+    }
+    
+    .cst-main-products quantity-input.quantity::after {
+    display: none;
+    }
+    
+    .cst-main-products button.shopify-payment-button__button {
+    background: #DCC6A7;
+    border: 1px solid #DCC6A7;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    font-family: 'TT Drugs';
+    text-transform: uppercase;
+    border-radius: 30px;
+    }
+    
+    .cst-main-products button.shopify-payment-button__button:hover {
+    color: #dcc6a7;
+    background: transparent;
+    }
+    
+    .cst-main-products .shopify-payment-button__button--unbranded:before {
+    display: none;
+    }
+    
+    .cst-main-products .shopify-payment-button__button--unbranded::after {
+    display: none;
+    }
+    
+    .cst-main-products  button#ProductSubmitButton-template--16388949704781__main {
+    opacity: 1;
+    border: 1px solid #000;
+    font-family: 'TT Drugs';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    font-family: 'TT Drugs';
+    text-transform: uppercase;
+    border-radius: 30px;
+    }
+    
+    .cst-main-products button#ProductSubmitButton-template--16388949704781__main::before {
+    display: none;
+    }
+    
+    .cst-main-products button#ProductSubmitButton-template--16388949704781__main::after {
+    display: none;
+    }
+    
+    .cst-main-products .button--secondary:after {
+    --border-opacity: 0 !important;
+    }
+    
+    .cst-main-products .summary__title h2 {
+    font-size: 32px;
+    line-height: 31px;
+    font-weight: 400;
+    color: #1B1B1B;
+    font-family: 'Noto Serif Display';
+    letter-spacing: 0;
+    padding: 0 20px;
+    }
+    
+    .cst-main-products .accordion {
+    border-color: #1B1B1B;
+    }
+    
+    .cst-main-products .custom-collapision-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 58px 0 15px 0;
+    ;
+    }
+    
+    .cst-main-products .product__accordion .accordion__content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1E1E1E;
+    line-height: 22px;
+    font-family: 'TT Drugs';
+    padding: 0 20px;
+    }
+    
+    .cst-product-feature a.cst-button {
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: Satoshi;
+    color: #0c4434;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 8px 45px;
+    border-radius: 40px;
+    display: inline-block;
+    margin-top: 68px;
+    }
+    
+    .cst-product-feature a.cst-button:hover {
+    background: #0c4434;
+    color: #fff;
+    }
+    body .cst-product-feature h2.cst--heading.slider-heading {
+    color: #000 !important;
+    font-size: 98px;
+    }
+    .cst-product-feature .cst-content p {
+    padding: 0 0 30px;
+    font-size: 16px;
+    font-family: TT Drugs;
+    line-height: 90px;
+    }
+    
+    body .cst-product-feature {
+    background: #fff0 !important;
+    padding: 35px 0 65px !important;
+    }
+    
+    body .cst-product-feature .product-slider {
+    padding: 0 !important;
+    }
+    
+    .cst-related-slider h2 {
+    color: #0c4434!important;
+    position: relative;
+    font-size: 98px;
+    text-transform: uppercase;
+    font-family: "Noto Serif Display";
+    line-height: 165px;
+    z-index: 1;
+    max-width: 1339px;
+    margin: 0 auto;
+    text-align: center;
+    }
+    
+    .cst-related-slider {
+    background: #FCFAF8;
+    padding: 70px 0 109px;
+    }
+    .cst-related-slider .card .media {
+    background: #F9F6F1;
+    }
+    .cst-related-slider h3#title--7387527872589 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1e1e1e;
+    text-transform: uppercase;
+    font-family: TT Drugs;
+    margin: 0;
+    }
+    .cst-related-slider .card__information a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1e1e1e;
+    text-transform: uppercase;
+    font-family: TT Drugs;
+    margin: 0;
+    text-decoration: none !important;
+    }
+    .cst-related-slider .cst-main-products .price__regular {
+    font-size: 14px;
+    }
+    .cst-related-slider .card__information {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    background: #F9F6F1;
+    align-items: baseline;
+    padding: 20px !important;
+    }
+    .cst-product-feature .slick-list.draggable {
+    max-width: 100% !important;
+    margin: 0 auto;
+    }
+    .cst-related-slider .slick-list.draggable{
+    max-width: 100% !important;
+    margin: 0 auto;
+    }
+    .cst-related-slider .card-information {
+    text-align: end;
+    }
+    .cst-related-slider  .card__heading{
+    width: 100%;
+    }
+    .cst-main-products .accordion:last-child {
+    border-bottom: 0;
+    }
+    /*calming-facial-toner-page-css-end*/
+    
+    
+    /*service page start */
+    .page-services .cst-home-review .slick-prev {
+    bottom: 0 !important;
+    }
+    .page-services .cst-home-review .slick-next{
+    bottom: 0 !important;
+    }
+    .page-services .collapsible-content {
+    background: #e2d0b61a;
+    padding-bottom: 80px;
+    }
+    
+    .page-services .collapsible-content .collapsible-content__heading {
+    color: #0C4434;
+    font-family: "Noto Serif Display";
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 165.161px;
+    letter-spacing: 5.285px;
+    text-transform: uppercase;
+    }
+    
+    .page-services .collapsible-content .collapsible-content-wrapper-narrow {
+    max-width: 100%;
+    padding: 0;
+    }
+    body.page-services .collapsible-content .accordion {
+    border-top: 2px solid #0C4434;
+    padding-left: 100px;
+    padding-right: 100px;
+    }
+    
+    .page-services .collapsible-content .accordion:last-child {
+    border-bottom: 2px solid #0C4434;
+    }
+    .page-services .collapsible-content .accordion .accordion__title {
+    color: #0C4434;
+    font-family: "Noto Serif Display";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 1.92px;
+    text-transform: uppercase;
+    }
+    .page-services .collapsible-content .accordion .accordion__content p {
+    color: #0C4434;
+    font-family: TT Drugs;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    }
+    .page-services .collapsible-content .accordion .accordion__content {
+    overflow: clip;
+    margin: -10px 0 40px;
+    }
+    .page-services .collapsible-content .accordion .icon {
+    width: 49px;
+    height: auto;
+    color: #0c4434;
+    top: 50%;
+    transform: translateY(-50%);
+    }
+    
+    body.page-services .collapsible-content .accordion:hover {
+    background: transparent;
+    }
+    
+    body.page-services .collapsible-content .accordion:hover .accordion__title {
+    text-decoration: none;
+    }
+    body.page-services .accordion summary:hover {
+    background: transparent;
+    }
+    .page-services .collapsible-content .accordion summary {
+    padding: 20px 0 ;
+    }
+    
+    
+    .cst-service-consultation {
+    background: #0C4434;
+    }
+    
+    .cst-service-consultation .page-width {
+    max-width: 100%;
+    padding-right: 0;
+    }
+    
+    .cst-service-consultation .image-with-text__content h2{
+    font-size: 90px;
+    line-height: 90px;
+    color: #E2D0B6;
+    font-family: "Noto Serif Display";
+    }
+    
+    .cst-service-consultation .image-with-text__text p {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #E2D0B6;
+    font-family: TT Drugs;
+    }
+    .cst-service-consultation img {
+    padding: 50px 0;
+    }
+    
+    .cst-service-consultation .image-with-text__media {
+    max-width: 100%;
+    height: 690px;
+    margin-right: 0;
+    margin-left: auto;
+    }
+    .cst-service-consultation .image-with-text__content {
+    display: flex
+    ;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    }
+    .cst-button-div a.custom-button.button.button--primary {
+    border: 1px solid #E2D0B6;
+    border-radius: 30px;
+    font-size: 17px;
+    line-height: 32px;
+    border: 1px solid;
+    border-radius: 40px;
+    font-family: TT Drugs;
+    }
+    .cst-button-div .cst-third-btn {
+    background: #dcc6a7  !important;
+    color: #0C4434 !important;
+    }
+    .cst-button-div .cst-third-btn:hover {
+    background: transparent !important;
+    color: #dcc6a7 !important;
+    }
+    .cst-button-div a.custom-button.button--primary {
+    background: transparent;
+    color: #dcc6a7;
+    }
+    .cst-button-div a.custom-button.button--primary:hover{
+    background: #dcc6a7;
+    color: #0c4434;
+    }
+    .cst-services-banner2 h2.custom-banner-heading {
+    font-size: 90px;
+    color: #0c4434;
+    line-height: 100px;
+    font-family: 'Noto Serif Display';
+    letter-spacing: 0;
+    font-weight: 400;
+    max-width: 880px;
+    }
+    .cst-services-banner2 .cst-multi-buttons a.cst-button {
+    color: #0c4434;
+    background: #e2d0b6;
+    border: 1px solid #E2D0B6;
+    font-size: 17px;
+    line-height: 32px;
+    border-radius: 40px;
+    font-family: TT Drugs;
+    text-decoration: none;
+    padding: 9px 25px;
+    display: inline-block;
+    margin-top: 40px;
+    }
+    .cst-services-banner2 .cst-multi-buttons a.cst-button:hover{
+    background-color: transparent;
+    border: 1px solid #0C4434;
+    }
+    .cst-services-banner2 .custom-banner-right {
+    margin-top: -100px;
+    }
+    body .cst-services-banner2 {
+    background: #FCFAF8;
+    padding: 1px 0 80px !important;
+    }
+    .cst-services-banner2 .custom-banner-content {
+    max-width: 100%;
+    padding: 0 100px;
+    }
+    .cst-services-banner2 .custom-banner-right img{
+    max-width: 100%;
+    }
+    .cst-services-banner2 .cst-custom-banner-wrapper {
+    display: none;
+    }
+    .cst-services-banner2  .custom-banner-left p {
+    font-size: 20px;
+    line-height: 20px;
+    color: #0C4434;
+    font-family: TT Drugs;
+    }
+    .cst-service-richText h2::after {
+    display: none !important;
+    }
+    .cst-service-richText .rich-text__wrapper.page-width {
+    padding: 0 100px;
+    max-width: 100%;
+    margin: 0 auto;
+    }
+    
+    
+    .page-services .custom-banner2 {
+    background: #0c4434;
+    margin: 0!important;
+    padding: 76px 52px 0;
+    }
+    
+    .page-services .custom-banner2 .main-heading {
+    font-size: 132px;
+    line-height: 123px;
+    color: #E2D0B6;
+    margin: 0;
+    font-family: 'Noto Serif Display';
+    max-width: 1400px;
+    font-weight: 400;
+    margin-bottom: 70px;
+    }
+    .page-services .custom-banner2 .three-divs-container .custom-div:nth-child(2) {
+    background: #DCC6A7;
+    padding: 60px 30px;
+    }
+    .page-services .custom-banner2 .three-divs-container .custom-div:nth-child(3) {
+    background: #F9F6F0;
+    padding: 60px 30px;
+    }
+    .page-services .custom-banner2 h3 {
+    font-size: 55px !important;
+    color: #000;
+    font-family: 'Noto Serif Display';
+    }
+    .page-services .custom-banner2 h4 {
+    font-size: 36px !important;
+    font-family: 'TT Drugs';
+    color: #0C4434;
+    }
+    .page-services .custom-banner2 .three-divs-container {
+    gap: 0;
+    }
+    .page-services .custom-banner2 .custom-div {
+    width: 50%;
+    padding: 0;
+    height: 580px;
+    
+    }
+    .page-services .custom-banner2 .custom-div img {
+    height: 100%;
+    object-fit: cover;
+    }
+    .page-services .cst-services-grid {
+    padding: 79px 0px;
+    }
+    .page-services .cst-services-grid .section-caption {
+    font-family: 'TT Drugs';
+    font-size: 28px;
+    line-height: 36px;
+    color: #0C4434;
+    text-align: center;
+    font-weight: 400;
+    }
+    .page-services .cst-services-grid .section-heading {
+    font-size: 64px;
+    text-align: center;
+    color: #000;
+    font-family: 'Noto Serif Display';
+    text-transform: uppercase;
+    margin: 17px 0 23px;
+    }
+    .page-services .cst-services-grid .section-content p {
+    text-align: center;
+    color: #0C4434;
+    font-size: 16px;
+    font-family: 'TT Drugs';
+    font-weight: 400;
+    max-width: 800px;
+    margin: 0 auto;
+    }
+    .page-services .cst-services-grid .section-content p {
+    text-align: center;
+    color: #0c4434;
+    font-size: 16px;
+    font-family: TT Drugs;
+    font-weight: 400;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    }
+    .page-services .cst-services-grid .card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 52px;
+    }
+    .page-services .cst-services-grid .card-wrapper .card {
+    background: #f9f6f0;
+    border-radius: 0;
+    gap: 20px;
+    }
+    .page-services .cst-services-grid .card-info .card-heading {
+    font-size: 48px;
+    font-family: 'Noto Serif Display';
+    line-height: normal;
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+    }
+    .page-services .cst-services-grid .card-info .card-content {
+    font-size: 16px;
+    font-family: 'TT Drugs';
+    font-weight: 400;
+    color: #0C4434;
+    }
+    .page-services .cst-services-grid .card img {
+    width: 100%;
+    height: 213px;
+    border-radius: 0;
+    max-width: 187px;
+    margin-right: 20px;
+    }
+    .page-services .cst-home-bestSeller .cst--heading.slider-heading {
+    text-align: left !important
+    }
+    .page-services h2.cst-bottom-heading.slider-heading {
+    text-align: right !important;
+    }
+    section.cst-about-services2 {
+    background: #0C4434;
+    padding: 100px 0;
+    margin-top: 100px;
+    }
+    .page-services  .custom-image-text-rows .accordion-icon {
+    font-size: 32px;
+    }
+    .page-services  .custom-image-text-text{
+    padding: 0 20px;
+    }
+    section.cst-about-services2 .cst-main-heading {
+    font-size: 90px;
+    line-height: 90px;
+    color: #E2D0B6;
+    font-family: 'Noto Serif Display';
+    text-align: center;
+    }
+    .cst-main-content p {
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #E2D0B6;
+    margin: 20px 0;
+    font-family: 'TT Drugs';
+    }
+    .page-services .custom-image-text-rows .accordion {
+    background: transparent;
+    font-size: 24px;
+    color: #e2d0b6;
+    font-family: "Noto Serif Display";
+    border-top: 1.24px solid;
+    margin-top: 0;
+    padding: 20px 6px 15px;
+    }
+    .page-services .custom-image-text-rows .panel {
+    background: transparent;
+    padding: 0 6px;
+    }
+    .page-services .custom-image-text-row{
+    padding: 77px 0 0;
+    }
+    .page-services .custom-image-text-rows .panel p{
+    background: transparent;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'TT Drugs';
+    color: #E2D0B6;
+    font-family: 'TT Drugs';
+    color: #E2D0B6;
+    margin-bottom:22px;
+    }
+    /*service page end */
+    
+    /* sahil sir css-start*/
+    .index .cst-about-news{
+    display:none;
+    }
+    #passcodeform h3 {
+    visibility: hidden; 
+    }
+    
+    #passcodeform h3::before {
+    content: "Please Enter the Passcode to Continue:"; 
+    visibility: visible; 
+    display: block;
+    color: black; 
+    font-size: 20px;
+    }
+    #passcodeform button {
+    visibility: hidden; 
+    }
+    
+    #passcodeform button::before {
+    content: "Continue"; 
+    visibility: visible;
+    display: block;
+    color: white; 
+    background:black;
+    }
+    /* sahil sir css-end*/
+    
+    /*Responsive-start*/
+    @media screen and (max-width:1530px) {
+    body .cst-product-feature h2.cst--heading.slider-heading , .cst-related-slider h2{
+    font-size: 70px;
+    }
+    .cst-home-slider2 .slider-right h2 {
+    font-size: 40px;
+    line-height: 80px;
+    }
+    
+    .cst-home-main-banner .custom-banner-content h2 {
+    font-size: 100px;
+    }
+    
+    .cst-home-bestSeller h2.cst--heading.slider-heading,
+    .cst-home-bestSeller h2.cst-bottom-heading.slider-heading {
+    font-size: 90px;
+    line-height: 156px;
+    padding-right: 0;
+    }
+    
+    
+    }
+    
+    @media screen and (max-width:1400px) {
+    .cst-home-imgeText1 .image-with-text__content h2 {
+    font-size: 60px;
+    }
+    .cst-related-slider h3#title--7387527872589 ,.cst-related-slider .card__information a{
+    font-size: 11px;
+    }
+    .cst-main-products .price__regular {
+    font-size: 12px;
+    }
+    .cst-home-slider2 .slider-right h2 {
+    font-size: 32px;
+    line-height: 76px;
+    }
+    
+    .cst-home-review p.review-text {
+    font-size: 17px;
+    line-height: 25px;
+    }
+    
+    .cst-home-category h2.image-with-text__heading.inline-richtext.h0 {
+    font-size: 75px;
+    line-height: 87px;
+    }
+    
+    .cst-home-about h2.custom-banner-heading {
+    font-size: 75px;
+    line-height: 67px;
+    }
+    
+    .cst-custom-newslatter h2.custom-banner-heading {
+    line-height: 90px;
+    }
+    
+    .cst-home-services .cst-odd-sec h3 {
+    font-size: 32px;
+    }
+    
+    .cst-home-services .cst-even-sec h3 {
+    font-size: 32px;
+    }
+    
+    .cst-product-detail h3 {
+    font-size: 11px;
+    }
+    }
+    
+    @media screen and (max-width: 1330px) {
+    body header nav.header__inline-menu a{
+    margin: 0 26px;
+    }
+    }
+    @media screen and (max-width: 1220px) {
+    .cst-about-two-imageText .cst-heading h2 {
+    font-size: 60px;
+    line-height: 73px;
+    }
+    
+    .cst-about-imgText1 .image-with-text__content h2 {
+    font-size: 60px;
+    line-height: normal;
+    }
+    
+    .cst-about-imageslider2 .image-slider-heading h2 {
+    font-size: 75px;
+    }
+    
+    .cst-about-imageSlider .image-slider-heading h2 {
+    font-size: 75px;
+    }
+    
+    .cst-about-imgText h2.image-with-text__heading {
+    font-size: 65px;
+    line-height: 75px;
+    }
+    
+    .cst-home-main-banner .custom-banner-content h2 {
+    font-size: 85px;
+    }
+    
+    body .cst-head h2 {
+    font-size: 75px;
+    }
+    
+    .cst-home-imgeText1 .image-with-text__content h2 {
+    font-size: 50px;
+    }
+    
+    .cst-home-services .cst-odd-sec h3,
+    .cst-home-services .cst-even-sec h3 {
+    font-size: 28px;
+    }
+    
+    .cst-home-imgeText1 .image-with-text__text p {
+    font-size: 16px;
+    }
+    
+    .cst-homr-richText .rich-text__blocks.left h2:after {
+    left: -20%;
+    }
+    
+    .header__heading-logo {
+    max-width: 160px;
+    }
+    
+    body header nav.header__inline-menu a {
+    margin: 0 20px;
+    }
+    }
+    
+    @media screen and (max-width: 1150px) {
+    .cst-homr-richText .rich-text__blocks.left h2:after {
+    width: 130px;
+    height: 171px;
+    left: -18%;
+    top: -130px;
+    }
+    
+    .cst-home-category .image-with-text__content {
+    padding: 125px 60px;
+    }
+    
+    .cst-about-imageSlider .image-slider-heading h2 {
+    font-size: 60px;
+    }
+    
+    .cst-custom-home-newsletter .container {
+    padding: 0 60px;
+    }
+    
+    .footer__content-top.page-width {
+    padding: 0 60px;
+    }
+    
+    .cst-custom-newslatter h2.custom-banner-heading {
+    font-size: 60px;
+    line-height: 70px;
+    }
+    
+    .cst-home-about h2.custom-banner-heading {
+    font-size: 60px;
+    }
+    
+    .cst-home-category .cst-colletions-list li {
+    padding: 13px 22px;
+    }
+    
+    .cst-home-category .cst-colletions-list li a {
+    font-size: 15px;
+    }
+    
+    .cst-home-about .custom-banner-left {
+    padding-left: 40px;
+    }
+    
+    .cst-home-slider2 .slider-right h2 {
+    font-size: 27px;
+    line-height: 64px;
+    }
+    
+    .cst-homr-richText .rich-text__blocks.left h2:before {
+    width: 175px;
+    }
+    
+    .cst-custom-home-image-banner h2 {
+    font-size: 50px;
+    }
+    
+    .cst-home-category h2.image-with-text__heading.inline-richtext.h0 {
+    font-size: 60px;
+    line-height: 75px;
+    }
+    
+    body .cst-head h2 {
+    font-size: 60px;
+    line-height: 40px;
+    }
+    
+    .cst-home-main-banner .custom-banner-content h2 {
+    font-size: 75px;
+    }
+    
+    .cst-home-about .cst-multi-buttons a {
+    font-size: 14px;
+    }
+    }
+    
+    @media screen and (max-width: 1075px) {
+    .cst-main-products .custom-collapision-wrapper {
+    padding: 58px 20px;
+    }
+    
+    .cst-about-imageSlider .image-slider-heading h2 {
+    font-size: 45px;
+    line-height: normal;
+    }
+    
+    .cst-about-two-imageText .cst-heading h2 {
+    font-size: 45px;
+    line-height: 56px;
+    }
+    
+    .cst-about-imgText h2.image-with-text__heading {
+    font-size: 40px;
+    line-height: 59px;
+    }
+    
+    .cst-about-imgText .image-with-text__text P {
+    font-size: 17px;
+    }
+    
+    .cst-homr-richText .rich-text__blocks.left h2:after {
+    left: -16%;
+    }
+    
+    .cst-home-imgeText1 .image-with-text__content h2 {
+    font-size: 40px;
+    }
+    
+    .cst-custom-home-image-banner h2 {
+    font-size: 40px;
+    }
+    
+    body header nav.header__inline-menu a {
+    margin: 0 12px;
+    }
+    
+    .cst-home-main-banner .cst-custom-banner-wrapper .cst-banner-btn {
+    margin-top: 40px;
+    }
+    }
+    
+    @media screen and (max-width: 989px) {
+    .cst-main-products .product__media.media.media--transparent{
+    height: 100% !important;
+    }
+    .cst-related-slider .card__information {
+    flex-direction: column;
+    }
+    .cst-related-slider .card__heading {
+    width: 100%;
+    text-align: center;
+    }
+    .cst-related-slider .card-information {
+    text-align: center;
+    }
+    .cst-home-bestSeller h2.cst--heading.slider-heading , .cst-related-slider h2{
+    font-size: 40px !important;
+    line-height: 50px !important;
+    }
+    .cst-product-feature .cst-content p {
+    line-height: normal;
+    }
+    
+    .cst-main-products .summary__title h2 {
+    font-size: 25px;
+    line-height: 20px;
+    }
+    
+    body .cst-about-two-imageText {
+    padding: 60px 0 20px;
+    }
+    
+    .cst-about-imgText1 .image-with-text__content h2 {
+    font-size: 55px;
+    }
+    
+    .cst-about-imageslider2 .image-slider-heading h2 {
+    font-size: 55px;
+    }
+    
+    .cst-about-two-imageText .custom-image-text-text {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    }
+    
+    body .cst-about-two-imageText .custom-image-text-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    }
+    
+    .cst-about-imgText1 .image-with-text__content {
+    padding: 65px 34px 50px 0;
+    }
+    
+    .cst-home-category .image-with-text__content {
+    padding: 125px 50px;
+    }
+    
+    body .cst-about-two-imageText .custom-image-text-right img {
+    display: none;
+    }
+    
+    .cst-about-product .cst-content p {
+    line-height: normal;
+    }
+    
+    .cst-about-imgText .cst-button-content-wrap {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 10px 31px;
+    }
+    
+    .cst-home-bestSeller h2.cst--heading.slider-heading,
+    .cst-home-bestSeller h2.cst-bottom-heading.slider-heading {
+    font-size: 40px;
+    text-align: center !important;
+    line-height: 50px;
+    margin: 20px;
+    }
+    
+    .cst-home-category h2.image-with-text__heading.inline-richtext.h0 {
+    font-size: 40px;
+    line-height: 60px;
+    }
+    
+    .cst-product-detail {
+    flex-direction: column;
+    }
+    
+    .cst-home-category ul {
+    margin-top: 40px;
+    }
+    
+    .custom-product-slider .slick-prev {
+    transform: translate(25px);
+    }
+    
+    .cst-homr-richText .page-width .rich-text__blocks {
+    max-width: 100%;
+    }
+    
+    .cst-homr-richText .rich-text__blocks.left h2:after {
+    width: 119px;
+    height: 130px;
+    left: 0%;
+    top: -115px;
+    }
+    
+    .cst-home-category .cst-colletions-list li {
+    padding: 9px 9px;
+    }
+    
+    .cst-home-main-banner .custom-banner-content h2 {
+    font-size: 55px;
+    line-height: 90px;
+    }
+    
+    .cst-home-imgeText1 .image-with-text__content {
+    padding: 50px;
+    }
+    
+    .cst-custom-home-image-banner h2 {
+    font-size: 35px;
+    }
+    
+    .cst-banner-btn a {
+    font-size: 20px;
+    line-height: 89px;
+    }
+    
+    .cst-banner-btn {
+    height: 130px;
+    width: 130px;
+    line-height: 90px;
+    }
+    
+    
+    .cst-home-about .custom-banner-content {
+    padding: 100px 60px 64px;
+    }
+    
+    .cst-home-about h2.custom-banner-heading {
+    margin-bottom: 30px;
+    font-size: 40px;
+    }
+    
+    .cst-home-about .cst-multi-buttons a {
+    padding: 13px 24px;
+    }
+    
+    body .cst-home-main-banner {
+    padding: 80px 0 59px;
+    }
+    
+    .footer ul.footer-block__details-content li a {
+    font-size: 12px;
+    line-height: 22px;
+    padding: 5px 0;
+    }
+    
+    .cst-home-about .custom-banner-left {
+    padding-left: 0;
+    }
+    
+    .cst-home-services .services-card-image img {
+    height: 420px;
+    }
+    }
+    
+    @media screen and (max-width: 789px) {
+    .cst-main-products  .product__info-wrapper.grid__item {
+    margin-top: 0;
+    }
+    .cst-main-products .product.product--large.product--left {
+    padding-bottom: 40px;
+    }
+    .cst-main-products .product__description p {
+    font-size: 14px;
+    line-height: 17px;
+    }
+    
+    .cst-main-products .product__info-wrapper h1 {
+    font-size: 22px;
+    }
+    
+    .cst-home-bestSeller.product-slider-with-price {
+    padding: 50px 0;
+    }
+    
+    .cst-main-products .grid__item.product__media-wrapper {
+    max-width: 100% !important;
+    }
+    
+    .cst-main-products .product__info-wrapper.grid__item {
+    max-width: 100% !important;
+    }
+    
+    body .cst-about-two-imageText .custom-image-text-row {
+    flex-direction: column;
+    display: flex !important;
+    gap: 10px;
+    }
+    
+    .cst-about-imgText h2.image-with-text__heading {
+    font-size: 35px;
+    line-height: 49px;
+    }
+    
+    .cst-about-imgText .image-with-text__text {
+    margin-top: 0;
+    }
+    
+    .cst-custom-home-newsletter .newsletter__wrapper {
+    padding-top: 0;
+    }
+    
+    .cst-about-imageslider2 p.cst-caption {
+    padding-left: 30px;
+    }
+    
+    .cst-about-imageslider2 .image-slider-heading h2 {
+    font-size: 40px;
+    padding: 0 30px;
+    line-height: 70px;
+    }
+    
+    .cst-about-imageslider2 {
+    padding: 30px 0 0;
+    }
+    
+    body .cst-about-two-imageText .custom-image-text-left img {
+    height: 420px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: 40% 4%;
+    }
+    
+    body .cst-about-two-imageText .custom-image-text-left {
+    width: 100%;
+    }
+    
+    .cst-about-imageSlider {
+    padding: 50px 30px 90px;
+    }
+    
+    .cst-about-imageSlider .image-slider-content p {
+    padding: 19px 0;
+    }
+    
+    body .cst-custom-home-newsletter {
+    padding-top: 50px;
+    padding-bottom: 0;
+    }
+    
+    body .cst-home-bestSeller h2.cst-bottom-heading.slider-heading {
+    margin: 0;
+    }
+    
+    .cst-home-product-Image .custom-product-slider {
+    width: 100%;
+    max-width: 100%;
+    }
+    
+    body .cst-home-main-banner .custom-banner-main {
+    flex-direction: column-reverse;
+    }
+    
+    .cst-home-main-banner .cst-custom-banner-wrapper {
+    justify-content: center;
+    }
+    
+    .cst-home-main-banner .custom-banner-left p {
+    max-width: 100%;
+    }
+    
+    .cst-home-imgeText1 .image-with-text__media-item.image-with-text__media-item--medium {
+    width: 100%;
+    }
+    
+    .cst-home-category .image-with-text__media-item.image-with-text__media-item--medium {
+    width: 100%;
+    }
+    
+    .cst-home-imgeText1 .image-with-text__text p {
+    max-width: 100%;
+    }
+    
+    .cst-home-product-Image .custom-slider-container {
+    flex-direction: column-reverse;
+    max-width: 100%;
+    margin-bottom: 50px;
+    }
+    
+    .cst-home-product-Image .custom-image-container {
+    max-width: 100%;
+    width: 100%;
+    }
+    
+    .cst-home-product-Image .custom-image-container img {
+    border-radius: 0;
+    height: 420px;
+    width: 100%;
+    }
+    
+    .custom-product-slider .slick-next {
+    transform: translate(-180px);
+    }
+    
+    .custom-product-slider .slick-prev {
+    transform: translate(90px);
+    }
+    
+    .cst-home-category .image-with-text__content {
+    padding: 30px;
+    }
+    
+    .cst-home-about .custom-banner-content {
+    padding: 50px;
+    }
+    
+    .cst-home-about .custom-banner-main.reverse-order {
+    display: flex;
+    flex-direction: column-reverse;
+    }
+    
+    .cst-home-category .image-with-text__media {
+    height: 420px;
+    }
+    
+    .cst-home-about .custom-banner-right img {
+    height: 420px;
+    object-position: 52% 10%;
+    }
+    
+    .cst-home-about .custom-banner-left p {
+    margin: 0 0 50px;
+    max-width: 100%;
+    }
+    
+    .cst-home-about .cst-multi-buttons a {
+    padding: 16px 48px;
+    }
+    
+    .cst-home-about .cst-custom-banner-wrapper {
+    justify-content: start;
+    }
+    
+    .cst-home-about .cst-banner-btn {
+    margin-top: 40px;
+    }
+    
+    .cst-custom-home-newsletter .container {
+    flex-direction: column;
+    align-items: start;
+    padding: 0 30px;
+    }
+    
+    .footer__content-top.page-width {
+    padding: 0 30px;
+    }
+    
+    .cst-home-main-banner .custom-banner-content {
+    padding: 0 30px;
+    }
+    
+    .cst-homr-richText .rich-text__blocks.left h2:before {
+    display: none;
+    }
+    
+    .cst-homr-richText .rich-text__blocks.left h2:after {
+    height: 150px;
+    width: 100px;
+    left: auto;
+    top: -141px;
+    }
+    
+    .footer .footer__blocks-wrapper {
+    display: grid;
+    row-gap: 20px !important;
+    }
+    
+    .footer .list-social {
+    justify-content: start !important;
+    margin: 30px 0;
+    }
+    
+    .footer .footer__content-bottom-wrapper {
+    justify-content: start !important;
+    }
+    
+    .footer .footer__content-bottom {
+    padding-top: 0;
+    }
+    
+    .footer .footer-block.grid__item.footer-block--menu {
+    width: 100%;
+    margin: 0;
+    }
+    
+    .footer .footer-block__details-content {
+    margin: 0;
+    }
+    
+    .cst-custom-newslatter h2.custom-banner-heading {
+    max-width: 100%;
+    }
+    
+    .cst-custom-newslatter p {
+    margin-top: 17px !important;
+    }
+    
+    .cst-home-main-banner .custom-banner-content h2 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 30px;
+    }
+    
+    .cst-homr-richText .rich-text__blocks.left h2:before {
+    transform: translate(8px);
+    }
+    
+    body .cst-head p {
+    font-size: 15px;
+    }
+    
+    body .cst-head h2 {
+    font-size: 45px;
+    line-height: 40px;
+    }
+    
+    .cst-custom-home-image-banner h2 {
+    max-width: 501px;
+    margin: 0 auto;
+    line-height: normal;
+    }
+    
+    .cst-custom-home-image-banner p {
+    font-size: 22px;
+    }
+    
+    .cst-home-review .client-image {
+    width: 100%;
+    }
+    
+    .cst-home-review .review-card {
+    flex-direction: column;
+    padding: 10px;
+    }
+    
+    .cst-home-review .client-image img {
+    margin: 0;
+    }
+    
+    .cst-home-about .custom-banner-content {
+    padding: 30px;
+    }
+    
+    .cst-home-imgeText1 .image-with-text__content {
+    padding: 30px;
+    }
+    
+    header.page-width {
+    padding: 20px 25px !important;
+    }
+    
+    .cst-home-bestSeller .product-slider {
+    padding: 0 70px;
+    }
+    
+    body .cst-about-imgText1 {
+    padding: 50px 0 20px;
+    }
+    
+    .cst-about-imgText1 .page-width {
+    padding: 0 30px;
+    }
+    
+    body .cst-about-product {
+    padding-bottom: 50px !important;
+    }
+    
+    .cst-about-imgText1 .image-with-text__content h2 {
+    margin: 0;
+    font-size: 50px;
+    letter-spacing: 0;
+    }
+    
+    body .cst-about-imgText1 .image-with-text .grid {
+    flex-direction: column;
+    }
+    
+    body .cst-about-imgText1 .image-with-text .grid__item {
+    width: 100%;
+    }
+    
+    .cst-about-imgText1 .image-with-text__content {
+    padding: 30px 0;
+    margin: 0;
+    }
+    
+    .cst-about-imageSlider .image-slider-heading h2 {
+    font-size: 35px;
+    letter-spacing: 0;
+    }
+    
+    .cst-about-two-imageText .cst-heading h2 {
+    font-size: 40px;
+    line-height: 45px;
+    }
+    
+    .cst-about-imgText1 .image-with-text .grid__item p {
+    font-size: 16px;
+    }
+    }
+    
+    @media screen and (max-width: 749px) {
+    .cst-main-products .product__media-wrapper slider-component:not(.thumbnail-slider--no-slide) {
+    margin: 0;
+    }
+    
+    .cst-main-products  .product__media.media.media--transparent img {
+    object-fit: cover;
+    padding: 0;
+    height: auto !important;
+    }
+    
+    .cst-main-products .product.product--large.product--left {
+    grid-template-columns: 1fr;
+    }
+    
+    .cst-main-products .custom-collapision-wrapper {
+    max-width: 100%;
+    padding: 58px 20px 0;
+    }
+    
+    .cst-product-feature .cst-content p {
+    padding-bottom: 10px;
+    }
+    }
+    
+    @media screen and (max-width: 649px) {
+    .cst-home-services .services-custom-slider {
+    padding-bottom: 0;
+    }
+    
+    .cst-home-bestSeller .product-slider .slick-prev:before {
+    width: 100px;
+    }
+    
+    .cst-home-bestSeller .product-slider .slick-next:before {
+    width: 100px;
+    }
+    }
+    
+    @media screen and (max-width: 595px) {
+    body .cst-home-services {
+    padding: 40px 0 120px;
+    }
+    
+    .cst-home-bestSeller .image-wrapper {
+    background: transparent;
+    }
+    
+    .cst-about-product .cst-content p {
+    padding-bottom: 10px;
+    }
+    
+    .cst-product-detail {
+    background: transparent;
+    }
+    
+    .cst-home-bestSeller h2.cst-bottom-heading.slider-heading {
+    font-size: 40px;
+    line-height: 69px;
+    }
+    
+    .cst-custom-home-image-banner .banner__buttons {
+    padding-top: 20px;
+    flex-direction: column;
+    }
+    
+    .cst-custom-home-image-banner h2 {
+    font-size: 18px;
+    }
+    
+    .cst-custom-home-image-banner p {
+    font-size: 16px;
+    }
+    
+    .cst-custom-home-image-banner .banner__text p {
+    font-size: 14px;
+    }
+    
+    .cst-custom-newslatter h2.custom-banner-heading {
+    max-width: 100%;
+    font-size: 45px;
+    line-height: normal;
+    }
+    
+    .custom-product-slider .slick-prev {
+    left: -58px;
+    }
+    
+    .custom-product-slider .slick-next {
+    right: -93px;
+    }
+    
+    .cst-home-about h2.custom-banner-heading {
+    margin-bottom: 20px;
+    font-size: 32px;
+    }
+    
+    .footer .list-social {
+    max-width: 20px 0 !important;
+    }
+    
+    .cst-homr-richText .rich-text__wrapper {
+    padding: 0;
+    }
+    
+    .cst-home-slider2 .slider-content {
+    flex-direction: column;
+    }
+    
+    .cst-home-slider2 .slider-left {
+    max-width: 100%;
+    }
+    
+    .cst-home-slider2 .slider-right {
+    max-width: 100%;
+    }
+    
+    .cst-about-imageSlider .slide img {
+    max-width: 100%;
+    }
+    }
+    
+    @media screen and (max-width: 480px) {
+    .cst-home-category .cst-colletions-list {
+    margin-top: 0;
+    }
+    
+    .cst-home-retail.retailer-slider {
+    padding: 0;
+    }
+    
+    .cst-custom-class-for-image:after {
+    top: 0;
+    width: 57px;
+    height: 158px;
+    }
+    
+    .cst-home-slider2 .slider-right h2 {
+    font-size: 21px;
+    line-height: 58px;
+    }
+    
+    .cst-home-slider2 .cst-odd-sec h2 {
+    font-size: 21px;
+    line-height: 58px;
+    }
+    
+    
+    .cst-home-about h2.custom-banner-heading {
+    font-size: 30px;
+    line-height: normal;
+    }
+    
+    .custom-product-slider .slick-next:before {
+    width: 70px;
+    height: 70px;
+    }
+    
+    .custom-product-slider .slick-prev:before {
+    width: 70px;
+    height: 70px;
+    }
+    
+    .cst-home-product-Image .custom-product-slide img {
+    height: 295px;
+    }
+    
+    .cst-home-main-banner .custom-banner-content h2 {
+    font-size: 37px;
+    line-height: 51px;
+    }
+    
+    .cst-home-imgeText1 .image-with-text__content h2 {
+    font-size: 35px;
+    }
+    
+    body .cst-head h2 {
+    font-size: 35px;
+    padding: 0 15px;
+    }
+    
+    body .cst-head p {
+    padding: 0 15px;
+    }
+    
+    .cst-home-about .cst-multi-buttons a {
+    padding: 16px 20px;
+    }
+    
+    .cst-home-imgeText1 a.cst-button.button.button--primary {
+    font-size: 15px;
+    }
+    
+    .cst-home-imgeText1 .cst-button-content-wrap svg {
+    width: 80px;
+    height: 11px;
+    }
+    
+    .common-slide-arrow .slick-next {
+    transform: translate(-5px);
+    right: 115px !important;
+    }
+    
+    .common-slide-arrow .slick-prev {
+    transform: translate(-5px);
+    left: 19px !important;
+    }
+    
+    .cst-home-category ul {
+    grid-template-columns: 1fr;
+    }
+    
+    .cst-about-imgText1 .image-with-text__content h2 {
+    margin: 0;
+    font-size: 37px;
+    }
+    
+    .cst-about-imgText .cst-button-content-wrap {
+    padding: 10px 22px;
+    }
+    }
+    
+    /*Responsive-end*/
