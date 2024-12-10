@@ -2802,6 +2802,9 @@ body {
     }
     
     @media screen and (max-width: 789px) {
+    body .footer-block__details-content>li{
+    padding:7px 0;
+    }
     .cst-main-products  .product__info-wrapper.grid__item {
     margin-top: 0;
     }
@@ -2976,7 +2979,7 @@ body {
     }
     
     .cst-home-about .cst-custom-banner-wrapper {
-    justify-content: start;
+    justify-content: center;
     }
     
     .cst-home-about .cst-banner-btn {
@@ -3014,12 +3017,10 @@ body {
     }
     
     .footer .list-social {
-    justify-content: start !important;
     margin: 30px 0;
     }
     
     .footer .footer__content-bottom-wrapper {
-    justify-content: start !important;
     }
     
     .footer .footer__content-bottom {
@@ -3029,10 +3030,16 @@ body {
     .footer .footer-block.grid__item.footer-block--menu {
     width: 100%;
     margin: 0;
+    text-align:center;
     }
     
     .footer .footer-block__details-content {
-    margin: 0;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     }
     
     .cst-custom-newslatter h2.custom-banner-heading {
@@ -3148,6 +3155,7 @@ body {
     }
     
     @media screen and (max-width: 749px) {
+    
     .cst-main-products .product__media-wrapper slider-component:not(.thumbnail-slider--no-slide) {
     margin: 0;
     }
@@ -3187,6 +3195,9 @@ body {
     }
     
     @media screen and (max-width: 595px) {
+    .cst-home-slider2 a.cst-button{
+    justify-content:start;
+    }
     body .cst-home-services {
     padding: 40px 0 120px;
     }
@@ -3213,9 +3224,7 @@ body {
     flex-direction: column;
     }
     
-    .cst-custom-home-image-banner h2 {
-    font-size: 18px;
-    }
+    
     
     .cst-custom-home-image-banner p {
     font-size: 16px;
@@ -3346,19 +3355,19 @@ body {
     }
     
     .common-slide-arrow .slick-next {
-    transform: translate(-5px);
-    right: 115px !important;
+    transform: none;
+    right: auto;
     }
-    
     .common-slide-arrow .slick-prev {
-    transform: translate(-5px);
-    left: 19px !important;
+    transform: none;
+    left: auto;
     }
-    
     .cst-home-category ul {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     }
-    
+    .cst-home-category .cst-colletions-list li a {
+    font-size: 13px;
+    }
     .cst-about-imgText1 .image-with-text__content h2 {
     margin: 0;
     font-size: 37px;
