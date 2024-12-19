@@ -596,6 +596,7 @@ body .cst-home-main-banner {
     font-weight: 400;
     color: #1E1E1E;
     font-family: 'TT Drugs';
+    margin-right: 7px;
 }
 
 .cst-home-slider2 .slider-left img {
@@ -696,6 +697,11 @@ body .cst-home-main-banner {
 
 .cst-home-imgeText1 img.cst-custom-image {
     max-width: 100%;
+}
+
+.cst-home-imgeText1 img.cst-custom-image:nth-child(1) {
+    height: 170px;
+    object-fit: cover;
 }
 
 .cst-home-imgeText1 .image-with-text__text-item {
@@ -1356,7 +1362,7 @@ body .cst-home-about {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 128px;
+    padding: 0 110px;
 }
 
 body .cst-custom-home-newsletter {
@@ -2376,6 +2382,7 @@ body.page-services .accordion summary:hover {
 
 .cst-services-banner2 .custom-banner-right {
     margin-top: -100px;
+    margin-left: 30px;
 }
 
 body .cst-services-banner2 {
@@ -2481,7 +2488,7 @@ body .cst-services-banner2 {
 
 }
 
-.page-services .custom-banner2 .custom-div {
+.page-services .custom-banner2 .custom-div p {
     font-family: 'TT Drugs';
     line-height: 25px;
 }
@@ -3159,12 +3166,32 @@ form .form-row input:focus-visible {
 /* Contact page css-end*/
 
 /* Virtual page css-start*/
+.cst-virtualForm-banner a.custom-button {
+    color: #dcc6a7;
+    background: #0c4434;
+    font-size: 16px;
+    font-family: 'TT Drugs';
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: 1px solid #0c4434;
+    padding: 10px 45px;
+}
+
+.cst-virtualForm-banner a.custom-button:hover {
+    color: #0c4434;
+    background: transparent;
+}
+
+.cst-virtualForm-banner .cst-button-content-wrap img {
+    display: none;
+}
+
 .cst-virtualForm-banner .image-with-text .grid__item {
-    height: 668px;
+    height: 100%;
 }
 
 .cst-virtualForm-banner .image-with-text__media--adapt.background-transparent.media img {
-    height: 668px;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -4412,6 +4439,15 @@ button#locksmith_passcode_submit:focus-visible {
 }
 
 @media screen and (max-width: 1075px) {
+    .cst-virtualForm-banner .image-with-text__content p {
+        font-size: 25px;
+        line-height: normal;
+    }
+
+    .cst-product-detail p.cst--price {
+        margin-right: 0;
+    }
+
     .cst-cntact-faq .accordion svg {
         width: 30px !important;
         height: 30px !important;
@@ -4535,7 +4571,8 @@ button#locksmith_passcode_submit:focus-visible {
     }
 
     .page-services .custom-image-text-rows .accordion {
-        font-size: 20px;
+        padding: 17px 6px 15px;
+        font-size: 18px;
     }
 
     .page-services .collapsible-content .accordion .icon {
@@ -4793,6 +4830,10 @@ button#locksmith_passcode_submit:focus-visible {
     .cst-cntact-faq .grid.grid--1-col {
         display: flex;
         flex-direction: column;
+    }
+
+    .cst-services-banner2 .custom-banner-right {
+        margin-left: 0;
     }
 
     .cst-cntact-faq .grid--2-col-tablet .grid__item {
@@ -5436,11 +5477,15 @@ button#locksmith_passcode_submit:focus-visible {
     }
 }
 
-@media screen and (max-width: 991px) {}
+
 
 @media screen and (max-width: 749px) {
     .cst-home-imgeText1 div#ImageWithText--template--16388949540941__cst_image_text_3wEaNd>img.cst-custom-image:first-child {
         display: none;
+    }
+
+    .cst-home-imgeText1 img.cst-custom-image:nth-child(1) {
+        display: block !important;
     }
 
     #insta-feed h2 {
@@ -5506,6 +5551,10 @@ button#locksmith_passcode_submit:focus-visible {
 }
 
 @media screen and (max-width: 595px) {
+    .cst-custom-home-image-banner h2 {
+        font-size: 30px;
+    }
+
     .cst-home-slider2 .slider-left img {
         height: 300px;
     }
