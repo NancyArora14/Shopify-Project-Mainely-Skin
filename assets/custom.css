@@ -599,7 +599,7 @@ body .cst-home-main-banner {
 }
 
 .cst-home-slider2 .slider-left img {
-    height: 100%;
+    height: 400px;
     object-fit: cover;
 }
 
@@ -2481,6 +2481,11 @@ body .cst-services-banner2 {
 
 }
 
+.page-services .custom-banner2 .custom-div {
+    font-family: 'TT Drugs';
+    line-height: 25px;
+}
+
 .page-services .custom-banner2 .custom-div img {
     height: 100%;
     object-fit: cover;
@@ -3803,7 +3808,7 @@ nav.breadcrumbs ol li a[aria-current="page"] {
 /* 18-12-2024 */
 section.cst-home-slider2 .slick-slider-container .slider-content {
     width: 100% !important;
-    height: 600px;
+    height: 420px;
 }
 
 section.cst-home-slider2 .slick-slider-container .slider-content .slider-left {
@@ -5501,6 +5506,15 @@ button#locksmith_passcode_submit:focus-visible {
 }
 
 @media screen and (max-width: 595px) {
+    .cst-home-slider2 .slider-left img {
+        height: 300px;
+    }
+
+    section.cst-home-slider2 .slick-slider-container .slider-content {
+        height: 300px;
+        margin-bottom: ;
+    }
+
     .announcement-bar__message {
         font-size: 12px;
     }
