@@ -18,6 +18,14 @@ li {
 }
 
 /*Common-css*/
+.quantity__button.quantity__button path {
+    stroke: #000;
+}
+
+.quantity__button .svg-wrapper {
+    width: 15px;
+}
+
 a.button::after {
     display: none;
 }
