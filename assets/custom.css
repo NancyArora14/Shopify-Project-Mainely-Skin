@@ -172,6 +172,7 @@ body .cst-about-product a.cst-button:hover {
     top: 0;
     left: 0;
     z-index: 1;
+
 }
 
 .common-slide-arrow .slick-next:before {
@@ -187,6 +188,40 @@ body .cst-about-product a.cst-button:hover {
     top: 0;
     left: 0;
     z-index: 1;
+
+}
+
+
+.cst-about-imageslider2 .slick-prev:before {
+    content: "";
+    display: block;
+    width: 123px;
+    height: 16px;
+    background-image: url(/cdn/shop/files/Arrow_1_1.png?v=1734513825);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transform: rotate(180deg);
+}
+
+.cst-about-imageslider2 .slick-next:before {
+    content: "";
+    display: block;
+    width: 123px;
+    height: 16px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0615/6481/3389/files/Arrow_1_1.png?v=1734513825);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
 }
 
 .common-slide-arrow .slick-prev {
@@ -717,7 +752,7 @@ body .cst-home-main-banner {
 
 .cst-home-product-Image .custom-product-slide img {
     width: 100%;
-    max-width: 262px;
+    max-width: 100%;
     height: 483px;
     object-fit: contain;
     margin: 0 auto 30px;
@@ -1428,9 +1463,9 @@ footer .footer__content-bottom {
     color: #E2D0B6;
 }
 
-.footer__copyright.caption {
+.footer__copyright.caption a {
     text-align: center !important;
-    font-size: 17px;
+    font-size: 11px;
     color: #E2D0B6;
     font-family: 'TT Drugs';
     text-transform: uppercase;
@@ -1499,7 +1534,7 @@ body .cst-about-imgText1 {
 .cst-about-imageslider2 button.slick-arrow {
     background: transparent;
     font-size: 0;
-    display: none !important;
+    display: block !important;
 }
 
 .cst-about-imageSlider .image-slider-content p {
@@ -2394,7 +2429,7 @@ body .cst-services-banner2 {
     font-family: "Noto Serif Display";
     max-width: 1400px;
     font-weight: 400;
-    z-index: 9999999999999;
+    z-index: 1;
     position: relative;
     padding-bottom: 35px;
 }
@@ -2423,7 +2458,7 @@ body .cst-services-banner2 {
 
 .page-services .custom-banner2 .three-divs-container {
     gap: 0;
-    z-index: 99999999999;
+    z-index: 1;
     position: relative;
 }
 
@@ -2435,7 +2470,7 @@ body .cst-services-banner2 {
     width: 100%;
     left: 0;
     right: 0;
-    z-index: 999999999;
+    z-index: -1;
     top: 0;
 }
 
@@ -3765,6 +3800,183 @@ nav.breadcrumbs ol li a[aria-current="page"] {
 }
 
 
+/* 18-12-2024 */
+section.cst-home-slider2 .slick-slider-container .slider-content {
+    width: 100% !important;
+    height: 600px;
+}
+
+section.cst-home-slider2 .slick-slider-container .slider-content .slider-left {
+    max-width: 100% !important;
+}
+
+.cart-notification-wrapper h2 {
+    font-family: TT Drugs;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1e1e1e;
+}
+
+div#cart-notification-product p {
+    font-family: TT Drugs;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    line-height: 28px;
+}
+
+
+div#cart-notification-product h3 {
+    font-family: TT Drugs;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1e1e1e;
+}
+
+.cart-notification__links button.link.button-label {
+    font-family: TT Drugs;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1e1e1e;
+}
+
+.cart-notification__links>a {
+    color: #000;
+    font-family: TT Drugs;
+    font-size: 16px;
+    line-height: 22.44px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+form#cart-notification-form button {
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: 400;
+    font-family: TT Drugs;
+    color: #0c4434;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 8px 45px;
+    border-radius: 40px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color .3s ease;
+    background: transparent !important;
+}
+
+form#cart-notification-form button:after {
+    display: none !important;
+}
+
+form#cart-notification-form button::before {
+    display: none !important;
+}
+
+/* client-page-new-app */
+.locksmith-passcode-container.container.page-width {
+    padding: 180px 25px 213px;
+    margin: 0 auto !important;
+    width: 100%;
+    max-width: 1000px;
+}
+
+form#locksmith-passcode-form p label {
+    font-size: 64px !important;
+    max-width: 1510px;
+    margin: 0 auto;
+    font-family: "Noto Serif Display";
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-block-end: 51px;
+    text-align: center;
+    display: block;
+    line-height: 75px;
+    color: #1E1E1E;
+}
+
+form#locksmith-passcode-form input {
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #1b1b1b;
+    border-width: 1px;
+    width: 100%;
+    max-width: 560px;
+    height: 58px;
+    margin-block-end: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button#locksmith_passcode_submit {
+    visibility: visible;
+    color: #fff;
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background: #dcc6a7;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 1.1px;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'TT Drugs';
+    margin-bottom: 0 !important;
+    margin-top: 17px !important;
+}
+
+button#locksmith_passcode_submit:after {
+    display: none;
+}
+
+form#locksmith-passcode-form input:focus-visible {
+    outline: none;
+    box-shadow: none;
+}
+
+button#locksmith_passcode_submit:focus-visible {
+    outline: none;
+    box-shadow: none;
+}
+
+.cst-about-imgText1 .cst-button-content-wrap svg {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 18-12-2024 */
 
 
 
@@ -4910,14 +5122,14 @@ nav.breadcrumbs ol li a[aria-current="page"] {
     }
 
     .cst-about-imageslider2 {
-        padding: 30px 0 0;
+        padding: 68px 0 !important;
     }
 
     section.cst-about-services2 .custom-image-text-left img {
         height: 420px;
         max-width: 100%;
         object-fit: cover;
-        object-position: 40% 4%;
+        object-position: center;
     }
 
     section.cst-about-services2 .custom-image-text-left {
@@ -5219,7 +5431,29 @@ nav.breadcrumbs ol li a[aria-current="page"] {
     }
 }
 
+@media screen and (max-width: 991px) {}
+
 @media screen and (max-width: 749px) {
+    .cst-home-imgeText1 div#ImageWithText--template--16388949540941__cst_image_text_3wEaNd>img.cst-custom-image:first-child {
+        display: none;
+    }
+
+    #insta-feed h2 {
+        color: #e2d0b6;
+        font-size: 50px !important;
+    }
+
+    form#locksmith-passcode-form p label {
+        font-size: 40px !important;
+
+        line-height: 60px;
+
+    }
+
+    .locksmith-passcode-container.container.page-width {
+        padding: 90px 25px 93px;
+
+    }
 
     .cst-main-products .product__media-wrapper slider-component:not(.thumbnail-slider--no-slide) {
         margin: 0;
@@ -5431,6 +5665,10 @@ nav.breadcrumbs ol li a[aria-current="page"] {
 }
 
 @media screen and (max-width: 480px) {
+    a.header__heading-link.link.link--text.focus-inset {
+        width: auto;
+    }
+
     .cst-ingredients-banner .custom-banner-content h2 {
         font-size: 37px;
     }
@@ -5580,6 +5818,13 @@ nav.breadcrumbs ol li a[aria-current="page"] {
     .cst-about-imgText .cst-button-content-wrap {
         padding: 10px 22px;
     }
+
+    .cst-custom-btn a {
+        font-size: 20px;
+        padding: 8px 30px;
+
+    }
+
 }
 
 /*Responsive-end*/
