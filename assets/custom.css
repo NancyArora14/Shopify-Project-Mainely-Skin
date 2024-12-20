@@ -303,6 +303,7 @@ body .cst-about-product a.cst-button:hover {
     bottom: 50%;
     left: 0;
     right: 298px !important;
+    z-index: 3;
 }
 
 .custom-product-slider .slick-next {
@@ -808,6 +809,7 @@ body .cst-home-main-banner {
 .cst-home-product-Image .custom-image-container img {
     height: 680px;
     width: 100%;
+    border-radius: 0;
 }
 
 .cst-home-review.review-section {
@@ -1480,8 +1482,16 @@ footer .footer__content-bottom {
 .footer__copyright.caption a {
     text-align: center !important;
     font-size: 11px;
-    color: #E2D0B6;
-    font-family: 'TT Drugs';
+    color: #e2d0b6 !important;
+    font-family: TT Drugs;
+    text-transform: uppercase;
+}
+
+small.copyright__content {
+    text-align: center !important;
+    font-size: 11px;
+    color: #e2d0b6 !important;
+    font-family: TT Drugs;
     text-transform: uppercase;
 }
 
@@ -2334,7 +2344,6 @@ body.page-services .accordion summary:hover {
     border-radius: 30px;
     font-size: 17px;
     line-height: 32px;
-    border: 1px solid;
     border-radius: 40px;
     font-family: TT Drugs;
 }
@@ -2766,7 +2775,7 @@ body#Account .customer h1 {
     font-weight: 400;
     font-family: "Noto Serif Display";
     margin-block-end: 19px !important;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 body#Account .cst-content p {
@@ -3727,7 +3736,7 @@ body .cst-ingredients-banner {
 }
 
 .collection .section-template--16388949508173__product-grid-padding.gradient.color-scheme-1 {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .cst-related-products .card__content .card__information {
@@ -5251,6 +5260,14 @@ button#locksmith_passcode_submit:focus-visible {
         border-radius: 0;
         height: 420px;
         width: 100%;
+    }
+
+    .cst-home-product-Image .custom-product-slider .slick-next:before {
+        z-index: 0;
+    }
+
+    .cst-home-product-Image .custom-product-slider .slick-prev:before {
+        z-index: 0;
     }
 
     .custom-product-slider .slick-next {
